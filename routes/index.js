@@ -3,16 +3,16 @@ var router = express.Router();
 
 /* GET Noticias. */
 router.get('/', function(req, res, next) {
-  res.render('Noticias', { title: 'PrevidenciaAqui | Noticias' });
+  res.render('index', { title: 'PrevidenciaAqui | Página Inicial' });
 });
 
 /* GET Sobre. */
-router.get('/', function(req, res, next) {
+router.get('/sobre', function(req, res, next) {
   res.render('Sobre', { title: 'PrevidenciaAqui | Sobre' });
 });
 
 /* GET Direitos e Deveres. */
-router.get('/', function(req, res, next) {
+router.get('/direitos', function(req, res, next) {
   res.render('Direitos', { title: 'PrevidenciaAqui | Direitos' });
 });
 
