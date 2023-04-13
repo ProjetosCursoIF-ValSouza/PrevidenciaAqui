@@ -1,0 +1,61 @@
+body {
+    background-color: aquamarine;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.container {
+  font-size: 16px;
+  background-color: #4169E1;
+  width: 400px;
+  max-width: 34em;
+  box-shadow: 1.2em #000;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.botao {
+  font-size: 16px;
+  background-color: #fff;
+  width: 400px;
+  max-width: 34em;
+  box-shadow: 1.2em #000;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+::placeholder {
+  background: #4169E1;
+  color: #fff;
+  font-weight: bold;
+}
+input {
+  border-style: none;
+  background: #4169E1;
+  width: 250px;
+  color: #fff;
+}
+input:hover {
+  border-style: none;
+  color: #fff;
+}
+hr {
+  background: #000;
+  width: 250px;
+}
+.item {
+  margin-bottom: 15px;
+}
+button {
+  font-weight: 800;
+}
+
+ 
