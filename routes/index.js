@@ -6,6 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'PrevidenciaAqui | Página Inicial' });
 });
 
+router.get('/', function(req, res, next) {
+  res.render('pag2', { title: 'PrevidenciaAqui | RegrasPermanetes' });
+});
+
+
 /* GET Sobre. */
 router.get('/sobre', function(req, res, next) {
   res.render('Sobre', { title: 'PrevidenciaAqui | Sobre' });
