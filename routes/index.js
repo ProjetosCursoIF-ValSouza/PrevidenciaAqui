@@ -1,44 +1,49 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET Noticias. */
+/* GET Página Inicial. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'PrevidenciaAqui | Página Inicial' });
+  res.render('index');
 });
 
-router.get('/', function(req, res, next) {
-  res.render('pag2', { title: 'PrevidenciaAqui | RegrasPermanetes' });
+/* GET Notícias. */
+router.get('/noticias', function(req, res, next) {
+  res.render('noticias');
 });
 
+/* GET Notícia(BD). */
+router.get('/noticia', function(req, res, next) {
+  res.render('noticia');
+});
 
 /* GET Sobre. */
 router.get('/sobre', function(req, res, next) {
-  res.render('Sobre', { title: 'PrevidenciaAqui | Sobre' });
+  res.render('Sobre');
 });
 
 /* GET Direitos e Deveres. */
 router.get('/direitos', function(req, res, next) {
-  res.render('Direitos', { title: 'PrevidenciaAqui | Direitos' });
+  res.render('Direitos');
 });
 
-/* GET Calculos. */
-router.get('/calculos', function(req, res, next) {
-  res.render('calculos', { title: 'PrevidenciaAqui | Calculos' });
+/* GET Simule. */
+router.get('/simule', function(req, res, next) {
+  res.render('simule');
 });
 
 /* GET Fale Conosco. */
 router.get('/fale', function(req, res, next) {
-  res.render('fale', { title: 'PrevidenciaAqui | Fale' });
+  res.render('fale');
 });
 
 /* GET Entrar. */
 router.get('/entrar', function(req, res, next) {
-  res.render('entrar', { title: 'PrevidenciaAqui | Entrar' });
+  res.render('entrar');
 });
 
-/* GET Cadastrar. */
-router.get('/cadastrar', function(req, res, next) {
-  res.render('cadastrar', { title: 'PrevidenciaAqui | Cadastrar' });
+/* GET Boletim Informativo. */
+router.get('/boletim', function(req, res, next) {
+  res.render('boletim');
 });
 
 module.exports = router;
