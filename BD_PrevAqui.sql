@@ -6,9 +6,14 @@ CREATE TABLE boletim_informativo (
     email VARCHAR(255) NOT NULL
 );
 
-use bd_prevaqui;
-
-DESCRIBE noticia;
+CREATE TABLE noticia (
+	id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	titulo VARCHAR(100) NOT NULL,
+	conteudo TEXT,
+	capa VARCHAR(255),
+	data_publicacao DATETIME NOT NULL DEFAULT NOW(),
+	usuario_id INT UNSIGNED
+);
 
 INSERT INTO noticia (titulo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', '<p>As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
 
@@ -72,7 +77,6 @@ Por essa razão, o INSS não se utiliza do salário de benefício para calcular 
                 </p>
 </p>');
 
-SELECT conteudo FROM noticia;
 
 INSERT INTO noticia (titulo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", '<p> 
                    <strong> 1 Idade mínima e tempo de contribuição </strong>
@@ -438,7 +442,7 @@ as regras de transição para os trabalhadores que já vinham contribuindo para 
 
 </p>');
 
-SELECT conteudo FROM noticia;
 
->>>>>>> f855e5e996d30d97ce771de15c550457d9ce635f
+
+
 
