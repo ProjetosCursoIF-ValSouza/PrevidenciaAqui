@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
 /* GET Página Inicial. */
 router.get('/', function(req, res, next) {
@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET Notícias. */
-router.get('/noticias', function(req, res, next) {
-  res.render('noticias');
+router.get('/noticia', function(req, res, next) {
+  res.render('noticia');
 });
 
 /* GET Notícia(BD). */
