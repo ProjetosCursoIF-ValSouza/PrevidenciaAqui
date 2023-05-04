@@ -1,75 +1,81 @@
 body {
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Helvetica, cursive;
-}
-.login {
-  box-shadow: 0 0 5px rgba(0,0,0,0.8);
-  
-}
-.container {
-  background-color: #4169E1;
-  padding: 40px 60px;
-  max-width: 34em;
-  box-shadow: 1.2em #000;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 15px;
-}
-.botao {
-  max-width: 34em;
-  box-shadow: 1.2em #000;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 70px;
-  border-radius: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-::placeholder {
-  background: #4169E1;
-  color: #fff;
-  font-weight: 900;
-}
-input {
-  font-family: cursive;
-  font-size: 16px;
-  border-style: none;
-  background: #4169E1;
-  width: 300px;
-  color: #fff;
-  outline: none;
-}
-input:hover {
-  border: none;
-  color: #fff;
-}
-hr {
-  background: #000;
-  width: 300px;
-}
-.item {
-  margin-bottom: 15px;
-}
-button {
-  font-size: 18px;
-  font-weight: bold;
-  font-family: cursive;
-}
-a {
-  text-decoration: none;
-  color: #fff;
-}
-.comando {
-  display: flex;
-  gap: 20px;
+  font-family: Helvetica, cursive;
+  background-image: url('../img/f9.jpg');
+  background-size: cover;
 }
 
- 
+.container {
+background-color: #4169E1;
+padding: 40px 60px;
+max-width: 34em;
+box-shadow: 1.2em #000;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+opacity: 65%;
+margin-left: 300px;
+margin-top: 40px;
+box-shadow: 0 0 5px rgba(0,0,0,0.8);
+border-radius: 5px;
+}
+
+.container:hover {
+opacity: 100%;
+}
+
+.botao {
+max-width: 34em;
+box-shadow: 1.2em #000;
+display: flex;
+flex-direction: column;
+width: 70px;
+border-radius: 10px;
+border: 2px solid #fff;
+color: #fff;
+}
+::placeholder {
+background: #4169E1;
+color: #fff;
+font-weight: 900;
+}
+input {
+font-family: cursive;
+font-size: 16px;
+border-style: none;
+background: #4169E1;
+width: 300px;
+color: #fff;
+outline: none;
+}
+input:hover {
+border: none;
+color: #fff;
+}
+hr {
+background: #000;
+width: 300px;
+}
+.item {
+margin-bottom: 15px;
+}
+button {
+font-size: 18px;
+font-weight: bold;
+font-family: cursive;
+}
+a {
+text-decoration: none;
+color: #fff;
+}
+.comando {
+display: flex;
+gap: 20px;
+}
+
+

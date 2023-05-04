@@ -442,7 +442,7 @@ as regras de transição para os trabalhadores que já vinham contribuindo para 
 
 </p>');
 
-
+select * from noticia;
 
 
 
