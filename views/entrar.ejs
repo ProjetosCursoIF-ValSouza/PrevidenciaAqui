@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <p>p</p>
-    <h1><%= title %></h1>
-  </body>
-</html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/entrar.css" />
+
+  <!-- Title -->
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Entrar | Previdência Aqui</title>
+
+</head>
+
+<body>
+  <div class="login">
+    <form action="/entrar" method="post">
+      <div class="container">
+        <div class="item">
+          <input type="email" placeholder="E-mail">
+          <hr>
+        </div>
+        <div class="item">
+          <input type="text" placeholder="Senha">
+          <hr>
+        </div>
+        <div class="comando">
+          <div class="botao">
+            <button type="submit">entrar</button>
+          </div>
+          <div class="botao">
+            <button><a href="index.html">início</a></button>
+          </div>
+        </div>
+      </div>
+  </div>

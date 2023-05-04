@@ -23,7 +23,7 @@ router.get('/sobre', function(req, res, next) {
 
 /* GET Direitos e Deveres. */
 router.get('/direitos', function(req, res, next) {
-  res.render('Direitos');
+  res.render('direitos');
 });
 
 /* GET Simule. */

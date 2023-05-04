@@ -1,10 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-  </body>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/direitos.css">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Title -->
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Direitos e Deveres | Previdência Aqui</title>
+</head>
+
+<body>
+  <nav class="logo">
+    <a href="index.html">
+      <img src="./img/logo.jpg" style="width: 100px;"
+        alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
+        title="Previdência Aqui">
+    </a>
+    <ul>
+      <li><a href="/"> Página Inicial</a></li>
+      <li><a href="/sobre">Sobre</a></li>
+      <li><a href="/direitos">Direitos e Deveres</a></li>
+      <li><a href="/simule">Simule Aqui</a></li>
+      <li><a href="/fale">Fale Conosco</a></li>
+      <li><a href="/boletim">Boletim Informativo</a></li>
+      <li><a href="/entrar">Entrar</a></li>
+    </ul>
+  </nav>
+  <hr>
+  <h1>Direitos e Deveres</h1>
+
+  <blockquote> No Brasil, os beneficiários da Previdência Social são os segurados e seus dependentes. Os segurados são pessoas que exercem atividade remunerada e contribuem para a Previdência Social, incluindo empregados, trabalhadores avulsos, empregados domésticos e contribuintes individuais.
+    Os beneficiários têm direitos e deveres, incluindo a atualização de tempo de contribuição, categorias de segurados, dependentes e pagamento de benefícios. A Previdência Social tem como objetivo assegurar aos seus beneficiários meios indispensáveis de manutenção, por motivo de incapacidade, idade avançada,
+    tempo de serviço, desemprego involuntário, encargos familiares e prisão ou morte daqueles de quem dependiam economicamente. 
+   
+    Os beneficiários da Previdência Social no Brasil possuem tanto direitos quanto deveres. Aqui inserimos alguns dos principais direitos e deveres dos segurados, vamos conhecê-los:
+                                                          </blockquote>
+
+  <main class="container">
+    <div class="box">
+      <figure>
+        <img src="./img/f7.jpg" title="Preparação para a aposentadoria"
+          alt="Figura representando um casal de idosos e com outras imagens ao fundo, sendo elas: uma casa, um formulário e três círculos contendo, em cada um, o símbolo de uma casa, um cifrão e uma cruz">
+        <figcaption>DIREITOS</figcaption>
+      </figure>
+      <ul class="lista">
+        <li>Receber benefícios previdenciários, tais como: aposentadoria, pensão por morte, auxílio-doença,
+          salário-maternidade, entre outros;</li>
+        <li>Ter acesso à assistência social em casos de necessidade, como o Benefício de Prestação Continuada (BPC);
+        </li>
+        <li>Ter direito à revisão do benefício caso sejam identificados erros ou omissões no cálculo;</li>
+        <li>Receber o décimo terceiro salário;</li>
+        <li>Ter direito à proteção à maternidade e à paternidade;</li>
+        <li>Participar de programas de reabilitação profissional;</li>
+        <li>Ter direito à assistência à saúde.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <figure>
+        <img src="./img/f8.jpg" alt="Deveres" style="width: 80%; height: 70%;" title="Contribuição com a previdência" alt="Imagem contendo duas mãos, em que as duas seguram as mesmas notas de dinheiro">
+        <figcaption>DEVERES</figcaption>
+      </figure>
+
+      <ul class="lista">
+        <li>Contribuir regularmente para a Previdência Social;</li>
+        <li>Manter seus dados cadastrais atualizados;</li>
+        <li>Informar sobre qualquer alteração em sua situação, como mudança de endereço, estado civil, trabalho, entre
+          outros;</li>
+        <li>Comparecer às perícias médicas e sociais quando solicitado;</li>
+        <li>Comunicar o óbito do beneficiário em caso de pensão por morte;</li>
+        <li>Devolver valores recebidos indevidamente, quando constatado erro no pagamento do benefício.</li>
+        <li>Além disso, é importante lembrar que os beneficiários também devem seguir as normas estabelecidas pela
+          Previdência Social, como cumprir prazos para requerer benefícios e manter a documentação em dia.</li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
+
+    <div class="social">
+
+      <i class="fab fa-facebook"></i>
+      <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+      <i class="fab fa-twitter"></i>
+      <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+      <i class="fab fa-instagram-square"></i>
+      <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+    </div>
+  </footer>
+</body>
+
 </html>

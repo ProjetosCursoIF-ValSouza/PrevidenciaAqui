@@ -1,10 +1,8 @@
 /* Formatação Geral */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-
 body{
     font-family:Helvetica, cursive;
-
 }
 
 h1, h2, h3{
@@ -18,12 +16,10 @@ p{
 }
 
 .container {
-width: 100%;
-
+    width: 100%;
 }
 
 /*Cabeçalho ou Barra de Navegação*/
-
 .logo img {
     border-radius: 50%;
 }
@@ -60,222 +56,92 @@ nav ul li a{
     color:#fff;
 }
 
-@media screen and (min-width: 768px) {
-/* Cabeçalho ou Barra de Navegação */
-nav{
-    flex-direction: row;
-    justify-content: space-around;
-}
+/* Media Queries para dispositivos menores que 768px */
+@media screen and (max-width: 767px) {
 
-nav ul{
-    flex-direction: row;
-    width: 70%;
-}
-
-}
-
-  /*Formatação do Header */
-
-  header {
-    height:60vh;
-    justify-content: center;
-  }
-
-
-  header {
-    background-image:url('../img/Fundo3.jpg');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 30px;
-  }
-
-  header p {
-    margin: bottom 2em;
-    font-size: 1.7em;
-  }
-
-   /*.botao {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 30px;
-    background-color:#4169E1;
-    font-size: .9em;
-    border-radius: 30%;
-  }*/
-
- /* Sobre Mim   */
-
- #sobre {
-    /*Como Surgiu a Previdencia Social
-    display: flexbox;
-    flex-direction: column; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    background-color: aquamarine;
-    color: black;
- }
-
- #sobre h2 {
-    margin-top: 20px;
-    font-size: 2em;
- } 
-
- /* Sobre Mim */
-
-  #sobre {
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 90vh;
-    justify-content: center;
-    min-height: 80vh;
-  } 
-
- #sobre h2 {
-    text-align: center;
-    width: 100%;
- }
-
- #sobre div {
-    flex-grow: 1;
-    flex-basis: 300px;
-    padding: 0 10px;
- }
-
- #sobre p {
-   text-align: justify;
-   margin-right: 40px;
-   margin-left: 0px;
- }
-
- /*#especialidades{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 0  auto;
- }
-
- #especialidades h2{
-   text-align: center;
-   width: 100%;
- }
-
- #especialidades div{
-      display: flex;
-      justify-content: space-between;
-      flex-grow: 1;
-      flex-basis: 150px;
-      padding: 0 10px;
- }
-
- #especialidades p {
-   text-align: justify;
-   margin-right: 40px;
-   margin-left: 0px;
- }
-
-
- .foto img {
-    width: 60%;
- }
-
- .foto {
-    float: left;
-    width: 50%;
- }
-
- .texto {
-    float: right;
-    width: 50%;
- } */
-
- /*Especialidades 
-
- #especialidades {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin: 0  auto;
- }
-
- #especialidades div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
- } */
-
- /* #especialidades{
-    display: inline-block; 
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 0  auto;
- } */
-
- #especialidades h2{
-    text-align: center;
-    width: 100%;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    /* Cabeçalho ou Barra de Navegação */
+    nav {
+        flex-direction: column;
     }
 
+    nav ul {
+        flex-direction: row;
+        width: 100%;
+    }
 
- #especialidades div{
-    flex: 1 1 200px;
-    margin: 10px;
-    align-items: center;
+    nav ul li {
+        width: auto;
+        font-size: 1.2em;
+    }
 
- }  
+    /* Formatação do Header */
+    header {
+        height: auto;
+        min-height: 60vh;
+    }
 
- #especialidades {
-    /*O Que é Previdência Social */
-    display: flex;
-    flex-wrap: wrap;
-    background-color: antiquewhite;
+    header p {
+        font-size: 1.3em;
+    }
 
- }
+    /* Sobre Mim */
+    #sobre {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
 
+    #sobre h2 {
+        margin-top: 30px;
+    }
 
- #especialidades p {
-    text-align: justify;
-    align-items: center;
-    line-height: 1.5;
-    margin: 2vh;
-    font-size: 1.2em;
- }
+    #sobre div {
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
 
- #especialidades img {
-    margin-left: 90px;
-    align-items: center;
-    width: 30%auto;
- }
+    #sobre p {
+        margin-right: 0;
+        margin-left: 0;
+    }
 
- #especialidades h2 {
-    font-size: 2em;
- }
+    /*Especialidades*/
+    #especialidades h2 {
+        margin-top: 30px;
+    }
 
- #especialidades h3 {
-   margin-left: 50px;
-   font-size: 1.2em;
-   align-items: center;
+    #especialidades div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 }
+
+/* Media Queries para dispositivos maiores ou iguais a 768px */
+@media screen and (min-width: 768px) {
+
+    /* Cabeçalho ou Barra de Navegação */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    nav ul li {
+        width: auto;
+        font-size: 1.5em;
+    }
+
+    /* Formatação do Header */
+    header {
+        height: 60vh;
+    }
+
+    header p {
+        font-size: 1.7em;
+    }
+   }

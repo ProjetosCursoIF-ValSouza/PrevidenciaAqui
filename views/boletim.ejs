@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-  </body>
-</html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/boletim.css" />
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Title -->
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Boletim Informativo | Previdência Aqui</title>
+
+</head>
+
+<body>
+
+  <nav class="logo">
+
+    <a href="/">
+      <img src="./img/logo.jpg" width="100px"
+        alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
+        title="Previdência Aqui">
+    </a>
+
+    <ul>
+      <li><a href="/">Página Inicial</a></li>
+      <li><a href="/sobre">Sobre</a></li>
+      <li><a href="/direitos">Direitos e Deveres</a></li>
+      <li><a href="/simule">Simule Aqui</a></li>
+      <li><a href="/fale">Fale Conosco</a></li>
+      <li><a href="/boletim">Boletim Informativo</a></li>
+      <li><a href="/entrar">Entrar</a></li>
+    </ul>
+
+  </nav>
+  <main>
+    <h1>Boletim Informativo</h1>
+    <legend>Preencha o cadastro abaixo caso você queira receber nossas notícias e informações atualizadas. </legend>
+    <form action="/cadastrar" method="post">
+      <div class="login">
+        <div class="container">
+          <div class="item">
+            <input type="nome" name="nome" id="nome" placeholder="nome *">
+          </div>
+          <div class="item">
+            <input type="email" name="email" id="email" placeholder="e-mail *">
+          </div>
+          <div class="botao">
+            <button>cadastrar</button>
+          </div>
+        </div>
+
+      </div>
+    </form>
+  </main>
+  <br> <br> <br> <br> <br> <br> <br> <br>  <br> <br> <br> <br> <br>
+  <footer>
+    <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
+
+    <div class="social">
+
+      <i class="fab fa-facebook"></i>
+      <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+      <i class="fab fa-twitter"></i>
+      <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+      <i class="fab fa-instagram-square"></i>
+      <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+    </div>
+  </footer>
+</body>
