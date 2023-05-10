@@ -9,10 +9,12 @@ body {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
   flex: 1;
   font-family: cursive;
+  gap: 50px;
+  margin-top: 20px;
 }
 
 .logo img {
@@ -160,7 +162,7 @@ button {
   font-weight: bold;
   font-family: cursive;
   color: #000;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 legend {
@@ -175,7 +177,7 @@ h2 {
 
 ::placeholder,
 textarea {
-  color: #000;
+  color: rgb(211, 209, 209);
   font-size: 17px;
   font-family: cursive;
   padding: 5px;

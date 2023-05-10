@@ -1,11 +1,23 @@
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   font-family: Helvetica, cursive;
-  background-image: url('../img/f9.jpg');
-  background-size: cover;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+main {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+gap: 100px;
+}
+
+.imagem {
+margin-top: 100px;
 }
 
 .container {
@@ -18,15 +30,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 15px;
-opacity: 65%;
-margin-left: 300px;
 margin-top: 40px;
 box-shadow: 0 0 5px rgba(0,0,0,0.8);
 border-radius: 5px;
-}
-
-.container:hover {
-opacity: 100%;
 }
 
 .botao {
@@ -38,6 +44,7 @@ width: 70px;
 border-radius: 10px;
 border: 2px solid #fff;
 color: #fff;
+box-shadow: 0 0 5px rgba(0,0,0,0.8);
 }
 ::placeholder {
 background: #4169E1;
@@ -46,7 +53,7 @@ font-weight: 900;
 }
 input {
 font-family: cursive;
-font-size: 16px;
+font-size: 18px;
 border-style: none;
 background: #4169E1;
 width: 300px;
