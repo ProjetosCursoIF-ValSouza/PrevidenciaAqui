@@ -2,116 +2,83 @@
 <html lang="pt-br">
 
 <head>
-
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Css -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet"  type="text/css" href="css/normalize.css"> 
-
-  <!-- Ícones -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Title -->
-  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>Página inicial | Previdência Aqui</title>
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Css -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- Ícones -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Title -->
+	<link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<title>Página inicial | Previdência Aqui</title>
 </head>
 
 <body>
-  <nav class="logo">
-
-      <a href="/"> 
-      <img src="./img/logo.jpg" width="100px"
-        alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
-        title="Previdência Aqui">
-    </a>
-
-    <ul>
-      <li><a href="/">Página Inicial</a></li>
-      <li><a href="/sobre">Sobre</a></li>
-      <li><a href="/direitos">Direitos e Deveres</a></li>
-      <li><a href="/simule">Simule Aqui</a></li>
-      <li><a href="/fale">Fale Conosco</a></li>
-      <li><a href="/boletim">Boletim Informativo</a></li>
-      <li><a href="/entrar">Entrar</a></li>
-    </ul>
-
-  </nav>
-
-  <div class="search-bar">
-    <input type="text" placeholder="O que você deseja saber sobre previdência social?">
-    <button>buscar</button>
-  </div>
-
-  <div class="banner">
-    <img src="./img/f1.jpg" alt="Figura contendo um homem regando uma planta cujos frutos são cédulas de dinheiro"
-    title="Regando o futuro" style="width: 100%;">
-  </div>
-
-  <main>
-
-    <h2>Assista ao vídeo e saiba mais...</h2>
-    <div class="container">
-      <a href="https://www.youtube.com/watch?v=rr9dsrnLwa4">
-        <img src="./img/f2.png" style="width: 50%;" alt="Figura representando um homem e uma mulher guardando dinheiro em potes de vidro enormes" title="Economizando dinheiro" target="_blank"></a>
-      <br>
-      <p> No Brasil, os beneficiários da Previdência Social são os segurados e seus dependentes.<br> Os segurados são
-        pessoas que exercem atividade remunerada e contribuem para a Previdência Social, incluindo empregados,
-        trabalhadores avulsos, empregados domésticos e contribuintes individuais.<br>
-        Os beneficiários têm direitos e deveres, incluindo a atualização de tempo de contribuição, categorias de
-        segurados, dependentes e pagamento de benefícios.<br>
-        A Previdência Social tem como objetivo assegurar aos seus beneficiários meios indispensáveis de manutenção, por
-        motivo de incapacidade, idade avançada,
-        tempo de serviço, desemprego involuntário, encargos familiares e prisão ou morte daqueles de quem dependiam
-        economicamente.<br>
-        Os beneficiários da Previdência Social no Brasil possuem tanto direitos quanto deveres.
-      </p>
-    </div>
-
-  </main>
-  <h1>Notícias</h1>
-
-  <section class="galeria">
-
-    <figure>
-      <img src="./img/f3.png" title="Prédio da previdência social" alt="Foto do prédio da previdência social">
-      <figcaption><a href='http://localhost:3000/noticias/1' target='_blank'>REGRAS PREVIDENCIÁRIAS PERMANENTES</a></figcaption>
-    </figure>
-    <figure>
-      <img src="./img/f4.png" title="Economias" alt="Imagem contendo a mão de uma pessoa formando várias pilhas de moedas">
-      <figcaption><a href='http://localhost:3000/noticias/2' target='_blank'>REGRAS DE TRANSIÇÃO</a></figcaption>
-    </figure>
-    <figure>
-      <img src="./img/f7.png" title="Aposentados" alt="Figura representando um homem e uma mulher idosos">
-      <figcaption><a href='http://localhost:3000/noticias/3' target='_blank'>HISTÓRIA DA PREVIDÊNCIA<br> NO BRASIL</a></figcaption>
-    </figure>
-  </section>
-
-  <div class="mais">
-    <h3><a href="noticias.html">Mais Notícias</a></h3>
-  </div>
-
-  <footer>
-    <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
-
-    <div class="social">
-
-      <i class="fab fa-facebook"></i>
-      <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
-      <i class="fab fa-twitter"></i>
-      <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
-      <i class="fab fa-instagram-square"></i>
-      <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
-    </div>
-  </footer>
-
+	<nav class="logo">
+		<a href="/">
+			<img src="./img/logo.jpg" width="100px" alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque" title="Previdência Aqui">
+		</a>
+		<ul>
+			<li><a href="/">Página Inicial</a></li>
+			<li><a href="/sobre" target="_blank">Sobre</a></li>
+			<li><a href="/direitos" target="_blank">Direitos e Deveres</a></li>
+			<li><a href="/simule" target="_blank">Simule Aqui</a></li>
+			<li><a href="/fale" target="_blank">Fale Conosco</a></li>
+			<li><a href="/boletim" target="_blank">Boletim Informativo</a></li>
+			<li><a href="/entrar" target="_blank">Entrar</a></li>
+		</ul>
+	</nav>
+	<div class="search-bar">
+		<input type="text" placeholder="O que você deseja saber sobre previdência social?">
+		<button>buscar</button>
+	</div>
+	<div class="banner">
+		<img src="./img/f1.jpg" alt="Figura contendo um homem regando uma planta cujos frutos são cédulas de dinheiro" title="Regando o futuro" style="width: 100%;">
+	</div>
+	<main>
+		<h2>Assista ao vídeo e saiba mais...</h2>
+		<div class="container">
+			<div class="container">
+				<a href="https://www.youtube.com/watch?v=rr9dsrnLwa4" onclick="window.open(this.href,'_blank');return false;">
+					<img src="./img/f2.png" style="width: 50%;" alt="Figura representando um homem e uma mulher guardando dinheiro em potes de vidro enormes" title="Economizando dinheiro"></a>
+				<br>
+				<p> No Brasil, os beneficiários da Previdência Social são os segurados e seus dependentes.<br> Os segurados são pessoas que exercem atividade remunerada e contribuem para a Previdência Social, incluindo empregados, trabalhadores avulsos, empregados domésticos e contribuintes individuais.<br> Os beneficiários têm direitos e deveres, incluindo a atualização de tempo de contribuição, categorias de segurados, dependentes e pagamento de benefícios.<br> A Previdência Social tem como objetivo assegurar aos seus beneficiários meios indispensáveis de manutenção, por motivo de incapacidade, idade avançada, tempo de serviço, desemprego involuntário, encargos familiares e prisão ou morte daqueles de quem dependiam economicamente.<br> Os beneficiários da Previdência Social no Brasil possuem tanto direitos quanto deveres. </p>
+			</div>
+	</main>
+	<h1>Notícias</h1>
+	<section class="galeria">
+		<figure>
+			<img src="./img/f3.png" title="Prédio da previdência social" alt="Foto do prédio da previdência social">
+			<figcaption><a href='http://localhost:3000/noticias/1' target='_blank'>REGRAS PREVIDENCIÁRIAS PERMANENTES</a></figcaption>
+			
+		</figure>
+		<figure>
+			<img src="./img/f4.png" title="Economias" alt="Imagem contendo a mão de uma pessoa formando várias pilhas de moedas">
+			<figcaption><a href='http://localhost:3000/noticias/2' target='_blank'>REGRAS DE TRANSIÇÃO</a></figcaption>
+		</figure>
+		<figure>
+			<img src="./img/f7.png" title="Aposentados" alt="Figura representando um homem e uma mulher idosos">
+			<figcaption><a href='http://localhost:3000/noticias/3' target='_blank'>HISTÓRIA DA PREVIDÊNCIA<br> NO BRASIL</a></figcaption>
+		</figure>
+	</section>
+	<div class="mais">
+	   <!--	<h3><a href="/noticias" target="_blank">Mais Notícias</a></h3> -->
+	</div>
+	<footer>
+		<h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
+		<div class="social">
+			<i class="fab fa-facebook"></i>
+			<!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+			<i class="fab fa-twitter"></i>
+			<!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+			<i class="fab fa-instagram-square"></i>
+			<!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+		</div>
+	</footer>
 </body>
 
 </html>

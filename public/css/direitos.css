@@ -7,7 +7,8 @@ body {
 h1 {
   text-align: center;
   font-family: cursive;
-  font-size: 50px;
+  font-size: 40px;
+  box-shadow: #080808;
 }
 
 
@@ -23,10 +24,6 @@ h1 {
   border: 5px solid #fff;
   padding: 5px;
   margin: 15px;
-}
-
-blockquote {
-  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -69,7 +66,7 @@ nav ul li a {
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
+   @media screen and (min-width: 768px) {
 
   /* Cabeçalho ou Barra de Navegação */
   nav {
@@ -85,22 +82,61 @@ nav ul li a {
 
   h1 {
     padding: 10px;
-    text-shadow: 4px 4px 8px rgba(104, 121, 59, 0.5);
+    text-shadow: 5px 5px 10px rgba(245, 247, 250, 0.5);
   }
 
+  .item {
+    font-size: 20px; /* Tamanho da fonte padrão */
+   
+/*  @media screen and (max-width: 600px) {
+    .item {
+      font-size: 16px; /* Tamanho da fonte para telas menores que 600px de largura */
+  }
+    
+    /* Estilos para telas menores que 600px */
+    @media screen and (max-width: 600px) {
+      max-width: 100%; /* Utilize toda a largura disponível */
+      padding: 5%; /* Aumente o preenchimento */
+    }
+  
+
+   
   .container {
     display: flex;
     flex-direction: column;
     padding: 20px;
+  
+    
+    /* Estilos para telas menores que 600px */
+    @media screen and (max-width: 600px) {
+      max-width: 100%; /* Utilize toda a largura disponível */
+      padding: 5%; /* Aumente o preenchimento */
+    }
+  } 
   }
 
   .box {
     display: flex;
     background-image: linear-gradient(to bottom, #f2e5d5, #4a74b8);
-    padding: 20px;
+    padding: 2%;
+   /* padding: 20px; */
     text-align: center;
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.3);
+ 
+ /* .box {
+    display: flex;
+    background-image: linear-gradient(to bottom, #f2e5d5, #4a74b8);
+    padding: 2%; /* Use uma unidade relativa, como porcentagem */
+  /*  text-align: center;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px; /* Largura máxima para a caixa */
+  
+    /* Estilos para telas menores que 600px */
+    @media screen and (max-width: 600px) {
+    max-width: 100%; /* Utilize toda a largura disponível */
+    padding: 5%; /* Aumente o preenchimento */
   }
+}
 
   .box img {
     width: 20em;
@@ -129,8 +165,10 @@ nav ul li a {
   }
 
   figcaption {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: bold;
+    text-shadow: 0 0 10px #fff;
+    z-index: 1;
   }
 
   .social {
@@ -156,7 +194,4 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
   }
-
-}

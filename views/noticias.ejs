@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-  </body>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/noticias.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Mais Notícias | Previdência Aqui</title>
+</head>
+
+<body>
+    <nav class="logo">
+        <a href="index.html">
+            <img src="./img/logo.jpg" style="width: 100px;"
+                alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
+                title="Previdência Aqui">
+        </a>
+        <ul>
+            <li><a href="./index.html"> Página Inicial</a></li>
+            <li><a href="./sobre.html">Sobre</a></li>
+            <li><a href="./direitos.html">Direitos e Deveres</a></li>
+            <li><a href="./simule.html">Simule Aqui</a></li>
+            <li><a href="./fale.html">Fale Conosco</a></li>
+            <li><a href="./boletim.html  ">Boletim Informativo</a></li>
+            <li><a href="./entrar.html">Entrar</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h1>Notícias</h1>
+    <main class="container">
+        <div class="box">
+            <img src="./img/f3.png" title="Prédio da previdência social" alt="Foto do prédio da previdência social">
+            <div class="noticia">
+                <legend><a href="noticia.html">REGRAS PREVIDENCIÁRIAS PERMANENTES</a></legend>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, delectus architecto? Odio
+                    inventore
+                    corporis soluta obcaecati magnam similique dolorem iure aperiam, necessitatibus vitae eaque fugit
+                    quidem
+                    exercitationem reiciendis voluptatum recusandae.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img/f4.png" title="Economias" alt="Imagem contendo a mão de uma pessoa formando várias pilhas de moedas">
+            <div class="noticia">
+                <legend><a href="noticia.html">REGRAS DE TRANSIÇÃO</a></legend>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, delectus architecto? Odio
+                    inventore
+                    corporis soluta obcaecati magnam similique dolorem iure aperiam, necessitatibus vitae eaque fugit
+                    quidem
+                    exercitationem reiciendis voluptatum recusandae.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./img/f7.png" title="Aposentados" alt="Figura representando um homem e uma mulher idosos">
+            <div class="noticia">
+                <legend><a href="noticia.html">HISTÓRIA DA PREVIDÊNCIA NO BRASIL</a></legend>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, delectus architecto? Odio
+                    inventore
+                    corporis soluta obcaecati magnam similique dolorem iure aperiam, necessitatibus vitae eaque fugit
+                    quidem
+                    exercitationem reiciendis voluptatum recusandae.</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
+
+        <div class="social">
+
+            <i class="fab fa-facebook"></i>
+            <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+            <i class="fab fa-twitter"></i>
+            <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+            <i class="fab fa-instagram-square"></i>
+            <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+        </div>
+    </footer>
+</body>
+
 </html>
