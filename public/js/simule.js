@@ -55,3 +55,47 @@ mostrar.onclick = function () {
 };
 
 
+// Adicione este código dentro de um bloco de script no final do seu arquivo HTML
+
+document.getElementById('formulario').addEventListener('submit', function(event) {
+  event.preventDefault(); // Evita o comportamento padrão de recarregar a página
+
+  // Obtenha os valores dos campos do formulário
+  const mesAno = document.querySelector('input[name="mesAno"]').value;
+  const salario = document.querySelector('input[name="salario"]').value;
+  const genero = document.querySelector('input[name="genero"]:checked').value;
+  const dataNascimento = document.querySelector('.data').value;
+
+  // Crie um objeto com os dados a serem enviados
+  const data = {
+    mesAno,
+    salario,
+    genero,
+    dataNascimento
+  };
+
+  // Faça a requisição para inserir os dados no banco de dados
+  fetch('inserir_dados.php', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => {
+    if (response.ok) {
+      console.log('Dados inseridos com sucesso!');
+      // Faça aqui qualquer ação adicional que você deseja realizar após a inserção dos dados
+    } else {
+      console.log('Erro ao inserir dados:', response.status);
+      // Trate o erro de inserção dos dados, se necessário
+    }
+  })
+  .catch(error => {
+    console.log('Erro ao inserir dados:', error);
+    // Trate o erro de inserção dos dados, se necessário
+  });
+});
+
+
+

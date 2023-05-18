@@ -1,4 +1,4 @@
-const mysql = require('mysql2/promise');
+/* const mysql = require('mysql2/promise');
 
 const pool = mysql.createPool({
     host: 'localhost',
@@ -8,3 +8,37 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool;
+
+
+const mysql = require('mysql2');
+
+const connection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'bd_prevaquisimule',
+});
+
+module.exports = pool; */
+
+const mysql = require('mysql2/promise');
+
+const poolPrevAqui = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'BD_PrevAqui',
+});
+
+const poolSimule = mysql.createPool({
+    host: 'localhost',
+    user: 'root',
+    password: '',
+    database: 'bd_prevaquisimule',
+});
+
+module.exports = {
+  poolPrevAqui,
+  poolSimule
+};
+
