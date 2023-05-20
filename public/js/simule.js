@@ -1,3 +1,19 @@
+/*
+anotações:
+
+data nascimento:
+document.querySelector('input[name="dataNascimento"]').value
+
+sexo:
+document.querySelector('input[type="radio"]:checked').value
+
+lista dos salarios:
+document.querySelectorAll('.campoSalario')
+
+lista das datas:
+document.querySelectorAll('.campoAnoMes')
+*/
+
 /* Formatando valor em reais */
 function formatarMoeda(e) {
   var v = e.target.value.replace(/\D/g, "");
@@ -20,10 +36,11 @@ botao.addEventListener("click", function () {
   const novaLinha = corpo.insertRow(-1);
   const coluna1 = novaLinha.insertCell(0);
   const coluna2 = novaLinha.insertCell(1);
-  coluna1.innerHTML = "<input type='month'>";
+  coluna1.innerHTML = "<input type='month' class='campoAnoMes' name='campoAnoMes[]'>";
 
   let elemSalario = document.createElement('input');
   elemSalario.setAttribute('type', 'text');
+  elemSalario.setAttribute('name', 'campoSalario[]');
   elemSalario.classList.add('campoSalario')
   elemSalario.addEventListener("keyup", formatarMoeda);
   coluna2.appendChild(elemSalario);
@@ -43,7 +60,7 @@ mostrar.onclick = function () {
   }
 };
 
-document.getElementById('formulario').addEventListener('submit', function (event) {
+document.getElementById('formularioAAAAAAAAAAAAAAA').addEventListener('submit', function (event) {
   event.preventDefault(); // Evita o comportamento padrão de recarregar a página
 
   // Obtenha os valores dos campos do formulário

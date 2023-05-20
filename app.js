@@ -14,10 +14,7 @@ const app = express();
 const indexRouter = require('./routes/index');
 const simuleRouter = require('./routes/simule');
 const usersRouter = require('./routes/users');
-// Use as rotas
-app.use('/', indexRouter);
-app.use('/', simuleRouter);
-app.use('/', usersRouter);
+
 // Resto da configuração do seu servidor Express
 // ...
 
@@ -31,6 +28,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Use as rotas
+// app.use('/', indexRouter);
+app.use('/', simuleRouter);
+// app.use('/', usersRouter);
 
 app.use('/', indexRouter);
 app.use('/usuarios', usersRouter);
