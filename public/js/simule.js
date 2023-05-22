@@ -1,4 +1,4 @@
-/*Formatar valor em reais*/
+/* Formatando valor em reais */
 function formatarMoeda(e) {
   var v = e.target.value.replace(/\D/g, "");
   v = (v / 100).toFixed(2) + "";
@@ -12,7 +12,7 @@ function formatarMoeda(e) {
   }
 }
 
-/*Adicionar uma linha na tabela de salários*/
+/* Adicionar uma linha na tabela de salários */
 const botao = document.getElementById("adicionarLinha");
 botao.addEventListener("click", function () {
   const tabela = document.getElementById("minhaTabela");
@@ -25,22 +25,11 @@ botao.addEventListener("click", function () {
   let elemSalario = document.createElement('input');
   elemSalario.setAttribute('type', 'text');
   elemSalario.classList.add('campoSalario')
-  elemSalario.addEventListener("keyup", formatarMoeda);   
+  elemSalario.addEventListener("keyup", formatarMoeda);
   coluna2.appendChild(elemSalario);
-
-  // let elemImg = document.createElement('img');
-  // elemImg.setAttribute('src', 'img/foto1.jpg');
-  // elemImg.setAttribute('alt', 'esta é a foto de perfil');
-
-  // let painel = document.querySelector('.painel');
-  // painel.append(elemImg);
-
-  // let numero = "R$ 12,34"
-// parseFloat(numero.replace(',', '.').replace('R$', '').trim())
-
 });
 
-/*Ocultar o elemento 'bloco' do html*/
+/* Ocultar o elemento 'bloco' do HTML */
 const mostrar = document.getElementById("mostrar");
 const bloco = document.querySelector(".bloco");
 
@@ -54,28 +43,34 @@ mostrar.onclick = function () {
   }
 };
 
-
-// Adicione este código dentro de um bloco de script no final do seu arquivo HTML
-
-document.getElementById('formulario').addEventListener('submit', function(event) {
+document.getElementById('formulario').addEventListener('submit', function (event) {
   event.preventDefault(); // Evita o comportamento padrão de recarregar a página
 
   // Obtenha os valores dos campos do formulário
-  const mesAno = document.querySelector('input[name="mesAno"]').value;
-  const salario = document.querySelector('input[name="salario"]').value;
+  const mesAnoInputs = document.querySelectorAll('input[name="mesAno"]');
+  const salarioInputs = document.querySelectorAll('input[name="salario"]');
   const genero = document.querySelector('input[name="genero"]:checked').value;
   const dataNascimento = document.querySelector('.data').value;
 
-  // Crie um objeto com os dados a serem enviados
+  // Crie um array para armazenar os valores dos campos de mês/ano e salário
+  const dados = [];
+
+  // Percorra os campos de mês/ano e salário e adicione os valores ao array de dados
+  for (let i = 0; i < mesAnoInputs.length; i++) {
+    const mesAno = mesAnoInputs[i].value;
+    const salario = salarioInputs[i].value;
+    dados.push({ mesAno, salario });
+  }
+
+  // Crie um objeto com todos os dados a serem enviados
   const data = {
-    mesAno,
-    salario,
+    dados,
     genero,
     dataNascimento
   };
 
-  // Faça a requisição para inserir os dados no banco de dados
-  fetch('inserir_dados.php', {
+   // Faça a requisição para inserir os dados no servidor
+   fetch('/inserir_dados', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -96,6 +91,3 @@ document.getElementById('formulario').addEventListener('submit', function(event)
     // Trate o erro de inserção dos dados, se necessário
   });
 });
-
-
-

@@ -34,11 +34,10 @@ const poolSimule = mysql.createPool({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'bd_prevaquisimule',
+    database: 'previdenciaaquidb',
 });
 
 module.exports = {
   poolPrevAqui,
-  poolSimule
 };
 
