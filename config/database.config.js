@@ -39,5 +39,6 @@ const poolSimule = mysql.createPool({
 
 module.exports = {
   poolPrevAqui,
+  poolSimule
 };
 

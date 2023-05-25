@@ -30,6 +30,7 @@ function formatarMoeda(e) {
 
 /* Adicionar uma linha na tabela de salários */
 const botao = document.getElementById("adicionarLinha");
+
 botao.addEventListener("click", function () {
   const tabela = document.getElementById("minhaTabela");
   const corpo = tabela.getElementsByTagName("tbody")[0];
@@ -60,51 +61,51 @@ mostrar.onclick = function () {
   }
 };
 
-document.getElementById('formularioAAAAAAAAAAAAAAA').addEventListener('submit', function (event) {
-  event.preventDefault(); // Evita o comportamento padrão de recarregar a página
+// document.getElementById('formularioAAAAAAAAAAAAAAA').addEventListener('submit', function (event) {
+//   event.preventDefault(); // Evita o comportamento padrão de recarregar a página
 
-  // Obtenha os valores dos campos do formulário
-  const mesAnoInputs = document.querySelectorAll('input[name="mesAno"]');
-  const salarioInputs = document.querySelectorAll('input[name="salario"]');
-  const genero = document.querySelector('input[name="genero"]:checked').value;
-  const dataNascimento = document.querySelector('.data').value;
+//   // Obtenha os valores dos campos do formulário
+//   const mesAnoInputs = document.querySelectorAll('input[name="mesAno"]');
+//   const salarioInputs = document.querySelectorAll('input[name="salario"]');
+//   const genero = document.querySelector('input[name="genero"]:checked').value;
+//   const dataNascimento = document.querySelector('.data').value;
 
-  // Crie um array para armazenar os valores dos campos de mês/ano e salário
-  const dados = [];
+//   // Crie um array para armazenar os valores dos campos de mês/ano e salário
+//   const dados = [];
 
-  // Percorra os campos de mês/ano e salário e adicione os valores ao array de dados
-  for (let i = 0; i < mesAnoInputs.length; i++) {
-    const mesAno = mesAnoInputs[i].value;
-    const salario = salarioInputs[i].value;
-    dados.push({ mesAno, salario });
-  }
+//   // Percorra os campos de mês/ano e salário e adicione os valores ao array de dados
+//   for (let i = 0; i < mesAnoInputs.length; i++) {
+//     const mesAno = mesAnoInputs[i].value;
+//     const salario = salarioInputs[i].value;
+//     dados.push({ mesAno, salario });
+//   }
 
-  // Crie um objeto com todos os dados a serem enviados
-  const data = {
-    dados,
-    genero,
-    dataNascimento
-  };
+//   // Crie um objeto com todos os dados a serem enviados
+//   const data = {
+//     dados,
+//     genero,
+//     dataNascimento
+//   };
 
-   // Faça a requisição para inserir os dados no servidor
-   fetch('/inserir_dados', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data)
-  })
-  .then(response => {
-    if (response.ok) {
-      console.log('Dados inseridos com sucesso!');
-      // Faça aqui qualquer ação adicional que você deseja realizar após a inserção dos dados
-    } else {
-      console.log('Erro ao inserir dados:', response.status);
-      // Trate o erro de inserção dos dados, se necessário
-    }
-  })
-  .catch(error => {
-    console.log('Erro ao inserir dados:', error);
-    // Trate o erro de inserção dos dados, se necessário
-  });
-});
+//    // Faça a requisição para inserir os dados no servidor
+//    fetch('/inserir_dados', {
+//     method: 'POST',
+//     headers: {
+//       'Content-Type': 'application/json'
+//     },
+//     body: JSON.stringify(data)
+//   })
+//   .then(response => {
+//     if (response.ok) {
+//       console.log('Dados inseridos com sucesso!');
+//       // Faça aqui qualquer ação adicional que você deseja realizar após a inserção dos dados
+//     } else {
+//       console.log('Erro ao inserir dados:', response.status);
+//       // Trate o erro de inserção dos dados, se necessário
+//     }
+//   })
+//   .catch(error => {
+//     console.log('Erro ao inserir dados:', error);
+//     // Trate o erro de inserção dos dados, se necessário
+//   });
+// });
