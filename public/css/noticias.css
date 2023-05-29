@@ -1,60 +1,46 @@
 body {
     font-family: Helvetica, cursive;
-    background-color: #639cbf;
-
-}
-
-h1 {
-    text-align: center;
-    font-family: cursive;
-    font-size: 50px;
-}
-
-
-/*Cabeçalho ou Barra de Navegação*/
-
-h1 {
-    text-align: center;
-    margin: 10px 0;
+    background-color: #fff;
+    margin: 7px;
 }
 
 .logo img {
     border-radius: 50%;
     border: 5px solid #fff;
     padding: 5px;
-    margin: 15px;
+    margin: 5px 0px 10px 0px;
+}
+
+#mostrar {
+    display: none;
+}
+
+.menu {
+    display: flex;
 }
 
 nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgb(38, 38, 179), rgb(124, 128, 187), rgb(161, 187, 209));
-    padding: 10px;
+    background-image: linear-gradient(to bottom, #9db1c3, #4382bd);
+    padding: 15px;
 }
 
 nav ul {
     list-style: none;
-    padding: 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
-    overflow-x: auto;
-    margin-top: 1;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-    margin-right: 15px;
 }
 
 nav ul li {
     text-align: center;
     width: 100%;
     font-size: 15px;
-    border: 1px solid #ccc;
-    padding: 3px;
+    padding: 5px;
     list-style-position: inside;
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-
 }
 
 nav ul li a {
@@ -63,99 +49,212 @@ nav ul li a {
     width: 100%;
     text-decoration: none;
     color: #fff;
+    border: 1px solid #ccc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
 }
 
-@media screen and (min-width: 768px) {
+main {
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #4382bd, #e6e6e6);
+    border-radius: 10px;
+}
 
-    /* Cabeçalho ou Barra de Navegação */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    margin: 10px 0 30px;
+}
+
+.box {
+    display: flex;
+    background-image: linear-gradient(to bottom, #f2e5d5, #4a74b8);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.box img {
+    width: 10em;
+    height: 10em;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 40%;
+    text-align: left;
+    text-align: justify;
+}
+
+.social {
+    gap: 30px;
+    font-size: 35px;
+    margin-right: 5%;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+footer {
+    color: #000;
+    padding: 2px 2px 8px 2px;
+    background-image: linear-gradient(to bottom, #4382bd, #9db1c3);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 426px) {
+    body {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 5px 8px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 3px;
+    }
+
     nav {
-        flex-direction: row;
+        width: 93%;
+        background-image: linear-gradient(to bottom, #4382bd, #9db1c3);
+    }
+
+    #mostrar {
+        display: flex;
+        color: #fff;
+        margin-bottom: 5px;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: space-around;
     }
 
     nav ul {
-        flex-direction: row;
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
-
-    h1 {
-        padding: 10px;
-        text-shadow: 4px 4px 8px rgba(104, 121, 59, 0.5);
+    .fa-solid fa-bars {
+        width: 50vw;
     }
+
+h1 {
+    margin: 5px;
+}
+
 
     .container {
         display: flex;
         flex-direction: column;
-        padding: 20px;
     }
 
     .box {
         display: flex;
-        background-image: linear-gradient(to bottom, #f2e5d5, #4a74b8);
-        padding: 20px;
-        text-align: center;
-        box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.3);
-        margin-bottom: 20px;
-        gap: 50px;
-    }
-
-    .box img {
-        width: 10em;
-        height: 10em;
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    legend a {
-        font-size: 20px;
-        font-weight: bold;
-        color: #000;
-        text-decoration: none;
-    }
-
-    legend:hover {
-        text-decoration: underline;
-    }
-
-    .noticia {
-        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-evenly;
-        width: 40%;
-        text-align: left;
-        text-align: justify;
-    }
-
-    .social {
-        gap: 30px;
-        font-size: 35px;
-        margin-right: 5%;
-    }
-
-    h3 {
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-        margin-left: 25px;
-        margin-top: 10px;
+        align-items: center;
+        gap: 10px;
     }
 
     footer {
-        color: rgb(10, 10, 10);
-        padding: 3px;
-        border-top: 1px solid #ccc;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-        background-image: linear-gradient(rgb(52, 65, 240), rgb(208, 233, 230), rgb(21, 14, 124));
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        margin-top: 10px;
     }
 
+    .box img {
+        width: 70%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .noticia {
+        width: 80%;
+        gap: 20px;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 1024px) {
+    .box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+
+    .noticia {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2 a {
+        text-align: center;
+    }
 }

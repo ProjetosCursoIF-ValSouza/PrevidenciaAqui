@@ -9,6 +9,8 @@
   <!-- Css -->
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/simule.css">
+  <link rel="stylesheet" href="css/slick-1.8.1/slick/slick.scss">
+  <link rel="stylesheet" href="css/slick-1.8.1/slick/slick-theme.css">
 
   <!-- Ícones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -23,32 +25,65 @@
 
 <body>
   <nav class="logo">
-
-    <a href="/">
-      <img src="img/logo.jpg" width="100px"
-        alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
-        title="Previdência Aqui">
-    </a>
-
-    <ul>
-      <li><a href="/">Página Inicial</a></li>
+    <div class="menu">
+     <a href="/">
+       <img src="./img/logo.jpg" width="100px" alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque" title="Previdência Aqui">
+     </a>
+ 
+     <legend><button id="mostrar"><i class="fa-solid fa-bars" style="color: #fff;"></i></button></legend>
+ 
+    </div>
+ 
+    <ul class="nav-list">
+      <li><a href="/">Início</a></li>
       <li><a href="/sobre">Sobre</a></li>
-      <li><a href="/direitos">Direitos e Deveres</a></li>
-      <li><a href="/simule">Simule Aqui</a></li>
-      <li><a href="/fale">Fale Conosco</a></li>
-      <li><a href="/boletim">Boletim Informativo</a></li>
+      <li><a href="/direitos">Regras</a></li>
+      <li><a href="/simule">Simule</a></li>
+      <li><a href="/fale">Contato</a></li>
+      <li><a href="/boletim">Informativo</a></li>
       <li><a href="/entrar">Entrar</a></li>
-    </ul>
-
-  </nav>
-  <hr>
+     </ul>
+   </nav>
+  
   <main>
-    <h1>Simule Aqui</h1>
-    <legend><button id="mostrar">Clique Aqui</button></legend>
+    <div class="titulo">
+        <h1>Simule: calcule sua aposentadoria aqui!</h1>
+        <blockquote class="item">
+            <p>A partir da Emenda Constitucional 103/2019, que entrou em vigor em 13 de novembro de 2019, <strong>o
+                    cálculo
+                    da aposentadoria</strong> para os trabalhadores que ingressaram no sistema previdenciário após a
+                vigência da
+                reforma <strong>mudou</strong> em relação ao modelo anterior.</p>
+            <p>Agora, o trabalhador precisará atingir a <strong>idade
+                mínima</strong> de 62 anos, se mulher, e 65 anos, se homem, além de ter no mínimo 15 anos de <strong>contribuição</strong>
+                para a
+                Previdência Social, se mulher e 20 anos no caso de homem. Para esses casos, o cálculo do benefício
+                previdenciário passou a ser feito com base na média aritmética simples de todos os salários de
+                contribuição do trabalhador desde julho de 1994, corrigidos mês a mês pelo fator de atualização
+                fornecido pelo governo, com base no inpc acumulado. O valor do benefício, então, será equivalente a
+                60%
+                da média salarial, acrescido de 2% para cada ano de contribuição que exceder o tempo mínimo de 15 ou
+                20
+                anos, respectivamente, se mulher ou homem.</p>
+            <p><i>Nessa página, disponibilizamos um recurso que ajudará
+                    o
+                    beneficiário da previdência a fazer uma simulação de cálculo do seu benefício, devendo para
+                    tanto
+                    preencher os dados necessários (salários de contribuição, data de nascimento e sexo).</i></p>
+        </blockquote>
+    </div>
 
     <div class="corpo">
-      <img src="img/f9.jpg" title="Simule Aqui"
+
+      <div class="imagem">
+
+        <img src="img/senhor.png" title="Simule Aqui"
         alt="Figura representando um idoso sorrindo com os braços apontando para o lado" class="foto">
+        <span><button id="ver" class="typing">Simule Aqui</button></span>
+      
+      
+      
+      
       <div class="bloco">
         <form id="formulario" action="/simule" method="POST">
           <div class="tabela" id="minhaTabela">
@@ -73,6 +108,8 @@
               </tbody>
             </table>
 
+            <table id=""></table>
+
             <button type="button" id="adicionarLinha">Adicionar Linha</button>
           </div>
           <div class="container">
@@ -80,10 +117,10 @@
             <h2>2. Selecione o seu Gênero</h2>
             <div class="genero">
               <div class="genero">
-                <input type="radio" name="genero" value="Masculino">Masculino
+                <input type="checkbox" name="masculino" id="masculino" onclick="desmarcarCheckbox('masculino')">Masculino
               </div>
               <div class="genero">
-                <input type="radio" name="genero" value="Feminino">Feminino
+                <input type="checkbox" name="feminino" id="feminino" onclick="desmarcarCheckbox('feminino')">Feminino
               </div>
             </div>
           </div>
@@ -94,7 +131,7 @@
           </div>
           <div class="clique">
             <div class="botao">
-              <button type="submit">simular</button>
+              <button type="submit"><a href="resultados.html">Simular</a>
             </div>
             <div class="apagar">
               <button type="reset">apagar</button>
@@ -104,7 +141,7 @@
       </div>
     </div>
   </main>
-  <hr>
+  
   <footer>
     <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
 
@@ -119,6 +156,7 @@
     </div>
   </footer>
   <script src="js/simule.js"></script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
