@@ -10,7 +10,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema previdenciaaquidb
 -- -----------------------------------------------------
-
+DROP SCHEMA`previdenciaaquidb`;
 -- -----------------------------------------------------
 -- Schema previdenciaaquidb
 -- -----------------------------------------------------
@@ -58,7 +58,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS atualizacao_monetaria (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT,
   mes_ano VARCHAR(10) NULL,
-  indice_atualizacao DECIMAL(10,2) NOT NULL,
+  indice_atualizacao DECIMAL(10,6) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE = InnoDB;
 
@@ -422,3 +422,4 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 select * from simulacao_beneficio;
 select * from simulacao_periodo_trabalho;
+select * from atualizacao_monetaria;

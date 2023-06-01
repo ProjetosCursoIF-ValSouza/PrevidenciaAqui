@@ -98,38 +98,53 @@ function calcularAposentadoria(idade, genero) {
   };
 }
 
+// Rota para realizar a soma dos valores do campo salario_atualizado
+app.get('/soma', (req, res) => {
+  const query = 'SELECT SUM(salario_atualizado) AS total FROM simulacao_periodo_trabalho';
+  connection.query(query, (error, results, fields) => {
+    if (error) {
+      console.error('Erro ao executar a consulta:', error);
+      return res.status(500).json({ error: 'Erro ao executar a consulta.' });
+    }
+
+    const total = results[0].total;
+    res.json({ total });
+  });
+});
+
+
+
 // Função para calcular o valor_beneficio
-function calcularBeneficio(sexo, idade, salarioAtualizado, quantidadeSalarios) {
-  let beneficioMinimo;
-  let idadeMinima;
+function calcularBeneficio(genero, idade, salarioAtualizado, quantidadeSalarios) {
+  let salario;
+  let idade;
   
-  if (sexo === 'f') {
-    beneficioMinimo = 180;
-    idadeMinima = 62;
-  } else if (sexo === 'm') {
-    beneficioMinimo = 240;
-    idadeMinima = 65;
+  if (genero === 'f') {
+    salario = 180;
+    idade = 62;
+  } else if (genero === 'm') {
+    salario = 240;
+    idade = 65;
   } else {
     return 'Sexo inválido!';
   }
   
-  if (salarioAtualizado < salarioMinimo) {
-    return 'Salário atualizado abaixo do mínimo requerido!';
+  if (salario < 180) {
+    return 'Tempo de contribuição abaixo do mínimo requerido!';
   }
   
-  if (idade < idadeMinima) {
+  if (idade < 62) {
     return 'Idade abaixo do mínimo requerido!';
   }
   
-  let indice = 0.6;
-  const salarioExcedente = Math.max(salarioAtualizado - salarioMinimo, 0);
+  let indiceBase = 0.6;
+  const salario = 180 && genero = f = Math.max(salarioAtualizado - salarioMinimo, 0);
   const quantidadesExcedentes = Math.floor(salarioExcedente / 12);
-  indice += quantidadesExcedentes * 0.02;
+  const indice = indiceBase + quantidadesExcedentes * 0.02;
   
   const valorBeneficio = (salarioAtualizado * quantidadeSalarios) / (12 * indice);
   return valorBeneficio;
 }
-
 
 
 
