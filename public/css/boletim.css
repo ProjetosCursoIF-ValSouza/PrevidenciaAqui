@@ -1,213 +1,254 @@
 body {
-  background: #639cbf;
   font-family: Helvetica, cursive;
+  margin: 7px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  background-image: url('../img/f9.jpg');
-  background-size: cover;
-  
 }
 
 main {
-  
+  background-color: antiquewhite;
+  border-radius: 10px;
+  min-height: 100vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 20px;
-  flex: 1;
-  
-}
-
-.logo img {
-  border-radius: 50%;
-  border: 5px solid #fff;
-  padding: 5px;
-  margin: 15px;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgb(38, 38, 179), rgb(124, 128, 187), rgb(161, 187, 209));
-  padding: 10px;
-  opacity: 55%;
+  gap: 20px;
 }
 
-
-
-nav ul {
-  list-style: none;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  overflow-x: auto;
-  margin-top: 1;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-  margin-right: 15px;
-}
-
-
-
-nav ul li {
-  text-align: center;
-  width: 100%;
-  font-size: 15px;
-  border: 1px solid #ccc;
-  padding: 3px;
-  list-style-position: inside;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-
-}
-
-nav:hover {
-  opacity: 100%;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 3px 0;
-  width: 100%;
-  text-decoration: none;
-  color: #fff;
-}
-
-@media screen and (min-width: 768px) {
-
-  /* Cabeçalho ou Barra de Navegação */
-  nav {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  nav ul {
-    flex-direction: row;
-    width: 100%;
-  }
-}
-
-h1 {
-  font-size: 40px;
-  padding: 20px 0px 10px 0px;
-  font-family: cursive;
-  line-height: 45px;
-}
-
-.login {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-}
-
-.container {
-  font-size: 16px;
-  background-color: #79f2c6;
-  box-shadow: 1.2em #000;
-  height: 250px;
+.cabeca {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 140px;
-  padding: 20px 50px;
-  border: 2px solid transparent;
+  margin-bottom: 10px;
+  background-color: #4382bd;
   border-radius: 10px;
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
-  opacity: 55%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
 }
 
-.container:hover {
-  opacity: 100%;
+h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), -1px -1px 2px rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+label,
+h2 {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 25px;
+  text-shadow: 0.4px 0.4px 0.9px rgba(0, 0, 0, 0.5), -0.4px -0.4px 0.9px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  line-height: 1.2em;
+}
+
+label {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  color: #fff;
+  transition: .3s;
+}
+
+.mensagem label {
+  top: 90px;
+}
+
+input:focus + label {
+  font-size: 15px;
+  top: -20px;
+  color: #000;
+  transition: .3s;
+}
+
+textarea:focus +label {
+  font-size: 15px;
+  top: -20px;
+  color: #000;
+  transition: .3s;
+}
+
+.nome, .email, .assunto {
+  position: relative;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 390px;
+  height: auto;
+  padding: 25px 0;
+  margin-bottom: 100px;
+}
+
+.botao a {
+  text-decoration: none;
+  background: transparent;
+  color: #fff;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+input,
+textarea {
+  background-color: #4382bd;
+  width: 100%;
+  height: 40px;
+  padding: 0 40px;  
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  text-align: left;
+  outline: none;
+  border-radius: 5px;
+}
+
+
+input:hover {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+textarea {
+  height: 120px;
+  font-family: Helvetica, cursive;
+  background-color: #4382bd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+  width: 300px;
+}
+
+textarea:hover {
+  color: #fff;
+}
+
+button {
+  font-weight: bolder;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), -1px -1px 2px rgba(255, 255, 255, 0.5);
+}
+
+::placeholder,
+textarea {
+  color: #fff;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px;
+  font-weight: 300;
 }
 
 .titulo {
   display: flex;
   flex-direction: column;
-  max-width: 200px;
-  gap: 10px;
-}
-
-.cadastro {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-
-.botao {
-  margin-top: 10px;
-  font-size: 16px;
-  box-shadow: 1.2em #000;
-  display: flex;
-  flex-direction: column;
+  justify-content: left;
   align-items: center;
-  justify-content: center;
-  border: 2px solid #000;
-  border-radius: 10px;
-  width: 100px;
-}
-
-input {
-  border-style: none;
-  background: #fff;
-  width: 350px;
-  background-clip: padding-box;
-  height: 40px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-  font-family: cursive;
-  font-size: 16px;
-  outline: none;
-}
-
-input:hover {
+  gap: 20px;
   color: #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  max-width: 300px;
 }
 
-button {
-  font-weight: 800;
-  font-size: 20px;
-  font-family: cursive;
-}
-
-::placeholder {
-  color: #000;
-}
-
-legend {
-  padding-bottom: 20px;
-}
-
-footer {
-  margin-top: 60px;
-  color: rgb(10, 10, 10);
-  padding: 1px;
-  background-image: linear-gradient(rgb(52, 65, 240), rgb(208, 233, 230), rgb(21, 14, 124));
+.clique {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  opacity: 55%;
 }
 
-footer:hover {
-  opacity: 100%;
+input[type="submit"] {
+  background-color: #00ec85;
+  color: #fff;
+  cursor: pointer;
+  padding: 0 10px;
 }
 
-.social {
+input[type="checkbox"] {
+  color: #000;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  height: 20px;
+  width: auto;
+  box-shadow: none;
+}
+
+.barra {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 5px 0;
+}
+
+.assunto {
+  display: flex;
   gap: 10px;
-  font-size: 30px;
-  margin-right: 5%;
-  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-h3 {
-  display: flex;
-  font-size: 20px;
-  margin-left: 25px;
-  margin-top: 10px;
+@media only screen and (max-width: 426px) {
+  main {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    align-items: stretch;
+    justify-items: space-evenly;
+  }
+
+  .cabeca {
+    flex-direction: column;
+  }
+
+  .botao a {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+  }
+ .clique {
+  justify-content: center;
+ }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  main {
+    gap: 0;
+    padding: 20px 0;
+    flex-direction: column;
+  }
 }

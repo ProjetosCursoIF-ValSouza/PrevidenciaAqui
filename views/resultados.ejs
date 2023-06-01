@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <h1>Resultados</h1>
+  <!-- <h1>Resultados</h1>
     <div class="bloco">
 
         <div class="dados">
@@ -70,8 +70,63 @@
                     <td><%= valorBeneficio %></td>
                 </tr>
             </table>
-        </div>
+        </div> --> 
 
+        <h1>Resultados</h1>
+        <div class="bloco">
+            <div class="dados">
+                <div class="titulo">
+                    <img src="img/informacao-pessoal.png" alt="flaticon" width="60px">
+                    <h2>Confira seus Dados Pessoais</h2>
+                </div>
+                <table>
+                    <tr>
+                        <th>Gênero</th>
+                        <td><%= genero %></td>
+                    </tr>
+                    <tr>
+                        <th>Idade</th>
+                        <td><%= idade %></td>
+                    </tr>
+                    <tr>
+                        <th>Tempo de Contribuição</th>
+                        <td>
+                            <% tempo_contribuicao_mes.forEach((tempo, index) => { %>
+                                <%= tempo %>
+                                <% if (index !== tempo_contribuicao_mes.length - 1) { %>
+                                    <br>
+                                <% } %>
+                            <% }) %>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="resultados">
+                <div class="titulo">
+                    <img src="img/fluxo-de-dinheiro.png" alt="flaticon" width="70px">
+                    <h2>Confira seus Resultados</h2>
+                </div>
+                <table>
+                    <tr>
+                        <th>Com que idade poderei me aposentar?</th>
+                        <td><%= idadeAposentadoria %></td>
+                    </tr>
+                    <tr>
+                        <th>Em qual mês e ano poderei me aposentar?</th>
+                        <td><%= mesAposentadoria %> / <%= anoAposentadoria %></td>
+                    </tr>
+                    <tr>
+                        <th>Quanto tempo ainda devo contribuir?</th>
+                        <td><%= tempo_contribuicao_pendente_mes %></td>
+                    </tr>
+                    <tr>
+                        <th>Qual será o valor do meu benefício?</th>
+                        <td><%= valor_beneficio %></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+      
         <div class="clique">
             <div class="botao">
                 <button type="submit"><a href="simule.html">Nova consulta</a></button>

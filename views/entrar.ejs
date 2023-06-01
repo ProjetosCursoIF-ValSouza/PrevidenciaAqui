@@ -18,36 +18,44 @@
 </head>
 
 <body>
+  <div class="clique">
+    <div class="botao">
+      <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+    </div>
+
+    <div class="botao">
+      <button type="submit"><a href="/">Início</a></button>
+    </div>
+  </div>
   <main>
-    <div class="imagem">
-      <img src="./img/senhor.png" width="500px">
-    </div>
-    <div class="login">
-      <form action="/entrar" method="post">
-        <div class="container">
-          <div class="item">
-            <input type="email" placeholder="e-mail">
-            <hr>
-          </div>
-          <div class="item">
-            <input type="text" placeholder="senha">
-            <hr>
-          </div>
-          <div class="comando">
-            <div class="botao">
-              <button type="submit">entrar</button>
-            </div>
-            <div class="botao">
-              <button><a href="javascript:history.back()">voltar</a></button>
-            </div>
-          </div>
+    
+    <img src="./img/senhor.png" alt="" width="400px">
+    <div class="container">
+      <form action="/fale" method="post">
+
+        <div class="titulo">
+          <h2><strong>Login</strong></h2>
+          <legend><i>Escreva nos campos abaixo:</i></legend>
         </div>
+        <div class="barra">
+          <div class="usuario">
+            <input onblur="Campo(0)" onblur="mudarCor()" type="text" name="usuario" id="usuario" autocomplete="off">
+            <label for="usuario">usuário</label>
+          </div>
+          <div class="senha">
+            <input onblur="Campo(1)" type="password" name="senha" id="senha" autocomplete="off">
+            <label for="senha">senha</label>
+          </div>
+          
+        </div>
+        <div class="botao">
+          <input type="submit" value="acessar">
+        </div>
+
+      </form>
     </div>
-
-
-    </form>
   </main>
-
+<script src="js/fale.js"></script>
 </body>
 
 </html>

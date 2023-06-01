@@ -18,12 +18,12 @@
   <!-- Title -->
   <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>Fale Conosco | Previdência Aqui</title>
+  <title>Contato | Previdência Aqui</title>
 </head>
 
 <body>
 
-  <nav class="logo">
+ <!-- <nav class="logo">
 
     <a href="/">
       <img src="./img/logo.jpg" width="100px"
@@ -73,20 +73,60 @@
         </div>
       </div>
     </form>
-  </main>
-  <footer>
-    <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
+  </main>   -->
 
-    <div class="social">
+  <div class="cabeca">
+    <h1>Contato</h1>
+    <div class="clique">
+      <div class="botao">
+        <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+      </div>
 
-      <i class="fab fa-facebook"></i>
-      <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
-      <i class="fab fa-twitter"></i>
-      <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
-      <i class="fab fa-instagram-square"></i>
-      <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+      <div class="botao">
+        <button type="submit"><a href="/">Início</a></button>
+      </div>
     </div>
-  </footer>
+  </div>
+  <main>
+    <img src="./img/senhor.png" alt="" width="400px">
+    <div class="container">
+      <form action="/fale" method="post">
+
+        <div class="titulo">
+          <h2><strong>Fale Conosco</strong></h2>
+          <legend><i>Escreva nos campos abaixo:</i></legend>
+        </div>
+        <div class="barra">
+          <div class="nome">
+            <input onblur="Campo(0)" onblur="mudarCor()" type="text" name="nome" id="nome" autocomplete="off">
+            <label for="nome">nome</label>
+          </div>
+          <div class="email">
+            <input onblur="Campo(1)" type="email" name="email" id="email" autocomplete="off">
+            <label for="email">e-mail</label>
+          </div>
+          <div class="assunto">
+            <input onblur="Campo(2)" type="text" name="assunto" id="assunto" autocomplete="off">
+            <label for="assunto">assunto</label>
+          </div>
+          <div class="mensagem">
+            <textarea onblur="Campo(3)" name="mensagem" id="mensagem" autocomplete="off"></textarea>
+            <label for="mensagem">mensagem</label>
+          </div>
+        </div>
+        <div class="botao">
+          <input type="submit" value="enviar">
+        </div>
+
+      </form>
+    </div>
+
+
+  </main>
+  <script src="js/fale.js"></script>
+
+
+
 </body>
 
 </html>

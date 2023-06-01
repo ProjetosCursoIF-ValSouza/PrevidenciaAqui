@@ -18,13 +18,14 @@
   <!-- Title -->
   <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>Boletim Informativo | Previdência Aqui</title>
+  <title>Informativo | Previdência Aqui</title>
+
 
 </head>
 
 <body>
 
-  <nav class="logo">
+ <!--<nav class="logo">
 
     <a href="/">
       <img src="./img/logo.jpg" width="100px"
@@ -73,7 +74,57 @@
   <footer>
     <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
 
-    <div class="social">
+    <div class="social"> --> 
+
+      <div class="cabeca">
+        <h1>Informativo</h1>
+        <div class="clique">
+          <div class="botao">
+            <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+          </div>
+    
+          <div class="botao">
+            <button type="submit"><a href="/">Início</a></button>
+          </div>
+        </div>
+      </div>
+      <main>
+        <img src="./img/senhor.png" alt="" width="400px">
+        <div class="container">
+          <form action="/fale" method="post">
+    
+            <div class="titulo">
+              <h2>Inscreva-se em nosso <strong>boletim informativo</strong></h2>
+              <legend><i>Receba nossas notícias e informações atualizadas sobre a previdência social!</i>
+              </legend>
+            </div>
+            <div class="barra">
+              <div class="nome">
+                <input onblur="Campo(0)" onblur="mudarCor()" type="text" name="nome" id="nome" autocomplete="off">
+                <label for="nome">nome</label>
+              </div>
+              <div class="email">
+                <input onblur="Campo(1)" type="email" name="email" id="email" autocomplete="off">
+                <label for="email">e-mail</label>
+              </div>
+              <div class="assunto">
+                <input type="checkbox" name="assunto" id="assunto">
+                <p>Eu concordo em receber e-mails.</p>
+              </div>
+            </div>
+            <div class="botao">
+              <input type="submit" value="cadastrar">
+            </div>
+    
+          </form>
+        </div>
+    
+    
+      </main>
+      <script src="js/fale.js"></script>
+    
+
+
 
       <i class="fab fa-facebook"></i>
       <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
@@ -82,7 +133,7 @@
       <i class="fab fa-instagram-square"></i>
       <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
     </div>
-  </footer>
+  </footer> 
 </body>
 
 </html>

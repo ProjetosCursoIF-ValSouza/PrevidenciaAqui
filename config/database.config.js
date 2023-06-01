@@ -4,14 +4,14 @@ const mysql = require('mysql2/promise');
 const poolPrevAqui = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: '',
     database: 'BD_PrevAqui',
 });
 
 const poolSimule = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'root',
+    password: '',
     database: 'previdenciaaquidb',
 });
 

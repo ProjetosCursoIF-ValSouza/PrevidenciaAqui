@@ -57,7 +57,7 @@ ENGINE = InnoDB;
 
 CREATE TABLE IF NOT EXISTS atualizacao_monetaria (
   id INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  mes_ano VARCHAR(10) NULL,
+  mes_ano VARCHAR(7) NOT NULL,
   indice_atualizacao DECIMAL(10,2) NOT NULL,
   PRIMARY KEY (id)
 ) ENGINE = InnoDB;
@@ -419,6 +419,3 @@ WHERE sp.salario > 0;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-
-select * from simulacao_beneficio;
-select * from simulacao_periodo_trabalho;
