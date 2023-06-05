@@ -49,12 +49,7 @@
     <div class="titulo">
         <h1>Simule: calcule sua aposentadoria aqui!</h1>
         <blockquote class="item">
-            <p>A partir da Emenda Constitucional 103/2019<p>A partir da Emenda Constitucional 103/2019 (<a href="https://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc103.htm" target="_blank">Emenda Constitucional 103/2019</a>, que entrou em vigor em 13 de novembro de 2019, <strong>o cálculo da aposentadoria</strong> para os trabalhadores que ingressaram no sistema previdenciário após a vigência da reforma <strong>mudou</strong> em relação ao modelo anterior.</p>
-            , que entrou em vigor em 13 de novembro de 2019, <strong>o
-                    cálculo
-                    da aposentadoria</strong> para os trabalhadores que ingressaram no sistema previdenciário após a
-                vigência da
-                reforma <strong>mudou</strong> em relação ao modelo anterior.</p>
+            <p>A partir da Emenda Constitucional 103/2019 (<a href="https://www.planalto.gov.br/ccivil_03/Constituicao/Emendas/Emc/emc103.htm" target="_blank">Emenda Constitucional 103/2019</a>), que entrou em vigor em 13 de novembro de 2019, <strong>o cálculo da aposentadoria</strong> para os trabalhadores que ingressaram no sistema previdenciário após a vigência da reforma <strong>mudou</strong> em relação ao modelo anterior.</p>
             <p>Agora, o trabalhador precisará atingir a <strong>idade
                 mínima</strong> de 62 anos, se mulher, e 65 anos, se homem, além de ter no mínimo 15 anos de <strong>contribuição</strong>
                 para a
@@ -139,7 +134,7 @@
         </form>
       </div>
     </div> -->
-
+ 
     <div class="bloco">
       <form id="formulario" action="/simule" method="POST">
         <div class="tabela" id="minhaTabela">
@@ -157,17 +152,17 @@
               </tr>
             </thead>
             <tbody>
+              <% let mesAno = []; %>
+              <% let salario = []; %>
               <% for (let i = 0; i < mesAno.length; i++) { %>
-              <tr>
-                <td><input type="text" name="mesAno" value="<%= mesAno[i] %>"></td>
-                <td><input type="text" name="salario" value="<%= salario[i] %>"></td>
-              </tr>
+                <tr>
+                  <td><input type="text" name="mesAno" value="<%= mesAno[i] %>"></td>
+                  <td><input type="text" name="salario" value="<%= salario[i] %>"></td>
+                </tr>
               <% } %>
             </tbody>
           </table>
-    
           <table id=""></table>
-    
           <button type="button" id="adicionarLinha">Adicionar Linha</button>
         </div>
         <div class="container">
@@ -197,9 +192,9 @@
         </div>
       </form>
     </div>
-  
+    
 
-  </main>
+    </main>
   
   <footer>
     <h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
