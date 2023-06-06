@@ -423,3 +423,5 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 select * from simulacao_beneficio;
 select * from simulacao_periodo_trabalho;
 select * from atualizacao_monetaria;
+
+ALTER TABLE `previdenciaaquidb`.`simulacao_periodo_trabalho` DROP COLUMN `mes_ano`;
