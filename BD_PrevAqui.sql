@@ -9,13 +9,17 @@ CREATE TABLE boletim_informativo (
 CREATE TABLE noticia (
 	id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	titulo VARCHAR(100) NOT NULL,
+       	resumo TEXT,
 	conteudo TEXT,
 	capa VARCHAR(255),
 	data_publicacao DATETIME NOT NULL DEFAULT NOW(),
 	usuario_id INT UNSIGNED
 );
 
-INSERT INTO noticia (titulo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
+dúvidas entre os segurados, devido às exigências mais rigorosas para solicitar os benefícios da Previdência Social. Mudanças significativas na idade mínima, tempo de 
+contribuição e cálculo do benefício tornaram mais difícil a obtenção de benefícios previdenciários.', 'As novas regras previdenciárias no Brasil, estão em vigor desde
+ 2019, mas ainda geram dúvidas nos segurados.
 
 Com a promulgação da chamada Reforma da Previdência, os trabalhadores no país estão sujeitos a exigências mais rígidas para solicitar os benefícios da Previdência Social.
 
@@ -75,12 +79,10 @@ Essa é uma regra que não sofreu alteração após a reforma da previdência.
 
 Para a segurada empregada e para a avulsa, será mantida a totalidade de sua remuneração, que deve ser paga pela empresa e reembolsada pelo INSS através de créditos fiscais, pelo artigo 94 do decreto 3.048/99.
 
-Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração.
-               
-</p>');
+Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração.');
 
 
-INSERT INTO noticia (titulo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", '<p> 
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.', ' 
 
                     1 Idade mínima e tempo de contribuição 
 
@@ -197,9 +199,11 @@ Nela, o valor da aposentadoria parte de 60% da média de contribuições, com do
 Esse cálculo também vale para quem optou por fundo de previdência complementar.
 Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições.');
 
-INSERT INTO noticia (titulo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', ' <p>
-                    Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo nº
-4.682, de 24 de janeiro de 1923, sancionado pelo então Presidente da República, Arthur da Silva Bernardes,criou, em cada empresa de estrada de ferro do Brasil, uma
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
+ para grupos específicos, como oficiais da Marinha e professores. Em 24 de janeiro de 1923, foi promulgada a Lei Eloy Chaves, considerada marco inicial da Previdência no país. Ao longo do tempo,
+ outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
+ Constituição Federal de 1988.', 'Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo
+ nº 4.682, de 24 de janeiro de 1923, sancionado pelo então Presidente da República, Arthur da Silva Bernardes,criou, em cada empresa de estrada de ferro do Brasil, uma
 Caixa de Aposentadoria e Pensões para seus empregados.
 
                     A nova Lei tratava do direito dos ferroviários a pensão, aposentadoria, assistência médica e auxílio farmacêutico. Um conjunto de benefícios mais abrangente do que
