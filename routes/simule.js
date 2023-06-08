@@ -1,3 +1,17 @@
+
+Conversa aberta. Uma mensagem lida.
+
+Pular para o conteúdo
+Como usar o E-mail de Instituto Federal de Educação, Ciência e Tecnologia de São Paulo com leitores de tela
+
+5 de 244
+codigo
+Caixa de entrada
+
+Luiz Antonio Rodrigues Junior
+ter., 6 de jun., 19:01 (há 2 dias)
+para mim
+
 /* const express = require('express');
 const router = express.Router();
 const db = require('../config/database.config'); // Importe o arquivo de configuração do banco de dados
@@ -55,7 +69,7 @@ router.post('/simule', async function (req, res, next) {
 
   // Verifique se a inserção foi bem-sucedida e retorne uma resposta adequada ao cliente
 
-	
+  
 }); 
 
 module.exports = router; */
@@ -260,6 +274,7 @@ router.post('/simule', async function (req, res, next) {
 });
 
 module.exports = router;
+
 
 
 
