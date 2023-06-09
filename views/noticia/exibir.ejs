@@ -49,13 +49,28 @@
         <div class="cabeca">
             <h1><%=noticia.titulo %></h1>
             <h2><%=noticia.resumo %></h2>
-            <h4>*Escrito por <strong>Projeto Integrador II</strong> em <strong><%=noticia.data_publicacao %></strong>*</h4>
+            <h4>*Escrito por <strong> Equipe Projeto Integrador II-PrevidenciaAqui</strong> em <strong><%=noticia.data_publicacao %></strong>*</h4>
             <hr>
         </div>
-        <div class="imagem">
+      <!--  <div class="imagem">
             <img src="./img/f10.jpg" title="Carteira de trabalho e previdência social"
                 alt="Imagem contendo várias pessoas segurando carteiras de trabalho">
+        </div> -->
+        <div class="imagem">
+            <% if (noticia.titulo === "REGRAS PREVIDENCIÁRIAS PERMANENTES") { %>
+                <img src="../img/f10.png" title="REGRAS PREVIDENCIÁRIAS PERMANENTES" alt="Imagem contendo várias pessoas segurando carteiras de trabalho">
+            <% } else if (noticia.titulo === "REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO") { %>
+                <img src="../img/f5.png" title="REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO" alt="Figura de balança e homem com martelo">
+            <% } else { %>
+                <img src="../img/Fundo3-ImgINSS.jpg" title="A HISTÓRIA DA PREVIDÊNCIA NO BRASIL" alt="Imagem contendo logo da previdência social">
+            <% } %>
         </div>
+        <div class="texto">
+            <p><%= noticia.conteudo %></p>
+            <hr>
+        </div>
+        
+
         <div class="texto">
             <p><%=noticia.conteudo %></p>
             <hr>
