@@ -9,6 +9,7 @@ CREATE TABLE boletim_informativo (
 CREATE TABLE noticia (
 	id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	titulo VARCHAR(100) NOT NULL,
+       	resumo TEXT,
 	conteudo TEXT,
 	capa VARCHAR(255),
 	data_publicacao DATETIME NOT NULL DEFAULT NOW(),
