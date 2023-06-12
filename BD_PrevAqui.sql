@@ -16,7 +16,9 @@ CREATE TABLE noticia (
 	usuario_id INT UNSIGNED
 );
 
-INSERT INTO noticia (titulo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
+INSERT INTO noticia (titulo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
+dúvidas entre os segurados, devido às exigências mais rigorosas para solicitar os benefícios da Previdência Social. Mudanças significativas na idade mínima, tempo de 
+contribuição e cálculo do benefício tornaram mais difícil a obtenção de benefícios previdenciários.','As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
 
 Com a promulgação da chamada Reforma da Previdência, os trabalhadores no país estão sujeitos a exigências mais rígidas para solicitar os benefícios da Previdência Social.
 
@@ -81,7 +83,7 @@ Por essa razão, o INSS não se utiliza do salário de benefício para calcular 
 </p>');
 
 
-INSERT INTO noticia (titulo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", '<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
+INSERT INTO noticia (titulo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.','<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
 Essas regras são um meio termo para os segurados que estavam contribuindo, mas ainda não possuem os requisitos para se aposentar.
 As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras:
 
@@ -200,7 +202,10 @@ Nela, o valor da aposentadoria parte de 60% da média de contribuições, com do
 Esse cálculo também vale para quem optou por fundo de previdência complementar.
 Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições.');
 
-INSERT INTO noticia (titulo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', ' <p>
+INSERT INTO noticia (titulo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
+ para grupos específicos, como oficiais da Marinha e professores. Em 24 de janeiro de 1923, foi promulgada a Lei Eloy Chaves, considerada marco inicial da Previdência no país. Ao longo do tempo,
+ outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
+ Constituição Federal de 1988.',' <p>
                     Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo nº
 4.682, de 24 de janeiro de 1923, sancionado pelo então Presidente da República, Arthur da Silva Bernardes,criou, em cada empresa de estrada de ferro do Brasil, uma
 Caixa de Aposentadoria e Pensões para seus empregados.
