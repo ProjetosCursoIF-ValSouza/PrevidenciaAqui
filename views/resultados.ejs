@@ -16,63 +16,76 @@
 </head>
 
 <body>
- 
+
+    <div class="cabeca">
         <h1>Resultados</h1>
-        <div class="bloco">
-            <div class="dados">
-                <div class="titulo">
-                    <img src="img/informacao-pessoal.png" alt="flaticon" width="60px">
-                    <h2>Confira seus Dados Pessoais</h2>
-                </div>
-               
-                <div>
-                    <p>Gênero: <%= simulacaoData.genero === "m" ? "Masculino" : "Feminino" %></p>
-                </div>
-
-                <div>
-                    <p>Idade Atual: <%= simulacaoData.idade %></p>
-                </div>
-
-                <div>
-                    <p>Tempo de Contribuição: <%= simulacaoData.tempoContribuicaoMes %></p>
-                </div>
-
-            </div>
-            <div class="resultados">
-                <div class="titulo">
-                    <img src="img/fluxo-de-dinheiro.png" alt="flaticon" width="70px">
-                    <h2>Confira seus Resultados</h2>
-
-                    <div>
-                        <p>Idade da Aposentadoria: <%= simulacaoData.idadeAposentadoria %> %></p>
-                     
-                    </div>
-
-                    <div>
-                        <p>Mês e ano da Aposentadoria: <%= simulacaoData.mesAposentadoria %> / <%= simulacaoData.anoAposentadoria %></p>
-                     
-                    </div>
-
-                    <div>
-                        <p>Quanto tempo falta para contribuir: <%= simulacaoData.tempoContribuicaoPendente%></p>
-                     
-                    </div>
-
-                </div>
-               
-            </div>
-        </div>
-      
         <div class="clique">
             <div class="botao">
-                <button type="submit"><a href="simule.html">Nova consulta</a></button>
+                <button type="submit"><a href="/simule" target="_blank">Voltar</a></button>
             </div>
+            
             <div class="botao">
-                <button type="submit"><a href="index.html">Página inicial</a></button>
+                <button type="submit"><a href="/" target="_blank">Início</a></button>
             </div>
         </div>
-
     </div>
+ 
+      <div class="bloco">
+        <div class="dados">
+            <div class="titulo">
+                <img src="img/informacao-pessoal.png" alt="flaticon" width="60px">
+                <h2>Confira seus Dados Pessoais</h2>
+            </div>
+           
+            <div>
+                <p>Gênero: <%= simulacaoData.genero === "m" ? "Masculino" : "Feminino" %></p>
+            </div>
+
+            <div>
+                <p>Idade Atual: <%= simulacaoData.idade %></p>
+            </div>
+
+            <div>
+                <p>Tempo de Contribuição: <%= simulacaoData.tempoContribuicaoMes %></p>
+            </div>
+
+        </div>
+        <div class="resultados">
+            <div class="titulo">
+                <img src="img/fluxo-de-dinheiro.png" alt="flaticon" width="70px">
+                <h2>Confira seus Resultados</h2>
+
+                <div>
+                    <p>Idade da Aposentadoria: <%= simulacaoData.idadeAposentadoria %> %></p>
+                 
+                </div>
+
+                <div>
+                    <p>Mês e ano da Aposentadoria: <%= simulacaoData.mesAposentadoria %> / <%= simulacaoData.anoAposentadoria %></p>
+                 
+                </div>
+
+                <div>
+                    <p>Quanto tempo falta para contribuir: <%= simulacaoData.tempoContribuicaoPendente%></p>
+                 
+                </div>
+
+            </div>
+           
+        </div>
+    </div>
+  
+    <div class="clique">
+        <div class="botao">
+            <button type="submit"><a href="simule.html" target="_blank">Nova consulta</a></button>
+        </div>
+        <div class="botao">
+            <button type="submit"><a href="index.html" target="_blank">Página inicial</a></button>
+        </div>
+    </div>
+
+   
+
 </body>
 
 </html>
