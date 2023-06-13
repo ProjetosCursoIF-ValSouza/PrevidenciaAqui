@@ -58,7 +58,19 @@ router.post('/simule', async function (req, res, next) {
       [result] = await db.poolSimule.query(query, values);
     }
 
-    return res.send("id_simulacao: " + idSimulacao);
+    const simulacaoData = {
+      idSimulacao: idSimulacao,
+      genero: genero,
+      dataNascimento: dataNascimento,
+      idade: idade,
+      tempoContribuicaoMes: tempoContribuicaoMes,
+      idadeAposentadoria: idadeAposentadoria,
+      mesAposentadoria: mesAposentadoria,
+      anoAposentadoria: anoAposentadoria,
+      tempoContribuicaoPendente: tempoContribuicaoPendente
+    };
+
+    return res.render('resultados', { simulacaoData: simulacaoData });
   } catch (error) {
     // Tratar erros adequadamente
     console.error(error);
@@ -66,11 +78,4 @@ router.post('/simule', async function (req, res, next) {
   }
 });
 
-
 module.exports = router;
-
-
-
-
-
-
