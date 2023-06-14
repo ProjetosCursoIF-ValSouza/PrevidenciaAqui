@@ -9,13 +9,16 @@ CREATE TABLE boletim_informativo (
 CREATE TABLE noticia (
 	id INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	titulo VARCHAR(100) NOT NULL,
+       	resumo TEXT,
 	conteudo TEXT,
 	capa VARCHAR(255),
 	data_publicacao DATETIME NOT NULL DEFAULT NOW(),
 	usuario_id INT UNSIGNED
 );
 
-INSERT INTO noticia (titulo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
+dúvidas entre os segurados, devido às exigências mais rigorosas para solicitar os benefícios da Previdência Social. Mudanças significativas na idade mínima, tempo de 
+contribuição e cálculo do benefício tornaram mais difícil a obtenção de benefícios previdenciários.','As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
 
 Com a promulgação da chamada Reforma da Previdência, os trabalhadores no país estão sujeitos a exigências mais rígidas para solicitar os benefícios da Previdência Social.
 
@@ -45,7 +48,7 @@ Como citado acima, além das aposentadorias, o Instituto Nacional do Seguro Soci
 
 São eles: 
 
-       Auxílio-doença 
+                             Auxílio-doença 
 
 O trabalhador ou trabalhadora que, por alguma razão referente à saúde, precisa se afastar das atividades laborais devido à incapacidade de executar os serviços, podem solicitar o auxílio-doença após 15 de afastamento, desde que cumpram os seguintes requisitos:
 
@@ -63,7 +66,7 @@ Essa diferença parece sutil. Todavia, pode diminuir bastante o valor do benefí
 
 
 
-          Salário-maternidade 
+						  Salário-maternidade 
 
 Este benefício é concedido após o nascimento do filho de uma funcionária, adoção, guarda judicial ou aborto espontâneo.
 
@@ -77,21 +80,24 @@ Para a segurada empregada e para a avulsa, será mantida a totalidade de sua rem
 
 Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração.
                
-</p>');
+');
 
 
-INSERT INTO noticia (titulo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", '<p> 
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.',
+' As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
+Essas regras são um meio termo para os segurados que estavam contribuindo, mas ainda não possuem os requisitos para se aposentar.
+As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras:
 
-                    1 Idade mínima e tempo de contribuição 
+                    1 Idade mínima e tempo de contribuição: 
 
-As novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos se cumpridos os seguintes requisitos:
+As novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos passaram a ser consideradas se cumpridos os seguintes requisitos mínimos:
 Mulheres • 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal)
 Homens • 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal)
 Para se aposentar pelo INSS, homens que ingressarem no mercado de trabalho após a vigência das novas regras terão que contribuir por, no mínimo, 20 anos. Quem já contribui para a previdência deve ter, no mínimo, 15 anos de contribuição.
 Como é hoje? Nas regras previdenciárias atualmente em vigor, é possível se aposentar pelo INSS tanto por idade (65 anos para homens e 60 para mulheres) quanto por tempo de contribuição (35 anos para homens e 30 para mulheres). Outra regra existente é a de pontuação 86/96, em que soma-se idade e anos de contribuição até atingir o mínimo de 86 para mulheres e 96 para homens. As novas regras previdenciárias acabam com a aposentadoria apenas por tempo de contribuição.
 No caso dos servidores públicos federais é exigida uma idade mínima de 55 anos para mulheres e 60 anos para homens, com no mínimo 30 e 35 anos de contribuição, respectivamente. Servidores que ingressaram até dezembro de 1998 podem se aposentar a partir de 48 anos, no caso das mulheres e 53, no caso dos homens.
 
-                    2 Alíquotas de contribuição 
+                    2 Alíquotas de contribuição: 
 
 As alíquotas de contribuição de trabalhadores da iniciativa privada e servidores públicos agora serão progressivas de acordo com faixas salariais, de maneira similar ao que acontece com o Imposto de Renda:
 Regime Geral (INSS) • Até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9%
@@ -104,7 +110,7 @@ Como é hoje? São três as alíquotas para trabalhadores do setor privado: 8% d
 
 Com a reforma, a regra para o cálculo dos benefícios do INSS vai funcionar da seguinte maneira:
 
-          Homens e mulheres
+                             Homens e mulheres
 
 • Ao atingir o tempo mínimo de contribuição de 15 anos para mulher e 20 anos, homem, o trabalhador pode se aposentar ganhando 60% da média dos salários de contribuição (remuneração que servia de base para o recolhimento ao INSS). • Essa parcela aumenta 2% a cada ano a mais de contribuição ao INSS até atingir 100% da média com 35 anos de contribuição, para mulheres, e 40 anos, para homens.
 • O benefício será calculado considerando a média de todas as contribuições feitas ao INSS
@@ -112,10 +118,11 @@ Como é hoje? Nas regras atuais, o valor do benefício na aposentadoria por idad
 Já quem se aposenta por tempo de contribuição tem o valor do benefício reduzido pelo fator previdenciário. Há também a opção de aposentadoria com o valor integral a partir da regra 86/96: somando idade e tempo de contribuição, mulheres devem acumular 86 anos e homens, 96.
 Hoje o INSS calcula o benefício a partir da média dos 80% maiores salários do trabalhador, descartando os 20% menores. Com a reforma, o cálculo será feito pela média de todas as contribuições.
 
-		4 Regra de cálculo de benefícios de servidores federais
+		            4 Regra de cálculo de benefícios de servidores federais
 
 Também foram alteradas as regras para a aposentadoria de servidores públicos federais:
-         Homens e mulheres
+
+                            Homens e mulheres
 
 As regras referentes ao valor do benefício variam de acordo com a data em que o servidor ingressou no setor público federal:
  Quem entrou antes de 2003: poderá receber a aposentadoria integral (o valor do benefício será igual ao do último salário recebido) e ter paridade (a aposentadoria será reajustada junto com os reajustes nos salários dos servidores na ativa) se cumprir o pedágio de trabalhar o dobro do tempo que faltaria para o servidor se aposentar segundo as regras atuais.
@@ -126,19 +133,19 @@ As regras referentes ao valor do benefício variam de acordo com a data em que o
 Servidores municipais e estaduais não são afetados pela PEC 6/2019 em relação aos benefícios.
 Como é hoje? Atualmente, os homens que são servidores públicos precisam ter 60 anos de idade mínima para se aposentar, e as mulheres, 55 anos, com mínimo de 30 e 35 anos de contribuição respectivamente. Quem ingressou até 2003 a regra atual prevê direito à integralidade e à paridade. Quem ingressou entre 2003 e 2013, a aposentadoria é calculada pela média dos 80% dos maiores salários, com reajuste pela inflação. Para ingressantes após 2013, a aposentadoria equivale à média dos 80% maiores salários, limitado ao teto no INSS.
 
-                    5 Aposentadoria rural
+                           5 Aposentadoria rural
 
 A reforma da Previdência não alterou as principais regras do segurado especial rural, que são os produtores rurais em regime de economia familiar, extrativistas e pescadores.
 Homens • 60 anos de idade • 15 anos de tempo de contribuição
 Mulheres • 55 anos de idade • 15 anos de tempo de contribuição
 
-                    6 Aposentadoria especial
+                          6 Aposentadoria especial
 
 A reforma da Previdência prevê aposentadoria especial de trabalhadores expostos a substâncias nocivas dentro de um sistema de pontos. A pontuação vai considerar a idade e o tempo de contribuição, que varia de acordo com o tipo de agente nocivo que foram expostos (15, 20 ou 25 anos).
 Ou seja, aqueles que hoje se aposentariam com 15 anos de contribuição precisariam também somar 66 pontos para se aposentar (por exemplo, 51 anos de idade e 15 de contribuição ou 46 anos de idade e 20 de contribuição); já a aposentadoria aos 20 anos de contribuição exigiria 76 pontos e, por fim, 25 anos exigiriam 86 pontos.
 Como é hoje? Trabalhadores nessas condições podem se aposentar por tempo de contribuição (com 15, 20 ou 25 anos, dependendo do tipo de agente a que foram expostos).
 
-                    7 Professores
+                                7 Professores
 
 A reforma da Previdência mudou as regras de aposentadoria para quem ainda vai ingressar na carreira de professor da rede particular.
 Homens: • Idade mínima de 60 anos • 30 anos de contribuição
@@ -166,11 +173,14 @@ Como é hoje? Nas regras atuais, a alíquota de contribuição é de 11% do valo
 O valor da pensão por morte será igual a 50% da aposentadoria do segurado morto acrescido de 10% para cada dependente até o limite de 100%. Essa regra vale tanto para os servidores públicos quanto para os trabalhadores do setor privado. O benefício não pode ser inferior a um salário mínimo se ele for a única fonte de renda do dependente.
 A pensão por morte é o benefício pago aos dependentes do segurado (cônjuge, filhos menores de 21 anos ou inválidos, pais economicamente dependentes e irmãos menores de 21 anos não emancipados) após a sua morte. Quem já recebe esse tipo de pensão não terá o valor de seu benefício alterado.
 Como é hoje? Antes da reforma, a pensão por morte equivalia a 100% da aposentadoria que o segurado recebia ou teria direito a receber. A duração do benefício varia de acordo com a idade do dependente que o recebe e é vitalícia, no caso de cônjuge, se ele ou ela tem idade a partir de 44 anos.
-11 Benefício de Prestação Continuada
+
+				 11 Benefício de Prestação Continuada
+
 A reforma da Previdência prevê o pagamento de BPC (Benefício de Prestação Continuada), benefício mensal de um salário mínimo pago a idosos e deficientes pobres, àqueles que tiverem renda familiar per capita de até meio salário mínimo (R$ 499, em 2019).
 Como é hoje? A Lei Orgânica da Assistência Social, de 1993, estabelece que têm direito ao BPC idosos e deficientes com renda familiar per capita de até um quarto do salário mínimo (que seria R$ 249,50). A regra, porém, foi considerada inconstitucional pelo STF (Supremo Tribunal Federal) em 2013. Na decisão, os ministros estipularam o patamar de meio salário mínimo para concessão do benefício.</p>
 
-12 Abono salarial (PIS/PASEP)
+                  12 Abono salarial (PIS/PASEP)
+
 As regras do abono salarial não foram mexidas. Trabalhadores que recebem até dois salários mínimos (hoje, R$ 1.996), estão inscritos no PIS/Pasep há pelo menos cinco anos e trabalharam ao menos um mês no ano anterior ganham do governo um abono de até um salário mínimo (R$ 998). O benefício é pago em proporção ao tempo trabalhado no ano anterior – 12 meses dão direito ao valor integral.
 As mudanças que propunham restringir o pagamento do abono foram excluídas na tramitação da reforma no Senado. Na proposta enviada ao Congresso pelo governo Bolsonaro, o abono ficaria restrito a quem ganha até um salário mínimo. No Senado, a restrição do benefício foi mantida no relatório do senador Tasso Jereissati (PSDB-CE), mas foi retirada na votação dos destaques (alterações propostas por senadores).
 13 Regras de transição
@@ -197,7 +207,11 @@ Nela, o valor da aposentadoria parte de 60% da média de contribuições, com do
 Esse cálculo também vale para quem optou por fundo de previdência complementar.
 Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições.');
 
-INSERT INTO noticia (titulo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', ' <p>
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
+ para grupos específicos, como oficiais da Marinha e professores. Em 24 de janeiro de 1923, foi promulgada a Lei Eloy Chaves, considerada marco inicial da Previdência no país. Ao longo do tempo,
+ outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
+ Constituição Federal de 1988.',' 
+ 
                     Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo nº
 4.682, de 24 de janeiro de 1923, sancionado pelo então Presidente da República, Arthur da Silva Bernardes,criou, em cada empresa de estrada de ferro do Brasil, uma
 Caixa de Aposentadoria e Pensões para seus empregados.
@@ -317,7 +331,7 @@ durante o curso da matéria, não deixaram muito espaço para argumentos contrá
 No dia 30 de dezembro, a proposta foi aprovada e convertida no Decreto Legislativo nº 4.682, depois sancionado pelo então presidente Arthur Bernardes, em 24 de janeiro de 1923.
 
 
-<strong>   AS CAIXAS DE APOSENTADORIAS E PENSÕES  </strong> 
+                     AS CAIXAS DE APOSENTADORIAS E PENSÕES  
 
 A Lei Eloy Chaves estabelecia que as Caixas de Aposentadoria e Pensões dos Ferroviários – CAPs, como mais tarde ficariam conhecidas, deveriam formar um fundo com a contribuição de 3% dos vencimentos
 dos empregados, mais 1% da renda bruta anual da empresa, além do valor que somasse um aumento de 1,5%, aplicado sobre as tarifas da estrada de ferro. Para completar o custeio, havia também
@@ -330,7 +344,7 @@ Conselho Nacional do Trabalho, uma instância de Recurso às decisões das CAPs.
 (Decreto nº 5.128), que, em 1938, se transformaria no IPASE (Decreto-lei nº 288).
 
 
-<strong> A CRIAÇÃO DOS IAPS  </strong> 
+                           A CRIAÇÃO DOS IAPS 
 
 Nos anos 1930, o sistema previdenciário é reestruturado, mantendo as bases corporativas, de modo a responder ao dinamismo político-econômico do início do processo
 de industrialização. Nesse contexto, Institutos de Aposentadorias e Pensões, restritos a trabalhadores urbanos, disseminaram-se.
@@ -338,7 +352,7 @@ de industrialização. Nesse contexto, Institutos de Aposentadorias e Pensões, 
 As Caixas de Aposentadoria e Pensões (CAPs), criadas e mantidas por empresas, foram gradativamente substituídas pelos Institutos de Aposentadoria e Pensões (IAPs), que
 eram instituições previdenciárias organizadas por categorias e com cobertura nacional.
 
-<strong> A CONSTITUIÇÃO FEDERAL DE 1934  </strong> 
+                     A CONSTITUIÇÃO FEDERAL DE 1934  
 
 A Constituição Federal de 1934 estabeleceu a forma tripartite de custeio, que integrava as contribuições obrigatórias do empregado, empregador e ente público (União). Nesse formato, o Estado marcava presença no custeio da
 Previdência Social.
@@ -357,7 +371,7 @@ e contra as consequências da doença, da velhice, da invalidez e da morte.
 Em 1949, é criado o Serviço de Assistência Médica Domiciliar e de Urgência (SAMDU), pelo Decreto número 27.664, de 30 de dezembro. O custeio do serviço era feito mediante a cotização dos Institutos e Caixas de cada localidade, proporcionalmente
 ao número de seus segurados. A fiscalização e o orçamento de cada SAMDU eram fixados anualmente pelo Ministro do Trabalho, Indústria e Comércio, ouvido o Departamento Nacional da Previdência Social
 
-<strong>   LEI ORGÂNICA DE PREVIDÊNCIA SOCIAL – LOPS  </strong>
+                 LEI ORGÂNICA DE PREVIDÊNCIA SOCIAL – LOPS 
 
 Em 26 de agosto de 1960, foi editada a Lei nº 3.807, a primeira Lei Orgânica da Previdência Social – a LOPS, que nasceu a partir de um projeto de 1947, o qual tramitou no
 Congresso Nacional por, aproximadamente, 14 anos.
@@ -375,7 +389,7 @@ bem o assunto se refiram à Previdência Social como uma instituição que, ao l
 
 No entanto, trata-se de um engano, já que a Previdência, desde o seu início, sempre contou com estudos técnicos de natureza doutrinária e atuarial, para que tivesse bases sólidas.
 
-<strong>   A CRIAÇÃO DO INPS  </strong>
+                            A CRIAÇÃO DO INPS 
 
 O Instituto Nacional de Previdência Social – INPS foi criado pelo Decreto-Lei nº 72, de 21 de novembro de 1966, que determinou, ainda, a unificação dos Institutos de Aposentadoria e Pensões. Criado como órgão da administração indireta da União, com personalidade jurídica
 de natureza autárquica, o INPS, nessa condição, possuía domínio pleno de seus bens, serviços e ações, além das regalias, privilégios e imunidades concedidos à União.
@@ -393,7 +407,7 @@ e Informações da Previdência Social. A DATAPREV foi instituída como uma empr
 Além disso, a Lei nº 6.125, de 4 de novembro de 1974, elencou as atribuições da DATAPREV: a análise de sistemas, a programação e execução de serviços de tratamento da informação e o processamento
 de dados por meio de computação eletrônica, bem como a prestação de outros serviços correlatos.
 
-<strong> CONSTITUIÇÃO FEDERAL DE 1988 </strong> 
+                   CONSTITUIÇÃO FEDERAL DE 1988 
 
 O processo de redemocratização passa a demandar uma nova ordem constitucional. As eleições para a Assembleia Nacional Constituinte aconteceram em novembro de 1986. Em fevereiro de 1987, a Constituinte é instalada e,
 no dia 5 de outubro de 1988, é apresentada ao País a nova Constituição. Na Carta Magna, os direitos individuais foram largamente ampliados e as liberdades públicas ganharam vigor nunca antes experimentado. Os direitos dos
@@ -402,7 +416,7 @@ trabalhadores urbanos e rurais foram contemplados com 34 itens.
 A nova Constituição apresenta um conceito inédito: o de seguridade social. No Título VIII, Da Ordem Social, ficou estabelecido que essa ordem tem como base o primado do trabalho e, como objetivo, o bem-estar e a justiça
 social. A seguridade é vista como um conjunto de ações de iniciativa dos poderes públicos, com a participação da sociedade, estruturada em três grandes segmentos: Previdência Social, Saúde e Assistência Social.
 
-<strong> A CRIAÇÃO DO INSS   </strong> 
+                       A CRIAÇÃO DO INSS  
 
 A história do INSS começou um pouco antes da comemorada data de 27 de junho de 1990, quando o Decreto nº 99.350 efetivou a fusão do Instituto de Administração Financeira da Previdência e Assistência Social (IAPAS) com o Instituto Nacional de Previdência Social (INPS), criando uma
 nova autarquia, o Instituto Nacional do Seguro Social (INSS).
@@ -413,7 +427,7 @@ definiu, ainda, a estrutura do Instituto, composta por uma Direção Central, fo
 Entre as atribuições do INSS, na época, também figurava a competência para executar as atividades e programas relacionados ao emprego, apoio ao desempregado, identificação profissional, segurança e saúde
 do trabalhador.
 
-       REFORMA DA PREVIDÊNCIA – EC 20 
+                 REFORMA DA PREVIDÊNCIA – EC 20 
 
 Em 16 de dezembro de 1998, entraram em vigor as mudanças da Emenda Constitucional nº 20. Para assegurar a aprovação do texto Reforma da Previdência, algumas medidas foram fixadas, de forma a garantir alguns direitos para quem já estava filiado a algum regime
 de Previdência Social, público ou privado.
@@ -432,19 +446,18 @@ Também seria possível a aposentadoria proporcional aos 30 anos de serviço par
 Os que estavam no regime, na data em que a Reforma entrou em vigor, mas ainda não haviam completado todo o tempo de contribuição para se aposentar, passariam pela regra de transição. Assim, no caso das aposentadorias
 integrais, o requerente teria que cumprir um adicional de 20% do tempo que faltava para se aposentar pela regra anterior à reforma. Nas aposentadorias proporcionais esse pedágio seria de 40%.
 
-         EMENDA CONSTITUCIONAL Nº 41  
+			     EMENDA CONSTITUCIONAL Nº 41  
 
 Em 19 de dezembro de 2003, é aprovada a Emenda Constitucional nº 41, de 19 de dezembro. A principal modificação dessa Reforma foi a alteração do art. 40 da Constituição Federal, instituindo a cobrança de contribuição previdenciária dos servidores públicos inativos.
 A EC 41 também alterou o cálculo dos benefícios, que passou a ser feito pela média das remunerações do servidor e não pelo último salário, como era antes. A Emenda também modificou a pensão por morte, que deixava de ter o mesmo valor da remuneração ou do provento do
 servidor e passava a ser equivalente à remuneração ou ao provento do servidor falecido, até o limite estabelecido no Regime Geral de Previdência Social, sendo acrescido de 70% da parcela excedente a este limite, se for o caso.
 
-       EMENDA CONSTITUCIONAL Nº 103  
+                 EMENDA CONSTITUCIONAL Nº 103  
 
 Em 13 de novembro de 2019 foi publicada a Emenda Constitucional nº 103, com alterações no Regime Geral de Previdência Social (RGPS) e no Regime Próprio de Previdência Social (RPPS) da União, estabelecendo as regras atuais do Sistema de Previdência Social, como também,
 as regras de transição para os trabalhadores que já vinham contribuindo para o sistema antes da emenda, cujos temas estão sendo tratados à parte nesse site.
 
 
-</p>');
-
+');
 
 
