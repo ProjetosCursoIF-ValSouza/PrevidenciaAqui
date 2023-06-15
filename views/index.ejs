@@ -69,19 +69,14 @@
 		<h1>Notícias</h1>
 
 	<section class="galeria">
+		<% for(const noticia of noticias) {%>
 		<figure>
 			<img src="./img/f3.png" title="Prédio da previdência social" alt="Foto do prédio da previdência social">
-			<figcaption><a href='http://localhost:3000/noticias/1' target='_blank'>REGRAS PREVIDENCIÁRIAS PERMANENTES</a></figcaption>
+			<figcaption><a href='/noticias/<%= noticia.id %>' target='_blank'><%= noticia.titulo %></a></figcaption>
 			
 		</figure>
-		<figure>
-			<img src="./img/f4.png" title="Economias" alt="Imagem contendo a mão de uma pessoa formando várias pilhas de moedas">
-			<figcaption><a href='http://localhost:3000/noticias/2' target='_blank'>REGRAS DE TRANSIÇÃO</a></figcaption>
-		</figure>
-		<figure>
-			<img src="./img/f7.png" title="Aposentados" alt="Figura representando um homem e uma mulher idosos">
-			<figcaption><a href='http://localhost:3000/noticias/3' target='_blank'>HISTÓRIA DA PREVIDÊNCIA<br> NO BRASIL</a></figcaption>
-		</figure>
+		<% } %>
+	
 	</section>
 
 	<div class="mais">

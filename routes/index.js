@@ -1,9 +1,12 @@
 const express = require('express');
+const { poolPrevAqui } = require('../config/database.config');
 const router = express.Router();
 
 /* GET Página Inicial. */
-router.get('/', function(req, res, next) {
-  res.render('index');
+router.get('/', async function(req, res, next) {
+  const sql = 'SELECT * FROM noticia;';
+  const [rows] = await poolPrevAqui.query(sql);
+  res.render('index', {noticias: rows});
 });
 
 /* GET Notícias. */

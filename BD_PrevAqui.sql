@@ -16,63 +16,58 @@ CREATE TABLE noticia (
 	usuario_id INT UNSIGNED
 );
 
-<<<<<<< HEAD
-INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
-=======
-INSERT INTO noticia (titulo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
->>>>>>> 99069575d2fac79390ca89d9b0f599de1024e653
-dúvidas entre os segurados, devido às exigências mais rigorosas para solicitar os benefícios da Previdência Social. Mudanças significativas na idade mínima, tempo de 
-contribuição e cálculo do benefício tornaram mais difícil a obtenção de benefícios previdenciários.','As novas regras previdenciárias no Brasil, estão em vigor desde 2019, mas ainda geram dúvidas nos segurados.
 
-Com a promulgação da chamada Reforma da Previdência, os trabalhadores no país estão sujeitos a exigências mais rígidas para solicitar os benefícios da Previdência Social.
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
+dúvidas entre os segurados, devido às exigências mais rigorosas para solicitar os benefícios da Previdência Social. Mudanças significativas na idade mínima, tempo de 
+contribuição e cálculo do benefício tornaram mais difícil a obtenção de benefícios previdenciários.','
+
+<p>Com a promulgação da chamada Reforma da Previdência, os trabalhadores no país estão sujeitos a exigências mais rígidas para solicitar os benefícios da Previdência Social.
 
 Houve mudanças significativas na idade mínima, tempo de contribuição e cálculo do benefício, por exemplo, além da criação de regras de transições específicas.
 
-Em resumo: no geral, ficou mais difícil de se conseguir um benefício previdenciário.
+Em resumo: no geral, ficou mais difícil de se conseguir um benefício previdenciário. </p>
 
-                    No caso de aposentadoria, as novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos se cumpridos os seguintes requisitos:
- Mulheres • 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal);
+             <br> <p>      No caso de aposentadoria, as novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos se cumpridos os seguintes requisitos: </p> <br>
+<p> <strong> Mulheres • </strong> 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal); </p>
  
-Homens   • 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal);
+<p> <strong> Homens   • </strong> 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal); </p> <br>
 
-Para se aposentar, homens que ingressarem no mercado de trabalho após a vigência das novas regras terão que contribuir por, no mínimo, 20 anos. Quem já contribui para a previdência deve ter, no mínimo, 15 anos de contribuição.
+<p> Para se aposentar, homens que ingressarem no mercado de trabalho após a vigência das novas regras terão que contribuir por, no mínimo, 20 anos. Quem já contribui para a previdência deve ter, no mínimo, 15 anos de contribuição.</p> <br>
 
-Trabalhadores Rurais e de Economia Familiar – 60 (sessenta) anos de idade, se homem, e 55 (cinquenta e cinco) anos de idade, se mulher, para os trabalhadores rurais e para os que exerçam suas atividades em regime de economia familiar, nestes incluídos o produtor rural, o garimpeiro e o pescador artesanal. 
+<p> Trabalhadores Rurais e de Economia Familiar – 60 (sessenta) anos de idade, se homem, e 55 (cinquenta e cinco) anos de idade, se mulher, para os trabalhadores rurais e para os que exerçam suas atividades em regime de economia familiar, nestes incluídos o produtor rural, o garimpeiro e o pescador artesanal. </p> <br>
 
-Resta destacar que os professores terão o requisito da idade reduzido em 5 (cinco) anos, estando excluídos os professores da educação superior.
+<p> Resta destacar que os professores terão o requisito da idade reduzido em 5 (cinco) anos, estando excluídos os professores da educação superior. </p> <br>
 
 			
-                    Além da aposentadoria tradicional, é importante lembrar que existem outros benefícios previdenciários disponibilizados pelo Governo Federal através do Instituto Nacional do Seguro Social (INSS).
+            <p>        Além da aposentadoria tradicional, é importante lembrar que existem outros benefícios previdenciários disponibilizados pelo Governo Federal através do Instituto Nacional do Seguro Social (INSS).
 
 Isso acontece porque, no decorrer da jornada trabalhista, é comum que o cidadão brasileiro possa enfrentar situações ocasionais que envolvam alguma doença, acidente de trabalho, maternidade, entre outras circunstâncias que podem resultar no afastamento temporário ou permanente do trabalhador. 
 
-Sendo assim, há a possibilidade de solicitar o benefício equivalente à necessidade específica, diante das várias modalidades de aposentadorias, pensões e auxílios.
+Sendo assim, há a possibilidade de solicitar o benefício equivalente à necessidade específica, diante das várias modalidades de aposentadorias, pensões e auxílios. </p> <br>
 
-Como citado acima, além das aposentadorias, o Instituto Nacional do Seguro Social (INSS) também oferece alguns outros benefícios.
+  <p> Como citado acima, além das aposentadorias, o Instituto Nacional do Seguro Social (INSS) também oferece alguns outros benefícios. São eles:  </p> <br>
 
-São eles: 
+                   <p>       <strong>   Auxílio-doença </strong> </p> <br>
 
-                             Auxílio-doença 
+ <p> O trabalhador ou trabalhadora que, por alguma razão referente à saúde, precisa se afastar das atividades laborais devido à incapacidade de executar os serviços, podem solicitar o auxílio-doença após 15 de afastamento, desde que cumpram os seguintes requisitos:  </p>
 
-O trabalhador ou trabalhadora que, por alguma razão referente à saúde, precisa se afastar das atividades laborais devido à incapacidade de executar os serviços, podem solicitar o auxílio-doença após 15 de afastamento, desde que cumpram os seguintes requisitos:
+ <p> -carência de 12 meses; </p> <br>
+ <p> -qualidade de segurado; </p> <br>
+ <p> -incapacidade temporária para o trabalho. </p> <br>
 
-carência de 12 meses;
-qualidade de segurado;
-incapacidade temporária para o trabalho.
+<p> Antes da reforma da previdência (até 12/11/2019), o valor do auxílio-doença era equivalente a 91% da média dos 80% maiores salários de contribuição do segurado a partir de julho de 1994. </p> <br>
 
-Antes da reforma da previdência (até 12/11/2019), o valor do auxílio-doença era equivalente a 91% da média dos 80% maiores salários de contribuição do segurado a partir de julho de 1994.
+<p> A partir da reforma, o valor deste benefício passou a ser equivalente a 91% da média de todos os salários de contribuição do segurado a partir de julho de 1994. </p> <br>
 
-A partir da reforma, o valor deste benefício passou a ser equivalente a 91% da média de todos os salários de contribuição do segurado a partir de julho de 1994.
+<p> Ou seja, agora não há mais o descarte dos 20% menores salários de contribuição na hora de calcular o valor do auxílio-doença. </p> <br>
 
-Ou seja, agora não há mais o descarte dos 20% menores salários de contribuição na hora de calcular o valor do auxílio-doença.
-
-Essa diferença parece sutil. Todavia, pode diminuir bastante o valor do benefício de trabalhadores que hoje em dia têm um salário mais alto, porém chegaram a receber menos no passado.
+<p> Essa diferença parece sutil. Todavia, pode diminuir bastante o valor do benefício de trabalhadores que hoje em dia têm um salário mais alto, porém chegaram a receber menos no passado. </p> <br>
 
 
 
-						  Salário-maternidade 
+					 <p>       <strong> 	  Salário-maternidade  </strong> </p> <br>
 
-Este benefício é concedido após o nascimento do filho de uma funcionária, adoção, guarda judicial ou aborto espontâneo.
+<p> Este benefício é concedido após o nascimento do filho de uma funcionária, adoção, guarda judicial ou aborto espontâneo.
 
 Para ter direito ao salário-maternidade é necessário cumprir 10 meses de carência, com exceção dos segurados empregados, empregados domésticos e trabalhadores avulsos.
 
@@ -82,30 +77,26 @@ Essa é uma regra que não sofreu alteração após a reforma da previdência.
 
 Para a segurada empregada e para a avulsa, será mantida a totalidade de sua remuneração, que deve ser paga pela empresa e reembolsada pelo INSS através de créditos fiscais, pelo artigo 94 do decreto 3.048/99.
 
-Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração.
+Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração. </p> <br>
                
 ');
 
 
-<<<<<<< HEAD
-INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.',
-' As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
-=======
-INSERT INTO noticia (titulo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.','<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
->>>>>>> 99069575d2fac79390ca89d9b0f599de1024e653
+INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.','<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
 Essas regras são um meio termo para os segurados que estavam contribuindo, mas ainda não possuem os requisitos para se aposentar.
 As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras:
 
-                    1 Idade mínima e tempo de contribuição: 
+            <p>       <strong>         1 Idade mínima e tempo de contribuição:  </strong> </p> <br>
 
-As novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos passaram a ser consideradas se cumpridos os seguintes requisitos mínimos:
-Mulheres • 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal)
-Homens • 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal)
-Para se aposentar pelo INSS, homens que ingressarem no mercado de trabalho após a vigência das novas regras terão que contribuir por, no mínimo, 20 anos. Quem já contribui para a previdência deve ter, no mínimo, 15 anos de contribuição.
+ <p> As novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos passaram a ser consideradas se cumpridos os seguintes requisitos mínimos: </p> <br>
+<p> <strong> Mulheres • 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal); </p> <br>
+<p> <strong> Homens   • 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal). </p> <br>
+
+<p> Para se aposentar pelo INSS, homens que ingressarem no mercado de trabalho após a vigência das novas regras terão que contribuir por, no mínimo, 20 anos. Quem já contribui para a previdência deve ter, no mínimo, 15 anos de contribuição.
 Como é hoje? Nas regras previdenciárias atualmente em vigor, é possível se aposentar pelo INSS tanto por idade (65 anos para homens e 60 para mulheres) quanto por tempo de contribuição (35 anos para homens e 30 para mulheres). Outra regra existente é a de pontuação 86/96, em que soma-se idade e anos de contribuição até atingir o mínimo de 86 para mulheres e 96 para homens. As novas regras previdenciárias acabam com a aposentadoria apenas por tempo de contribuição.
-No caso dos servidores públicos federais é exigida uma idade mínima de 55 anos para mulheres e 60 anos para homens, com no mínimo 30 e 35 anos de contribuição, respectivamente. Servidores que ingressaram até dezembro de 1998 podem se aposentar a partir de 48 anos, no caso das mulheres e 53, no caso dos homens.
+No caso dos servidores públicos federais é exigida uma idade mínima de 55 anos para mulheres e 60 anos para homens, com no mínimo 30 e 35 anos de contribuição, respectivamente. Servidores que ingressaram até dezembro de 1998 podem se aposentar a partir de 48 anos, no caso das mulheres e 53, no caso dos homens. </p> <br>
 
-                    2 Alíquotas de contribuição: 
+             <p>       <strong>       2 Alíquotas de contribuição: </strong> </p> <br>
 
 As alíquotas de contribuição de trabalhadores da iniciativa privada e servidores públicos agora serão progressivas de acordo com faixas salariais, de maneira similar ao que acontece com o Imposto de Renda:
 Regime Geral (INSS) • Até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9%
@@ -114,91 +105,108 @@ Regime Próprio (Servidores públicos)
 • Para quem recebe até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9% • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 ao teto do INSS (R$ 5.839,45): 14% • Do teto a R$ 10.000: 14,5% • De R$ 10.000 a R$ 20.000: 16,5% • De R$ 20.000 a R$ 39.000: 19% • Acima de R$ 39.000: 22% Assim como no caso da iniciativa privada, a taxação é feita sobre as faixas de valores do salário, portanto a alíquota máxima efetiva para os servidores públicos deve ser de 16%.
 Como é hoje? São três as alíquotas para trabalhadores do setor privado: 8% de contribuição para salários de até R$ 1.751,81; 9% de R$ 1.751,82 a R$ 2.919,72; e 11% de R$ 2.919,73 até R$ 5.839,45 (teto do INSS). No serviço público, a alíquota é de 11% da remuneração.
 
-                    3 Regra de cálculo de benefícios do INSS
+            <p>       <strong>          3 Regra de cálculo de benefícios do INSS    </strong> </p> <br>
 
-Com a reforma, a regra para o cálculo dos benefícios do INSS vai funcionar da seguinte maneira:
+ <p>   Com a reforma, a regra para o cálculo dos benefícios do INSS vai funcionar da seguinte maneira:  </p> <br>
 
-                             Homens e mulheres
+                <p>       <strong>                 Homens e mulheres     </strong> </p> <br>
 
-• Ao atingir o tempo mínimo de contribuição de 15 anos para mulher e 20 anos, homem, o trabalhador pode se aposentar ganhando 60% da média dos salários de contribuição (remuneração que servia de base para o recolhimento ao INSS). • Essa parcela aumenta 2% a cada ano a mais de contribuição ao INSS até atingir 100% da média com 35 anos de contribuição, para mulheres, e 40 anos, para homens.
-• O benefício será calculado considerando a média de todas as contribuições feitas ao INSS
-Como é hoje? Nas regras atuais, o valor do benefício na aposentadoria por idade começa em 70% da média dos salários de contribuição e soma 1% a cada ano a mais trabalhado, até o limite de 100%.
+ <p>  • Ao atingir o tempo mínimo de contribuição de 15 anos para mulher e 20 anos, homem, o trabalhador pode se aposentar ganhando 60% da média dos salários de contribuição (remuneração que servia de base para o recolhimento ao INSS). • Essa parcela aumenta 2% a cada ano a mais de contribuição ao INSS até atingir 100% da média com 35 anos de contribuição, para mulheres, e 40 anos, para homens. </p> <br>
+ <p>  • O benefício será calculado considerando a média de todas as contribuições feitas ao INSS. </p> <br>
+ 
+<p> Como é hoje? Nas regras atuais, o valor do benefício na aposentadoria por idade começa em 70% da média dos salários de contribuição e soma 1% a cada ano a mais trabalhado, até o limite de 100%.
 Já quem se aposenta por tempo de contribuição tem o valor do benefício reduzido pelo fator previdenciário. Há também a opção de aposentadoria com o valor integral a partir da regra 86/96: somando idade e tempo de contribuição, mulheres devem acumular 86 anos e homens, 96.
-Hoje o INSS calcula o benefício a partir da média dos 80% maiores salários do trabalhador, descartando os 20% menores. Com a reforma, o cálculo será feito pela média de todas as contribuições.
+Hoje o INSS calcula o benefício a partir da média dos 80% maiores salários do trabalhador, descartando os 20% menores. Com a reforma, o cálculo será feito pela média de todas as contribuições.  </p> <br>
 
-		            4 Regra de cálculo de benefícios de servidores federais
+		       <p>       <strong>       4 Regra de cálculo de benefícios de servidores federais     </strong> </p> <br>
 
-Também foram alteradas as regras para a aposentadoria de servidores públicos federais:
+ <p>       <strong>          Também foram alteradas as regras para a aposentadoria de servidores públicos federais:     </strong> </p> <br>
 
-                            Homens e mulheres
+                      <p>       <strong>         Homens e mulheres           </strong> </p> <br>
 
-As regras referentes ao valor do benefício variam de acordo com a data em que o servidor ingressou no setor público federal:
- Quem entrou antes de 2003: poderá receber a aposentadoria integral (o valor do benefício será igual ao do último salário recebido) e ter paridade (a aposentadoria será reajustada junto com os reajustes nos salários dos servidores na ativa) se cumprir o pedágio de trabalhar o dobro do tempo que faltaria para o servidor se aposentar segundo as regras atuais.
+<p>  As regras referentes ao valor do benefício variam de acordo com a data em que o servidor ingressou no setor público federal:   </p> <br>
 
- Quem entrou entre 2003 e 2013: o valor do benefício será de, no mínimo, 60% da média das contribuições feitas a partir de julho de 1994. Serão acrescidos 2% ao valor da aposentadoria até o máximo de 100% para cada ano de contribuição que superar 20 anos de recolhimento, limitado ao teto do salário do funcionalismo público.
+<p>  Quem entrou antes de 2003: poderá receber a aposentadoria integral (o valor do benefício será igual ao do último salário recebido) e ter paridade (a aposentadoria será reajustada junto com os reajustes nos salários dos servidores na ativa) se cumprir o pedágio de trabalhar o dobro do tempo que faltaria para o servidor se aposentar segundo as regras atuais. </p> <br>
 
- Quem ingressou após 2013: também vale a regra acima. Mas a média das contribuições não vai poder superar o teto do INSS.
-Servidores municipais e estaduais não são afetados pela PEC 6/2019 em relação aos benefícios.
-Como é hoje? Atualmente, os homens que são servidores públicos precisam ter 60 anos de idade mínima para se aposentar, e as mulheres, 55 anos, com mínimo de 30 e 35 anos de contribuição respectivamente. Quem ingressou até 2003 a regra atual prevê direito à integralidade e à paridade. Quem ingressou entre 2003 e 2013, a aposentadoria é calculada pela média dos 80% dos maiores salários, com reajuste pela inflação. Para ingressantes após 2013, a aposentadoria equivale à média dos 80% maiores salários, limitado ao teto no INSS.
+<p>   Quem entrou entre 2003 e 2013: o valor do benefício será de, no mínimo, 60% da média das contribuições feitas a partir de julho de 1994. Serão acrescidos 2% ao valor da aposentadoria até o máximo de 100% para cada ano de contribuição que superar 20 anos de recolhimento, limitado ao teto do salário do funcionalismo público. </p> <br>
 
-                           5 Aposentadoria rural
+ <p>          Quem ingressou após 2013: também vale a regra acima. Mas a média das contribuições não vai poder superar o teto do INSS.   </p> <br>
 
-A reforma da Previdência não alterou as principais regras do segurado especial rural, que são os produtores rurais em regime de economia familiar, extrativistas e pescadores.
-Homens • 60 anos de idade • 15 anos de tempo de contribuição
-Mulheres • 55 anos de idade • 15 anos de tempo de contribuição
+<p> <strong>  Servidores municipais e estaduais não são afetados pela PEC 6/2019 em relação aos benefícios. </strong>  </p> <br>
 
-                          6 Aposentadoria especial
+<p> Como é hoje? Atualmente, os homens que são servidores públicos precisam ter 60 anos de idade mínima para se aposentar, e as mulheres, 55 anos, com mínimo de 30 e 35 anos de contribuição respectivamente. Quem ingressou até 2003 a regra atual prevê direito à integralidade e à paridade. Quem ingressou entre 2003 e 2013, a aposentadoria é calculada pela média dos 80% dos maiores salários, com reajuste pela inflação. Para ingressantes após 2013, a aposentadoria equivale à média dos 80% maiores salários, limitado ao teto no INSS. </p> <br>
 
-A reforma da Previdência prevê aposentadoria especial de trabalhadores expostos a substâncias nocivas dentro de um sistema de pontos. A pontuação vai considerar a idade e o tempo de contribuição, que varia de acordo com o tipo de agente nocivo que foram expostos (15, 20 ou 25 anos).
+                 <p>       <strong>            5 Aposentadoria rural    </strong> </p> <br>
+
+<p>  A reforma da Previdência não alterou as principais regras do segurado especial rural, que são os produtores rurais em regime de economia familiar, extrativistas e pescadores. </p> <br>
+
+<p>   <strong>   Homens •</strong> 60 anos de idade • 15 anos de tempo de contribuição;  </p> <br>
+
+<p>   <strong>   Mulheres • </strong> 55 anos de idade • 15 anos de tempo de contribuição. </p> <br>
+
+                    <p>       <strong>         6 Aposentadoria especial       </strong> </p> <br>
+
+<p> A reforma da Previdência prevê aposentadoria especial de trabalhadores expostos a substâncias nocivas dentro de um sistema de pontos. A pontuação vai considerar a idade e o tempo de contribuição, que varia de acordo com o tipo de agente nocivo que foram expostos (15, 20 ou 25 anos).
 Ou seja, aqueles que hoje se aposentariam com 15 anos de contribuição precisariam também somar 66 pontos para se aposentar (por exemplo, 51 anos de idade e 15 de contribuição ou 46 anos de idade e 20 de contribuição); já a aposentadoria aos 20 anos de contribuição exigiria 76 pontos e, por fim, 25 anos exigiriam 86 pontos.
-Como é hoje? Trabalhadores nessas condições podem se aposentar por tempo de contribuição (com 15, 20 ou 25 anos, dependendo do tipo de agente a que foram expostos).
+Como é hoje? Trabalhadores nessas condições podem se aposentar por tempo de contribuição (com 15, 20 ou 25 anos, dependendo do tipo de agente a que foram expostos). </p> <br>
 
-                                7 Professores
+                    <p>       <strong>        7 Professores       </strong> </p> <br>
 
-A reforma da Previdência mudou as regras de aposentadoria para quem ainda vai ingressar na carreira de professor da rede particular.
-Homens: • Idade mínima de 60 anos • 30 anos de contribuição
-Mulheres: • Idade mínima de 57 anos • 30 anos de contribuição
-Para os professores que já estão na ativa, as idades mínimas são diferentes: 55 anos para homens e de 52 para as mulheres. Além disso, esses profissionais deverão pagar o pedágio de 100%, explicado abaixo, no tópico sobre regras de transição.
-Como é hoje? Antes da reforma, os professores de escolas particulares não tinham idade mínima para se aposentar, precisando apenas comprovar o tempo mínimo de contribuição (25 anos para as mulheres, 30 para os homens).
+<p>  A reforma da Previdência mudou as regras de aposentadoria para quem ainda vai ingressar na carreira de professor da rede particular. </p> <br>
 
-				    8 Policiais federais e agentes de segurança
+<p> <strong>  Homens: •  </strong> Idade mínima de 60 anos • 30 anos de contribuição; </p> <br>
 
-Policiais federais, rodoviários federais, ferroviários federais, agentes penitenciários e socioeducativos, policiais civis do Distrito Federal e policiais legislativos federais devem cumprir os seguintes requisitos na hora de se aposentar, segundo o texto da reforma da Previdência:
-Homens em atividade • 53 anos de idade mínima; • Pedágio de 100% sobre o tempo restante de contribuição de acordo com as regras atuais.
-Mulheres em atividade • 52 anos de idade mínima; • Pedágio de 100% sobre o tempo restante de contribuição de acordo com as regras atuais.
-Homens que ainda não entraram em carreira • 55 anos de idade mínima; • 30 anos de contribuição; • 20 anos de contribuição em cargo estritamente policial.
-Mulheres que ainda não entraram em carreira • 55 anos de idade mínima; • 25 anos de contribuição; • 15 anos de contribuição em cargo estritamente policial.
-Como é hoje? Atualmente, não há idade mínima e policiais podem se aposentar após 30 anos de contribuição (sendo 20 dedicados à atividade policial), no caso dos homens, e 25 anos (com 15 anos dedicados à atividade policial), no caso das mulheres. É importante ressaltar também que, hoje, agentes penitenciários e socioeducativos não integram nenhum tipo de regime especial.
+<p> <strong>  Mulheres: •  </strong> Idade mínima de 57 anos • 30 anos de contribuição. </p> <br>
 
-                     9 Parlamentares
+<p> Para os professores que já estão na ativa, as idades mínimas são diferentes: 55 anos para homens e de 52 para as mulheres. Além disso, esses profissionais deverão pagar o pedágio de 100%, explicado abaixo, no tópico sobre regras de transição. </p> <br>
+Como é hoje? Antes da reforma, os professores de escolas particulares não tinham idade mínima para se aposentar, precisando apenas comprovar o tempo mínimo de contribuição (25 anos para as mulheres, 30 para os homens). </p> <br>
 
-Parlamentares que já estejam inscritos no sistema de aposentadoria especial terão que cumprir pedágio de 30% do tempo de contribuição faltante de acordo com as regras atuais. A idade mínima também foi aumentada: agora é necessário atingir 65 anos, no caso dos homens, e 62 anos, no caso das mulheres.
+			<p>       <strong>  	    8 Policiais federais e agentes de segurança     </strong> </p> <br>
+
+<p>  Policiais federais, rodoviários federais, ferroviários federais, agentes penitenciários e socioeducativos, policiais civis do Distrito Federal e policiais legislativos federais devem cumprir os seguintes requisitos na hora de se aposentar, segundo o texto da reforma da Previdência: </p> 
+
+<p> <strong> Homens </strong> em atividade • 53 anos de idade mínima; • Pedágio de 100% sobre o tempo restante de contribuição de acordo com as regras atuais. </p> <br>
+
+<p> <strong> Mulheres </strong> em atividade • 52 anos de idade mínima; • Pedágio de 100% sobre o tempo restante de contribuição de acordo com as regras atuais. </p> <br>
+
+<p> <strong> Homens </strong> que ainda não entraram em carreira • 55 anos de idade mínima; • 30 anos de contribuição; • 20 anos de contribuição em cargo estritamente policial. </p> <br>
+
+<p> <strong> Mulheres </strong> que ainda não entraram em carreira • 55 anos de idade mínima; • 25 anos de contribuição; • 15 anos de contribuição em cargo estritamente policial. </p> <br>
+
+<p> Como é hoje? Atualmente, não há idade mínima e policiais podem se aposentar após 30 anos de contribuição (sendo 20 dedicados à atividade policial), no caso dos homens, e 25 anos (com 15 anos dedicados à atividade policial), no caso das mulheres. É importante ressaltar também que, hoje, agentes penitenciários e socioeducativos não integram nenhum tipo de regime especial. </p> <br>
+
+           <p>       <strong>            9 Parlamentares       </strong> </p> <br>
+
+<p> Parlamentares que já estejam inscritos no sistema de aposentadoria especial terão que cumprir pedágio de 30% do tempo de contribuição faltante de acordo com as regras atuais. A idade mínima também foi aumentada: agora é necessário atingir 65 anos, no caso dos homens, e 62 anos, no caso das mulheres.
 A reforma da Previdência extingue o Plano de Seguridade Social dos Congressistas, que atualmente permite que um parlamentar se aposente com benefícios integrais depois de 35 anos de mandato ou 60 anos de idade (os números são válidos tanto para homens quanto para mulheres). Com a reforma, os novos deputados e senadores a serem eleitos para ocupar cargos obedecerão às regras do Regime Geral de Previdência Social.
-Como é hoje? Nas regras atuais, a alíquota de contribuição é de 11% do valor do subsídio parlamentar, que é de R$ 33.763.
+Como é hoje? Nas regras atuais, a alíquota de contribuição é de 11% do valor do subsídio parlamentar, que é de R$ 33.763. </p>
 
-                    10 Pensão por morte
+             <p>       <strong>          10 Pensão por morte      </strong> </p> <br>
 
-O valor da pensão por morte será igual a 50% da aposentadoria do segurado morto acrescido de 10% para cada dependente até o limite de 100%. Essa regra vale tanto para os servidores públicos quanto para os trabalhadores do setor privado. O benefício não pode ser inferior a um salário mínimo se ele for a única fonte de renda do dependente.
+<p> O valor da pensão por morte será igual a 50% da aposentadoria do segurado morto acrescido de 10% para cada dependente até o limite de 100%. Essa regra vale tanto para os servidores públicos quanto para os trabalhadores do setor privado. O benefício não pode ser inferior a um salário mínimo se ele for a única fonte de renda do dependente.
 A pensão por morte é o benefício pago aos dependentes do segurado (cônjuge, filhos menores de 21 anos ou inválidos, pais economicamente dependentes e irmãos menores de 21 anos não emancipados) após a sua morte. Quem já recebe esse tipo de pensão não terá o valor de seu benefício alterado.
-Como é hoje? Antes da reforma, a pensão por morte equivalia a 100% da aposentadoria que o segurado recebia ou teria direito a receber. A duração do benefício varia de acordo com a idade do dependente que o recebe e é vitalícia, no caso de cônjuge, se ele ou ela tem idade a partir de 44 anos.
+Como é hoje? Antes da reforma, a pensão por morte equivalia a 100% da aposentadoria que o segurado recebia ou teria direito a receber. A duração do benefício varia de acordo com a idade do dependente que o recebe e é vitalícia, no caso de cônjuge, se ele ou ela tem idade a partir de 44 anos. </p> <br>
 
-				 11 Benefício de Prestação Continuada
+			 <p>       <strong>   	 11 Benefício de Prestação Continuada      </strong> </p> <br>
 
-A reforma da Previdência prevê o pagamento de BPC (Benefício de Prestação Continuada), benefício mensal de um salário mínimo pago a idosos e deficientes pobres, àqueles que tiverem renda familiar per capita de até meio salário mínimo (R$ 499, em 2019).
+ <p>     A reforma da Previdência prevê o pagamento de BPC (Benefício de Prestação Continuada), benefício mensal de um salário mínimo pago a idosos e deficientes pobres, àqueles que tiverem renda familiar per capita de até meio salário mínimo (R$ 499, em 2019).
 Como é hoje? A Lei Orgânica da Assistência Social, de 1993, estabelece que têm direito ao BPC idosos e deficientes com renda familiar per capita de até um quarto do salário mínimo (que seria R$ 249,50). A regra, porém, foi considerada inconstitucional pelo STF (Supremo Tribunal Federal) em 2013. Na decisão, os ministros estipularam o patamar de meio salário mínimo para concessão do benefício.</p>
 
-                  12 Abono salarial (PIS/PASEP)
+             <p>       <strong>       12 Abono salarial (PIS/PASEP)         </strong> </p> <br>
 
-As regras do abono salarial não foram mexidas. Trabalhadores que recebem até dois salários mínimos (hoje, R$ 1.996), estão inscritos no PIS/Pasep há pelo menos cinco anos e trabalharam ao menos um mês no ano anterior ganham do governo um abono de até um salário mínimo (R$ 998). O benefício é pago em proporção ao tempo trabalhado no ano anterior – 12 meses dão direito ao valor integral.
-As mudanças que propunham restringir o pagamento do abono foram excluídas na tramitação da reforma no Senado. Na proposta enviada ao Congresso pelo governo Bolsonaro, o abono ficaria restrito a quem ganha até um salário mínimo. No Senado, a restrição do benefício foi mantida no relatório do senador Tasso Jereissati (PSDB-CE), mas foi retirada na votação dos destaques (alterações propostas por senadores).
-13 Regras de transição
-A regras de transição vão até 2032 e valem apenas para quem já está no mercado de trabalho. No caso de trabalhadores do setor privado, são cinco opções. Para os servidores públicos federais, só duas dessas regras são válidas.
-• Tempo de contribuição e idade mínima: será possível se aposentar aos 56 anos, no caso das mulheres, e 61 anos, no caso dos homens. A partir da data de promulgação da reforma, esses patamares serão acrescidos gradualmente de mais seis meses, até que a idade de 65 anos para homens e 62 anos para mulheres seja atingida em 2033. Nesse caso, é importante ressaltar que os tempos mínimos de contribuição, de 35 anos para os homens e 30 anos para mulheres, devem ser respeitados.
-• Idade mínima: a regra vale para homens com 65 anos e ao menos 15 de contribuição e as mulheres com 60 anos e 15 de contribuição. A partir de 2020, o tempo de contribuição dos homens vai crescer seis meses por ano, chegando a 20 anos em 2029. Já a contribuição das mulheres permanece em 15 anos, mas a idade mínima vai crescer seis meses a cada ano a partir de 2020, chegando a 62 em 2023.
-• Pedágio de 50%: quem poderia se aposentar em até dois anos segundo as regras atuais terá que cumprir mais 50% do tempo que resta para atingir o mínimo (35 anos para homens e 30 anos para mulheres).
-• Pedágio de 100% (válido também para servidores): quem já poderia se aposentar por tempo de contribuição terá que optar por cumprir 100% a mais do que restar, a partir da data de promulgação da reforma, para atingir o mínimo (35 para homens e 30 para mulheres). Nesse caso, a remuneração recebida passa a ser o valor integral.
-• Sistema de pontuação: há, por fim, um sistema de pontuação que soma a idade e o tempo de contribuição e tende a beneficiar quem começou a trabalhar mais cedo. Para mulheres, a soma deve ser de 86 pontos; para homens, de 96. Ao longo do período de transição, esses valores aumentam até chegar a 100 para mulheres e 105 para homens em 2032. Nesse caso, professores terão direito a uma redução de cinco pontos.
-• Sistema de pontuação para servidores federais: Essa regra é específica para servidores, não vale no INSS, que atende trabalhadores da iniciativa privada. Eles têm outras regras.
+  <p>  As regras do abono salarial não foram mexidas. Trabalhadores que recebem até dois salários mínimos (hoje, R$ 1.996), estão inscritos no PIS/Pasep há pelo menos cinco anos e trabalharam ao menos um mês no ano anterior ganham do governo um abono de até um salário mínimo (R$ 998). O benefício é pago em proporção ao tempo trabalhado no ano anterior – 12 meses dão direito ao valor integral. </p>
+<p>As mudanças que propunham restringir o pagamento do abono foram excluídas na tramitação da reforma no Senado. Na proposta enviada ao Congresso pelo governo Bolsonaro, o abono ficaria restrito a quem ganha até um salário mínimo. No Senado, a restrição do benefício foi mantida no relatório do senador Tasso Jereissati (PSDB-CE), mas foi retirada na votação dos destaques (alterações propostas por senadores). </p>
+
+			 <p>       <strong>    	      13 Regras de transição       </strong> </p> <br>
+
+ <p> A regras de transição vão até 2032 e valem apenas para quem já está no mercado de trabalho. No caso de trabalhadores do setor privado, são cinco opções. Para os servidores públicos federais, só duas dessas regras são válidas.  </p>
+ 
+ <p>       <strong> • Tempo de contribuição e idade mínima:</strong>  será possível se aposentar aos 56 anos, no caso das mulheres, e 61 anos, no caso dos homens. A partir da data de promulgação da reforma, esses patamares serão acrescidos gradualmente de mais seis meses, até que a idade de 65 anos para homens e 62 anos para mulheres seja atingida em 2033. Nesse caso, é importante ressaltar que os tempos mínimos de contribuição, de 35 anos para os homens e 30 anos para mulheres, devem ser respeitados.
+ <p>       <strong> • Idade mínima:</strong>  a regra vale para homens com 65 anos e ao menos 15 de contribuição e as mulheres com 60 anos e 15 de contribuição. A partir de 2020, o tempo de contribuição dos homens vai crescer seis meses por ano, chegando a 20 anos em 2029. Já a contribuição das mulheres permanece em 15 anos, mas a idade mínima vai crescer seis meses a cada ano a partir de 2020, chegando a 62 em 2023.
+ <p>       <strong> • Pedágio de 50%:</strong>  quem poderia se aposentar em até dois anos segundo as regras atuais terá que cumprir mais 50% do tempo que resta para atingir o mínimo (35 anos para homens e 30 anos para mulheres).
+ <p>       <strong> • Pedágio de 100% (válido também para servidores):</strong>  quem já poderia se aposentar por tempo de contribuição terá que optar por cumprir 100% a mais do que restar, a partir da data de promulgação da reforma, para atingir o mínimo (35 para homens e 30 para mulheres). Nesse caso, a remuneração recebida passa a ser o valor integral.
+ <p>       <strong> • Sistema de pontuação:</strong>  há, por fim, um sistema de pontuação que soma a idade e o tempo de contribuição e tende a beneficiar quem começou a trabalhar mais cedo. Para mulheres, a soma deve ser de 86 pontos; para homens, de 96. Ao longo do período de transição, esses valores aumentam até chegar a 100 para mulheres e 105 para homens em 2032. Nesse caso, professores terão direito a uma redução de cinco pontos.
+ <p>       <strong> • Sistema de pontuação para servidores federais: </strong> Essa regra é específica para servidores, <strong>não vale no INSS</strong> , que atende trabalhadores da iniciativa privada. Eles têm outras regras.
 Para conseguir a aposentadoria, a soma da idade com o tempo de contribuição deve dar 96 pontos, no caso dos homens, ou 86 pontos, no das mulheres.
 Essa pontuação vale apenas para este ano. Ela vai subir um ponto por ano, até chegar a 105 pontos para os homens, em 2028, e 100 pontos para as mulheres, em 2033.
 Além disso, há idade e tempo de contribuição mínimos para conseguir se enquadrar nessa regra.
@@ -215,18 +223,12 @@ Nela, o valor da aposentadoria parte de 60% da média de contribuições, com do
 Esse cálculo também vale para quem optou por fundo de previdência complementar.
 Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições.');
 
-<<<<<<< HEAD
+
 INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
  para grupos específicos, como oficiais da Marinha e professores. Em 24 de janeiro de 1923, foi promulgada a Lei Eloy Chaves, considerada marco inicial da Previdência no país. Ao longo do tempo,
  outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
- Constituição Federal de 1988.',' 
- 
-=======
-INSERT INTO noticia (titulo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
- para grupos específicos, como oficiais da Marinha e professores. Em 24 de janeiro de 1923, foi promulgada a Lei Eloy Chaves, considerada marco inicial da Previdência no país. Ao longo do tempo,
- outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
- Constituição Federal de 1988.',' <p>
->>>>>>> 99069575d2fac79390ca89d9b0f599de1024e653
+ Constituição Federal de 1988.','
+
                     Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo nº
 4.682, de 24 de janeiro de 1923, sancionado pelo então Presidente da República, Arthur da Silva Bernardes,criou, em cada empresa de estrada de ferro do Brasil, uma
 Caixa de Aposentadoria e Pensões para seus empregados.
