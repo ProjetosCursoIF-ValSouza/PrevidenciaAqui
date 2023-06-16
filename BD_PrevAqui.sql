@@ -84,7 +84,7 @@ Por essa razão, o INSS não se utiliza do salário de benefício para calcular 
 
 INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.','<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
 Essas regras são um meio termo para os segurados que estavam contribuindo, mas ainda não possuem os requisitos para se aposentar.
-As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras:
+As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras: </p> <br>
 
             <p>       <strong>         1 Idade mínima e tempo de contribuição:  </strong> </p> <br>
 
@@ -98,12 +98,13 @@ No caso dos servidores públicos federais é exigida uma idade mínima de 55 ano
 
              <p>       <strong>       2 Alíquotas de contribuição: </strong> </p> <br>
 
-As alíquotas de contribuição de trabalhadores da iniciativa privada e servidores públicos agora serão progressivas de acordo com faixas salariais, de maneira similar ao que acontece com o Imposto de Renda:
-Regime Geral (INSS) • Até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9%
-• De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 até o limite do INSS (atualmente R$ 5.839,45): 14% • Não haverá cobrança adicional nas faixas salariais acima do teto do INSS. As alíquotas vão de 7,5% a 14% para quem trabalha no setor privado. Mas, como o cálculo divide os salários em faixas que recebem descontos proporcionais, a alíquota máxima efetiva deve ser de 11,68% para quem recolhe sobre o teto do valor de contribuição.
-Regime Próprio (Servidores públicos)
-• Para quem recebe até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9% • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 ao teto do INSS (R$ 5.839,45): 14% • Do teto a R$ 10.000: 14,5% • De R$ 10.000 a R$ 20.000: 16,5% • De R$ 20.000 a R$ 39.000: 19% • Acima de R$ 39.000: 22% Assim como no caso da iniciativa privada, a taxação é feita sobre as faixas de valores do salário, portanto a alíquota máxima efetiva para os servidores públicos deve ser de 16%.
-Como é hoje? São três as alíquotas para trabalhadores do setor privado: 8% de contribuição para salários de até R$ 1.751,81; 9% de R$ 1.751,82 a R$ 2.919,72; e 11% de R$ 2.919,73 até R$ 5.839,45 (teto do INSS). No serviço público, a alíquota é de 11% da remuneração.
+  <p>  As alíquotas de contribuição de trabalhadores da iniciativa privada e servidores públicos agora serão progressivas de acordo com faixas salariais, de maneira similar ao que acontece com o Imposto de Renda:  </p> 
+  <p>  Regime Geral (INSS) • Até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9%  • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 até o limite do INSS (atualmente R$ 5.839,45): 14% • Não haverá cobrança adicional nas faixas salariais acima do teto do INSS. As alíquotas vão de 7,5% a 14% para quem trabalha no setor privado. Mas, como o cálculo divide os salários em faixas que recebem descontos proporcionais, a alíquota máxima efetiva deve ser de 11,68% para quem recolhe sobre o teto do valor de contribuição.   </p> 
+
+  <p>  Regime Próprio (Servidores públicos)  </p> <br>
+ 
+  <p> • Para quem recebe até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9% • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 ao teto do INSS (R$ 5.839,45): 14% • Do teto a R$ 10.000: 14,5% • De R$ 10.000 a R$ 20.000: 16,5% • De R$ 20.000 a R$ 39.000: 19% • Acima de R$ 39.000: 22% Assim como no caso da iniciativa privada, a taxação é feita sobre as faixas de valores do salário, portanto a alíquota máxima efetiva para os servidores públicos deve ser de 16%.  </p> <br>
+  <p> Como é hoje? São três as alíquotas para trabalhadores do setor privado: 8% de contribuição para salários de até R$ 1.751,81; 9% de R$ 1.751,82 a R$ 2.919,72; e 11% de R$ 2.919,73 até R$ 5.839,45 (teto do INSS). No serviço público, a alíquota é de 11% da remuneração.  </p> <br>
 
             <p>       <strong>          3 Regra de cálculo de benefícios do INSS    </strong> </p> <br>
 
