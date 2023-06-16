@@ -86,11 +86,11 @@ INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS 
 Essas regras são um meio termo para os segurados que estavam contribuindo, mas ainda não possuem os requisitos para se aposentar.
 As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras: </p> <br>
 
-            <p>       <strong>         1 Idade mínima e tempo de contribuição:  </strong> </p> <br>
+            <p>       <strong>         1 Idade mínima e tempo de contribuição:   </p> <br>  </strong>
 
  <p> As novas regras da Previdência prevêem aposentadoria no INSS e no serviço público federal para trabalhadores urbanos passaram a ser consideradas se cumpridos os seguintes requisitos mínimos: </p> <br>
-<p> <strong> Mulheres • 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal); </p> <br>
-<p> <strong> Homens   • 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal). </p> <br>
+<p> <strong> Mulheres </strong>• 62 anos de idade • mínimo de 15 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal); </p> <br>
+<p> <strong> Homens  </strong> • 65 anos de idade • mínimo de 20 anos de contribuição (INSS) • mínimo de 25 anos de contribuição (servidor público federal). </p> <br>
 
 <p> Para se aposentar pelo INSS, homens que ingressarem no mercado de trabalho após a vigência das novas regras terão que contribuir por, no mínimo, 20 anos. Quem já contribui para a previdência deve ter, no mínimo, 15 anos de contribuição.
 Como é hoje? Nas regras previdenciárias atualmente em vigor, é possível se aposentar pelo INSS tanto por idade (65 anos para homens e 60 para mulheres) quanto por tempo de contribuição (35 anos para homens e 30 para mulheres). Outra regra existente é a de pontuação 86/96, em que soma-se idade e anos de contribuição até atingir o mínimo de 86 para mulheres e 96 para homens. As novas regras previdenciárias acabam com a aposentadoria apenas por tempo de contribuição.
