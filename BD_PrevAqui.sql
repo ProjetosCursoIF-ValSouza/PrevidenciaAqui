@@ -71,11 +71,11 @@ Sendo assim, há a possibilidade de solicitar o benefício equivalente à necess
 
 Para ter direito ao salário-maternidade é necessário cumprir 10 meses de carência, com exceção dos segurados empregados, empregados domésticos e trabalhadores avulsos.
 
-No caso das desempregadas, é preciso comprovar a situação. 
+No caso das desempregadas, é preciso comprovar a situação de segurada.  </p> <br>
 
 Essa é uma regra que não sofreu alteração após a reforma da previdência.
 
-Para a segurada empregada e para a avulsa, será mantida a totalidade de sua remuneração, que deve ser paga pela empresa e reembolsada pelo INSS através de créditos fiscais, pelo artigo 94 do decreto 3.048/99.
+<p> Para a segurada empregada e para a avulsa, será mantida a totalidade de sua remuneração, que deve ser paga pela empresa e reembolsada pelo INSS através de créditos fiscais, pelo artigo 94 do decreto 3.048/99.
 
 Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração. </p> <br>
                
@@ -207,21 +207,32 @@ Como é hoje? A Lei Orgânica da Assistência Social, de 1993, estabelece que t�
  <p>       <strong> • Pedágio de 100% (válido também para servidores):</strong>  quem já poderia se aposentar por tempo de contribuição terá que optar por cumprir 100% a mais do que restar, a partir da data de promulgação da reforma, para atingir o mínimo (35 para homens e 30 para mulheres). Nesse caso, a remuneração recebida passa a ser o valor integral.
  <p>       <strong> • Sistema de pontuação:</strong>  há, por fim, um sistema de pontuação que soma a idade e o tempo de contribuição e tende a beneficiar quem começou a trabalhar mais cedo. Para mulheres, a soma deve ser de 86 pontos; para homens, de 96. Ao longo do período de transição, esses valores aumentam até chegar a 100 para mulheres e 105 para homens em 2032. Nesse caso, professores terão direito a uma redução de cinco pontos.
  <p>       <strong> • Sistema de pontuação para servidores federais: </strong> Essa regra é específica para servidores, <strong>não vale no INSS</strong> , que atende trabalhadores da iniciativa privada. Eles têm outras regras.
-Para conseguir a aposentadoria, a soma da idade com o tempo de contribuição deve dar 96 pontos, no caso dos homens, ou 86 pontos, no das mulheres.
-Essa pontuação vale apenas para este ano. Ela vai subir um ponto por ano, até chegar a 105 pontos para os homens, em 2028, e 100 pontos para as mulheres, em 2033.
-Além disso, há idade e tempo de contribuição mínimos para conseguir se enquadrar nessa regra.
-Em 2019, homens precisam ter pelo menos 61 anos, e mulheres 56. Essa idade mínima vai aumentar em 2022: homens precisarão de 62 anos e mulheres, de 57.
-O período mínimo de contribuição não muda ao longo do tempo. Homens devem cumprir 35 anos de contribuição e mulheres, 30 anos. Ambos precisam de 20 anos no serviço público e cinco no cargo que vão se aposentar.
-2) Pedágio de 100%: Essa regra vale tanto para servidores, quanto para profissionais da iniciativa privada:
-Homens conseguem se aposentar a partir dos 60 anos, e mulheres, dos 57, mas precisam pagar um "pedágio". Ele é de 100% do tempo que falta para chegar aos 35 anos de contribuição (homens) ou 30 anos (mulheres) na data que a reforma começar a valer.
-Por exemplo: se no dia em que a reforma entrar em vigor faltar dois anos conseguir se aposentar, precisará trabalhar quatro anos.
-Valor da aposentadoria:
-Se alcançar os requisitos de uma das regras, o servidor que entrou no serviço público até 31 de dezembro de 2003 pode garantir uma aposentadoria com valor maior.
-Ele alcança a paridade e a integralidade, ou seja, aposentadoria igual ao seu último salário e que é ajustada conforme o aumento da remuneração dos servidores na ativa. Para isso, porém, precisam ter pelo menos 65 anos de idade (homem), 62 anos (mulher).
-O cálculo dos que entraram a partir de 2004 depende da regra em que se enquadraram. Quem entrar na regra de pontos terá o valor calculado da mesma forma que os demais trabalhadores.
-Nela, o valor da aposentadoria parte de 60% da média de contribuições, com dois pontos percentuais a mais por ano que contribuir além de 20 anos.
-Esse cálculo também vale para quem optou por fundo de previdência complementar.
-Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições.');
+
+<p> Para conseguir a aposentadoria, a soma da idade com o tempo de contribuição deve dar 96 pontos, no caso dos homens, ou 86 pontos, no das mulheres.</p> <br>
+
+<p>Essa pontuação valeu apenas para o ano de publicação da lei (2019). Ela vai subir um ponto por ano, até chegar a 105 pontos para os homens, em 2028, e 100 pontos para as mulheres, em 2033.
+Além disso, há idade e tempo de contribuição mínimos para conseguir se enquadrar nessa regra. </p> <br>
+
+<p> Em 2019, homens precisam ter pelo menos 61 anos, e mulheres 56. Essa idade mínima começou a aumentar em 2022: homens precisarão de 62 anos e mulheres, de 57.</p> <br>
+<p>O período mínimo de contribuição não muda ao longo do tempo. Homens devem cumprir 35 anos de contribuição e mulheres, 30 anos. Ambos precisam de 20 anos no serviço público e cinco no cargo que vão se aposentar. </p> <br>
+
+<p><strong> 2) Pedágio de 100%: </strong>  Essa regra vale tanto para servidores, quanto para profissionais da iniciativa privada: </p> <br>
+<p> Homens conseguem se aposentar a partir dos 60 anos, e mulheres, dos 57, mas precisam pagar um "pedágio". Ele é de 100% do tempo que falta para chegar aos 35 anos de contribuição (homens) ou 30 anos (mulheres) na data que a reforma começar a valer.
+Por exemplo: se no dia em que a reforma entrar em vigor faltar dois anos conseguir se aposentar, precisará trabalhar quatro anos. </p> <br>
+
+ <p>       <strong>    Valor da aposentadoria:  </strong> </p> <br>
+
+ <p> Se alcançar os requisitos de uma das regras, o servidor que entrou no serviço público até 31 de dezembro de 2003, pode garantir uma aposentadoria com valor maior. </p> <br>
+ 
+<p> Ele alcança a paridade e a integralidade, ou seja, aposentadoria igual ao seu último salário e que é ajustada conforme o aumento da remuneração dos servidores na ativa. Para isso, porém, precisam ter pelo menos 65 anos de idade (homem), 62 anos (mulher).</p> <br>
+
+<p> O cálculo dos que entraram a partir de 2004 depende da regra em que se enquadraram. Quem entrar na regra de pontos terá o valor calculado da mesma forma que os demais trabalhadores. </p> <br>
+
+<p> Nela, o valor da aposentadoria parte de 60% da média de contribuições, com dois pontos percentuais a mais por ano que contribuir além de 20 anos.  </p> <br>
+
+<p> Esse cálculo também vale para quem optou por fundo de previdência complementar.  </p> <br>
+
+<p> Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições. </p> <br>');
 
 
 INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
@@ -229,17 +240,18 @@ INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊN
  outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
  Constituição Federal de 1988.','
 
-                    Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo nº
+                <p> Em 24 de janeiro de 2023, o Brasil comemorou o centenário da sanção da Lei Eloy Chaves, considerada o marco da Previdência Social no país. O Decreto Legislativo nº
 4.682, de 24 de janeiro de 1923, sancionado pelo então Presidente da República, Arthur da Silva Bernardes,criou, em cada empresa de estrada de ferro do Brasil, uma
-Caixa de Aposentadoria e Pensões para seus empregados.
+Caixa de Aposentadoria e Pensões para seus empregados. </p> <br>
 
-                    A nova Lei tratava do direito dos ferroviários a pensão, aposentadoria, assistência médica e auxílio farmacêutico. Um conjunto de benefícios mais abrangente do que
+                <p>    A nova Lei tratava do direito dos ferroviários a pensão, aposentadoria, assistência médica e auxílio farmacêutico. Um conjunto de benefícios mais abrangente do que
 outras iniciativas, de natureza previdenciária, citadas por historiadores e estabelecidas antes e depois da Proclamação da República, em 15 de novembro de 1889.
 Um dos registros citados é o Plano de Beneficência dos Órfãos e Viúvas dos Oficiais da Marinha, de 23 de setembro de 1795. O mesmo benefício foi estendido ao
 Exército em 1827, com o chamado meio soldo. Da mesma forma, em 1821, a Carta de Lei assinada por Dom João VI, datada de 29 de setembro, e publicada pela
 Chancelaria-Mor, no dia 6 de outubro, concedeu aposentadoria a mestres e professores que já tinham 30 anos de serviço, com o vencimento de todo o seu ordenado.
-Esse Decreto foi publicado em 19 de janeiro de 1822, na Gazeta do Rio, o primeiro jornal impresso do Brasil:
-"Os professores, e Mestres Regios, de hum e outro
+Esse Decreto foi publicado em 19 de janeiro de 1822, na Gazeta do Rio, o primeiro jornal impresso do Brasil: </p> <br>
+
+<p>"Os professores, e Mestres Regios, de hum e outro
 sexo, de primeiras letras, Grammatica Latina
 e Grega, Rhetorica, e Filosofia, que por espaço
 de trinta annos, contínuos, ou interpolados,
@@ -250,16 +262,17 @@ Outorgada por D. Pedro I, em 25 de março de 1824, a
 Carta Imperial, primeira Constituição do Brasil, não
 falava em aposentadoria ou pensão especificamente,
 mas previa um tipo de assistência sob a forma genérica
-de "socorros públicos":
-“art. 179. A inviolabilidade dos Direitos Civis, e
+de "socorros públicos": </p>
+
+<p> “art. 179. A inviolabilidade dos Direitos Civis, e
 Políticos dos Cidadãos Brazileiros, que tem por base a
 liberdade, a segurança individual, e a propriedade, é
 garantida pela Constituição do Império, pela maneira
 seguinte: (...)
 XXXI. A Constituição também garante
-os socorros públicos. (...)” 
+os socorros públicos. (...)” </p>
 
-Em 1835, foi criado o Montepio Geral de Economia dos Servidores do Estado, fato que é apontado como marco inicial da Previdência Complementar no Brasil. Mas a questão também é
+<p> Em 1835, foi criado o Montepio Geral de Economia dos Servidores do Estado, fato que é apontado como marco inicial da Previdência Complementar no Brasil. Mas a questão também é
 controversa e alguns historiadores apontam essa demarcação para um alvará português expedido em novembro de 1684.
 Outro registro antecedente é o Decreto nº 9.912-A, de 26 de março de 1888, assinado pela Princesa Imperial Regente, Isabel, em nome do Imperador. A medida concedeu o direito à aposentadoria
 aos empregados dos Correios. O benefício era concedido aos trabalhadores que alcançassem 30 anos de serviço e idade mínima de 60 anos.
@@ -267,212 +280,213 @@ Ainda em 1888, a Lei nº 3397, de 24 de novembro, criou uma Caixa de Socorros em
 da Imprensa Nacional. No mesmo ano, no dia 15 de novembro, foi proclamada a República.
 Em 1911, a Caixa de Pensões dos Operários da Casa da Moeda do Brasil foi criada e, no ano seguinte, outra Caixa foi constituída para o pessoal das Capatazias da Alfândega do Rio de Janeiro.
 Quatro anos antes da Lei Eloy Chaves, em 1919, foi editada a primeira legislação que tratava de acidentes de trabalho. Era a Lei nº 9.517, que tornou compulsório o seguro contra acidentes que
-levassem à morte ou à incapacidade para o trabalho, instituindo uma indenização a ser paga pela empresa.
+levassem à morte ou à incapacidade para o trabalho, instituindo uma indenização a ser paga pela empresa. </p>
 
-         A LEI ELOY CHAVES 
+     <p>       <strong>     A LEI ELOY CHAVES      </strong> </p> <br>
 
-Os 100 anos transcorridos desde a sanção da Lei Eloy Chaves promoveram um natural distanciamento do panorama que levou à aprovação do marco inicial da Previdência Social no Brasil. Os
+ <p>  Os 100 anos transcorridos desde a sanção da Lei Eloy Chaves promoveram um natural distanciamento do panorama que levou à aprovação do marco inicial da Previdência Social no Brasil. Os
 relatos nem sempre clareiam as motivações que levaram Eloy Chaves, político e empresário do ramo elétrico, a travar uma verdadeira batalha pela aprovação do Projeto de Lei de sua autoria,
-envolvendo a categoria dos ferroviários, que foi apresentado à Câmara dos Deputados em 5 de outubro de 1921.
+envolvendo a categoria dos ferroviários, que foi apresentado à Câmara dos Deputados em 5 de outubro de 1921. </p> <br>
 
-No fim da década de 1910, o Brasil experimentava os dissabores vividos, internacionalmente, por todos os países, após a primeira Grande Guerra Mundial. A economia, baseada na exportação
-cafeeira, entrou em declínio e o país, que havia recebido uma forte corrente imigratória, começou a enfatizar o crescimento industrial.
+ <p> No fim da década de 1910, o Brasil experimentava os dissabores vividos, internacionalmente, por todos os países, após a primeira Grande Guerra Mundial. A economia, baseada na exportação
+cafeeira, entrou em declínio e o país, que havia recebido uma forte corrente imigratória, começou a enfatizar o crescimento industrial. </p> <br>
 
-Na ocasião, o Brasil estava diante de um cenário de muita pressão social e demandas por melhores condições de trabalho. O país estava apenas começando a tratar dos primeiros projetos voltados para
+ <p> Na ocasião, o Brasil estava diante de um cenário de muita pressão social e demandas por melhores condições de trabalho. O país estava apenas começando a tratar dos primeiros projetos voltados para
 os direitos trabalhistas e sociais. O movimento reivindicatório dos trabalhadores, em boa parte, foi suscitado em virtude de pleitos inspirados pelas ideias de proteção social, trazidas pelos imigrantes.
 O período entre 1915 e 1917 foi de grande mobilização dos trabalhadores em busca de direitos. Eloy Chaves ocupava, então, o cargo de secretário de Justiça de São Paulo e participou de algumas das
-negociações que levaram ao fim do principal movimento paredista daquele período: a greve de 1917.
+negociações que levaram ao fim do principal movimento paredista daquele período: a greve de 1917. </p> <br>
 
-No entanto, a insatisfação dos trabalhadores continuava e as preocupações com os acontecimentos daquela época fizeram com que, após a sua eleição para deputado federal pelo PRP, em 1919,
-Eloy Chaves passasse a buscar mecanismos para solucionar os desajustes sociais, que motivavam o descontentamento dos trabalhadores.
+ <p> No entanto, a insatisfação dos trabalhadores continuava e as preocupações com os acontecimentos daquela época fizeram com que, após a sua eleição para deputado federal pelo PRP, em 1919,
+Eloy Chaves passasse a buscar mecanismos para solucionar os desajustes sociais, que motivavam o descontentamento dos trabalhadores. </p> <br>
 
-Há relatos de que os ferroviários faziam, repetidas vezes, listas de coleta de dinheiro para socorrer as esposas que haviam perdido seus companheiros. Mas essa boa vontade não resolvia os problemas
-dessas famílias.
+ <p> Há relatos de que os ferroviários faziam, repetidas vezes, listas de coleta de dinheiro para socorrer as esposas que haviam perdido seus companheiros. Mas essa boa vontade não resolvia os problemas
+dessas famílias. </p> <br>
 
-Nessa mesma época, o engenheiro da ferrovia São Paulo Railway Company, Willian John Sheidon, chegou ao Brasil, retornando de uma viagem ao Chile. No caminho, havia passado pela Argentina,
+ <p> Nessa mesma época, o engenheiro da ferrovia São Paulo Railway Company, Willian John Sheidon, chegou ao Brasil, retornando de uma viagem ao Chile. No caminho, havia passado pela Argentina,
 de onde trouxe um exemplar da Lei que criava a Caja de Jubilaciones, norma reguladora das aposentadorias e pensões dos ferroviários daquele país. Essa Lei foi traduzida e publicada pelo Jornal
-O Estado de S. Paulo, em 1921.
+O Estado de S. Paulo, em 1921. </p> <br>
 
-A Lei da Argentina foi tema de uma reunião entre os dirigentes da Companhia Paulista durante uma visita ao trecho da Serra do Mar da São Paulo Railway Company. Depois, em junho de 1921,
-um outro encontro tratou de levar o assunto a Eloy Chaves.
+ <p> A Lei da Argentina foi tema de uma reunião entre os dirigentes da Companhia Paulista durante uma visita ao trecho da Serra do Mar da São Paulo Railway Company. Depois, em junho de 1921,
+um outro encontro tratou de levar o assunto a Eloy Chaves. </p> <br>
 
-Os ferroviários eram a categoria que mais amplamente participava da base eleitoral de Eloy Chaves, na região de Jundiaí, sede da Companhia Paulista de Estradas de Ferro. Havia grande insatisfação
+ <p>  Os ferroviários eram a categoria que mais amplamente participava da base eleitoral de Eloy Chaves, na região de Jundiaí, sede da Companhia Paulista de Estradas de Ferro. Havia grande insatisfação
 nos redutos onde se concentrava essa classe, naquela época, e uma greve nos transportes ferroviários, como já ocorrera anteriormente, além de prejuízos à economia, acabaria por atingir outros setores
-de atividade, pela impossibilidade de locomoção dos trabalhadores.
+de atividade, pela impossibilidade de locomoção dos trabalhadores. </p> <br>
 
-Cabe aqui uma observação sobre o cenário com que Eloy deparava-se ao adotar a criação de Caixas de Aposentadorias e Pensões, justamente para os trabalhadores das estradas de ferro. Em maio de
+ <p>  Cabe aqui uma observação sobre o cenário com que Eloy deparava-se ao adotar a criação de Caixas de Aposentadorias e Pensões, justamente para os trabalhadores das estradas de ferro. Em maio de
 1906, 3.500, dos 3.800 funcionários da Companhia Paulista, entraram em greve, reivindicando redução da jornada de trabalho para oito horas e em protesto contra o tratamento que recebiam
 de seus superiores, entre eles, Francisco Paes Leme de Monlevade. Além disso, reclamavam da obrigatoriedade de se inscrever e contribuir para a Sociedade Beneficente dos Empregados, criada
-pela Companhia Paulista.
+pela Companhia Paulista. </p> <br>
 
-Essa Sociedade Beneficente tinha o objetivo de prestar serviços de saúde, pagar aos trabalhadores pensão por velhice, doença ou incapacidade do associado, além de conceder auxílio para o funeral
+ <p>  Essa Sociedade Beneficente tinha o objetivo de prestar serviços de saúde, pagar aos trabalhadores pensão por velhice, doença ou incapacidade do associado, além de conceder auxílio para o funeral
 dos sócios e uma ajuda para a família dos membros falecidos. O custeio desses benefícios era feito por meio de contribuições mensais dos trabalhadores e uma subvenção anual, paga pela Companhia.
-O problema era a falta de regulação e fiscalização. Os trabalhadores reclamavam da obrigatoriedade das taxas e da baixa qualidade dos serviços prestados.
+O problema era a falta de regulação e fiscalização. Os trabalhadores reclamavam da obrigatoriedade das taxas e da baixa qualidade dos serviços prestados. </p> <br>
 
-Havia inúmeras dessas instituições avulsas, no início da década de 1910. A própria Companhia Paulista tinha várias delas, com diferentes funções. A preocupação social justificada pela empresa,
+ <p>  Havia inúmeras dessas instituições avulsas, no início da década de 1910. A própria Companhia Paulista tinha várias delas, com diferentes funções. A preocupação social justificada pela empresa,
 no entanto, não era vista da mesma forma pelos trabalhadores, obrigados a uma contribuição compulsória, retirada de seus baixos salários e sem a contrapartida prometida. Além disso, há
-publicações que relacionam a estabilidade do trabalhador no emprego à filiação a essas Caixas.
+publicações que relacionam a estabilidade do trabalhador no emprego à filiação a essas Caixas. </p> <br>
 
-Essas contribuições deixaram de ser obrigatórias, por ordem da Justiça, que também concedeu outras reivindicações aos operários no fim da greve. A Sociedade Beneficente dos Empregados
-da Companhia Paulista foi extinta em 1925, em função da criação da Caixa de Aposentadorias e Pensões, decorrente da Lei Eloy Chaves.
-Por outro lado, o desagrado dos trabalhadores com Francisco Paes Leme de Monlevade estava relacionado ao seu empenho na eletrificação da estrada de ferro e à implantação de outras modernizações,
-que logo foram associadas às demissões realizadas pela Companhia.
+ <p>  Essas contribuições deixaram de ser obrigatórias, por ordem da Justiça, que também concedeu outras reivindicações aos operários no fim da greve. A Sociedade Beneficente dos Empregados
+da Companhia Paulista foi extinta em 1925, em função da criação da Caixa de Aposentadorias e Pensões, decorrente da Lei Eloy Chaves.</p> <br>
 
-Eloy Chaves era tido como uma pessoa agregadora e conciliadora. Ciente dos problemas decorrentes da greve de 1906 e, considerando que os empregados da Paulista eram, em sua maioria, seus eleitores,
+ <p>  Por outro lado, o desagrado dos trabalhadores com Francisco Paes Leme de Monlevade estava relacionado ao seu empenho na eletrificação da estrada de ferro e à implantação de outras modernizações,
+que logo foram associadas às demissões realizadas pela Companhia.</p> <br>
+
+ <p>  Eloy Chaves era tido como uma pessoa agregadora e conciliadora. Ciente dos problemas decorrentes da greve de 1906 e, considerando que os empregados da Paulista eram, em sua maioria, seus eleitores,
 Eloy conversou com Francisco Paes Leme de Monlevade para, juntos, trabalharem as ideias que fundamentaram o Projeto de Lei. Depois disso, procuraram Adolfo Pinto, inspetor-geral da Companhia
-Paulista, e os três passaram a estudar a organização da Caixa dos Ferroviários da Argentina.
+Paulista, e os três passaram a estudar a organização da Caixa dos Ferroviários da Argentina. </p> <br>
 
-Mais tarde, durante a tramitação do projeto, na Câmara, optou-se pela multiplicidade das Caixas, que obedeceriam às regras gerais da Lei, mas considerando as especificidades de cada Ferrovia. Isso porque,
-na Argentina, só havia uma caixa para todas as estradas de ferro, modelo que não caberia ao Brasil.
+<p> Mais tarde, durante a tramitação do projeto, na Câmara, optou-se pela multiplicidade das Caixas, que obedeceriam às regras gerais da Lei, mas considerando as especificidades de cada Ferrovia. Isso porque,
+na Argentina, só havia uma caixa para todas as estradas de ferro, modelo que não caberia ao Brasil. </p> <br>
 
-Em seu discurso de apresentação do Projeto, na Câmara dos Deputados, Eloy Chaves afirmou: "À áspera luta de classes figurada e aconselhada pelos espíritos extremados ou desvairados
+<p> Em seu discurso de apresentação do Projeto, na Câmara dos Deputados, Eloy Chaves afirmou: "À áspera luta de classes figurada e aconselhada pelos espíritos extremados ou desvairados
 por estranha e complicadas paixões, eu anteponho, confiado no seu êxito final, a colaboração íntima e pacífica de todos, em benefício da pátria comum e dentro da ordem. “(...)
-“Estamos em novos tempos; as classes menos favorecidas aspiram mui justamente um maior quinhão de vida e conforto. Cumpre atendê-las com espírito liberal e amigo” (...)
+“Estamos em novos tempos; as classes menos favorecidas aspiram mui justamente um maior quinhão de vida e conforto. Cumpre atendê-las com espírito liberal e amigo” (...) </p> <br>
 
-“Em uma terra destas em que as barreiras, que separam os homens, pouco a pouco se vão esboroando e em que cada um, pelo seu trabalho e esforço pode ascender aos mais altos
-destinos, não é ser otimista anunciar dias melhores para os que, penosamente, cumprem na vida o áspero e nobre dever que Deus a todos impôs: trabalhar."
+<p> “Em uma terra destas em que as barreiras, que separam os homens, pouco a pouco se vão esboroando e em que cada um, pelo seu trabalho e esforço pode ascender aos mais altos
+destinos, não é ser otimista anunciar dias melhores para os que, penosamente, cumprem na vida o áspero e nobre dever que Deus a todos impôs: trabalhar." </p> <br>
 
-Nos meses seguintes, enquanto o projeto passava pela Comissão Especial de Legislação Social, Eloy Chaves aproveitou para ampliar suas pesquisas, de forma a aprimorar o texto. Eloy também
+<p> Nos meses seguintes, enquanto o projeto passava pela Comissão Especial de Legislação Social, Eloy Chaves aproveitou para ampliar suas pesquisas, de forma a aprimorar o texto. Eloy também
 trabalhava na defesa do projeto, argumentando com seus pares, que ainda não estavam convencidos da aprovação da proposta. Além disso, fez consultas e enviou carta circular às classes ferroviárias,
-pedindo que encaminhassem observações sobre o projeto. Tudo isso dotou a Comissão de bastante subsídios para o relator.
+pedindo que encaminhassem observações sobre o projeto. Tudo isso dotou a Comissão de bastante subsídios para o relator. </p> <br>
 
-A tramitação do projeto na Comissão teve sua velocidade coordenada, de forma que não retornasse ao plenário em meio a outros temas polêmicos, que pudessem colocar em risco uma votação favorável.
+<p> A tramitação do projeto na Comissão teve sua velocidade coordenada, de forma que não retornasse ao plenário em meio a outros temas polêmicos, que pudessem colocar em risco uma votação favorável.
 Em 23 de novembro de 1922, o projeto retornou ao Plenário com alterações importantes: a redução da idade mínima para aposentadoria de 55 para 50 anos de idade, após somados 30 anos de serviço,
 e a indenização por acidente de trabalho, com ônus para as empresas de estradas de ferro. Também juntaram ao projeto os mesmos direitos aos trabalhadores da Controladoria Geral das Estradas de
-Ferro, uma instância administrativa criada pelas empresas.
+Ferro, uma instância administrativa criada pelas empresas. </p> <br>
 
-O projeto foi discutido e debatido e, em 26 de dezembro, encaminhado ao Senado. No dia seguinte, a Comissão de Legislação e Justiça aprovou o texto em regime de urgência e sem emendas.
+<p> O projeto foi discutido e debatido e, em 26 de dezembro, encaminhado ao Senado. No dia seguinte, a Comissão de Legislação e Justiça aprovou o texto em regime de urgência e sem emendas.
 A tramitação do projeto, considerada rápida para os padrões da época, recebeu muitas críticas dos opositores da proposta, mas as consultas e os debates promovidos por Eloy Chaves e seus pares,
-durante o curso da matéria, não deixaram muito espaço para argumentos contrários.
+durante o curso da matéria, não deixaram muito espaço para argumentos contrários. </p> <br>
 
-No dia 30 de dezembro, a proposta foi aprovada e convertida no Decreto Legislativo nº 4.682, depois sancionado pelo então presidente Arthur Bernardes, em 24 de janeiro de 1923.
+<p> No dia 30 de dezembro, a proposta foi aprovada e convertida no Decreto Legislativo nº 4.682, depois sancionado pelo então presidente Arthur Bernardes, em 24 de janeiro de 1923.</p> <br>
 
 
-                     AS CAIXAS DE APOSENTADORIAS E PENSÕES  
+                           <p>   <strong>  AS CAIXAS DE APOSENTADORIAS E PENSÕES     </strong> </p> <br>
 
-A Lei Eloy Chaves estabelecia que as Caixas de Aposentadoria e Pensões dos Ferroviários – CAPs, como mais tarde ficariam conhecidas, deveriam formar um fundo com a contribuição de 3% dos vencimentos
+<p> A Lei Eloy Chaves estabelecia que as Caixas de Aposentadoria e Pensões dos Ferroviários – CAPs, como mais tarde ficariam conhecidas, deveriam formar um fundo com a contribuição de 3% dos vencimentos
 dos empregados, mais 1% da renda bruta anual da empresa, além do valor que somasse um aumento de 1,5%, aplicado sobre as tarifas da estrada de ferro. Para completar o custeio, havia também
 recolhimento sobre os aumentos conferidos aos funcionários, multas, donativos e fundos acumulados. O custeio e a gestão das CAPs eram totalmente privados, sem a participação do governo, conforme Eloy
-Chaves defendia.
+Chaves defendia.  </p> <br>
 
-As Caixas de Aposentadorias e Pensões (CAPs), rapidamente se proliferaram. Em 1924, apenas um ano após a edição da Lei Eloy Chaves, havia 26 delas em funcionamento. No dia 20
+<p> As Caixas de Aposentadorias e Pensões (CAPs), rapidamente se proliferaram. Em 1924, apenas um ano após a edição da Lei Eloy Chaves, havia 26 delas em funcionamento. No dia 20
 de dezembro de 1926, a Lei 5.109 estendeu o sistema das CAPs aos trabalhadores portuários e marítimos, que só viriam a ser instaladas cinco manos depois. A Lei também criou, no âmbito do
 Conselho Nacional do Trabalho, uma instância de Recurso às decisões das CAPs. Ainda em 1926, é criado o Instituto de Previdência dos Funcionários Públicos da União
-(Decreto nº 5.128), que, em 1938, se transformaria no IPASE (Decreto-lei nº 288).
+(Decreto nº 5.128), que, em 1938, se transformaria no IPASE (Decreto-lei nº 288).   </p> <br>
 
 
-                           A CRIAÇÃO DOS IAPS 
+                       <p>   <strong>     A CRIAÇÃO DOS IAPS      </strong> </p> <br>
 
-Nos anos 1930, o sistema previdenciário é reestruturado, mantendo as bases corporativas, de modo a responder ao dinamismo político-econômico do início do processo
-de industrialização. Nesse contexto, Institutos de Aposentadorias e Pensões, restritos a trabalhadores urbanos, disseminaram-se.
+<p> Nos anos 1930, o sistema previdenciário é reestruturado, mantendo as bases corporativas, de modo a responder ao dinamismo político-econômico do início do processo
+de industrialização. Nesse contexto, Institutos de Aposentadorias e Pensões, restritos a trabalhadores urbanos, disseminaram-se. </p> <br>
 
-As Caixas de Aposentadoria e Pensões (CAPs), criadas e mantidas por empresas, foram gradativamente substituídas pelos Institutos de Aposentadoria e Pensões (IAPs), que
-eram instituições previdenciárias organizadas por categorias e com cobertura nacional.
+<p> As Caixas de Aposentadoria e Pensões (CAPs), criadas e mantidas por empresas, foram gradativamente substituídas pelos Institutos de Aposentadoria e Pensões (IAPs), que
+eram instituições previdenciárias organizadas por categorias e com cobertura nacional. </p> <br>
 
-                     A CONSTITUIÇÃO FEDERAL DE 1934  
+                 <p>   <strong>       A CONSTITUIÇÃO FEDERAL DE 1934    </strong> </p> <br>
 
-A Constituição Federal de 1934 estabeleceu a forma tripartite de custeio, que integrava as contribuições obrigatórias do empregado, empregador e ente público (União). Nesse formato, o Estado marcava presença no custeio da
+ <p> A Constituição Federal de 1934 estabeleceu a forma tripartite de custeio, que integrava as contribuições obrigatórias do empregado, empregador e ente público (União). Nesse formato, o Estado marcava presença no custeio da
 Previdência Social.
 
-Assim, de acordo com o art. 121, § 1º, alínea “h”, da CF/1934, a legislação do trabalho deve observar a instituição de previdência mediante contribuição igual, da União, do empregador e do empregado, a favor da velhice, da
+ <p> Assim, de acordo com o art. 121, § 1º, alínea “h”, da CF/1934, a legislação do trabalho deve observar a instituição de previdência mediante contribuição igual, da União, do empregador e do empregado, a favor da velhice, da
 invalidez, da maternidade e nos casos de acidentes de trabalho ou de morte.
 
-<strong>   CONSTITUIÇÃO FEDERAL DE 1946 </strong>
+				 <p> <strong>   CONSTITUIÇÃO FEDERAL DE 1946 </strong>    </p> <br>
 
-Em relação à legislação do Trabalho e da Previdência Social, a Constituição Federal de 1946, promulgada em 18 de setembro, trouxe novas disposições, tais como o direito da gestante ao descanso antes e depois do parto, sem prejuízo
-do emprego, nem do salário; assistência sanitária, inclusive hospitalar e médica preventivas, tanto ao trabalhador quanto à gestante, além de assistência aos desempregados.
+ <p> Em relação à legislação do Trabalho e da Previdência Social, a Constituição Federal de 1946, promulgada em 18 de setembro, trouxe novas disposições, tais como o direito da gestante ao descanso antes e depois do parto, sem prejuízo
+do emprego, nem do salário; assistência sanitária, inclusive hospitalar e médica preventivas, tanto ao trabalhador quanto à gestante, além de assistência aos desempregados.   </p> <br>
 
-Houve, ainda, a obrigatoriedade da instituição do seguro pelo empregador contra acidentes de trabalho e o preceito relativo à Previdência, mediante contribuição da União, do empregador e do empregado, em favor da maternidade
-e contra as consequências da doença, da velhice, da invalidez e da morte.
+ <p> Houve, ainda, a obrigatoriedade da instituição do seguro pelo empregador contra acidentes de trabalho e o preceito relativo à Previdência, mediante contribuição da União, do empregador e do empregado, em favor da maternidade
+e contra as consequências da doença, da velhice, da invalidez e da morte.   </p> <br>
 
-Em 1949, é criado o Serviço de Assistência Médica Domiciliar e de Urgência (SAMDU), pelo Decreto número 27.664, de 30 de dezembro. O custeio do serviço era feito mediante a cotização dos Institutos e Caixas de cada localidade, proporcionalmente
-ao número de seus segurados. A fiscalização e o orçamento de cada SAMDU eram fixados anualmente pelo Ministro do Trabalho, Indústria e Comércio, ouvido o Departamento Nacional da Previdência Social
+ <p> Em 1949, é criado o Serviço de Assistência Médica Domiciliar e de Urgência (SAMDU), pelo Decreto número 27.664, de 30 de dezembro. O custeio do serviço era feito mediante a cotização dos Institutos e Caixas de cada localidade, proporcionalmente
+ao número de seus segurados. A fiscalização e o orçamento de cada SAMDU eram fixados anualmente pelo Ministro do Trabalho, Indústria e Comércio, ouvido o Departamento Nacional da Previdência Social.  </p> <br>
 
-                 LEI ORGÂNICA DE PREVIDÊNCIA SOCIAL – LOPS 
+                 <p> <strong> LEI ORGÂNICA DE PREVIDÊNCIA SOCIAL – LOPS </strong>    </p> <br>
 
-Em 26 de agosto de 1960, foi editada a Lei nº 3.807, a primeira Lei Orgânica da Previdência Social – a LOPS, que nasceu a partir de um projeto de 1947, o qual tramitou no
-Congresso Nacional por, aproximadamente, 14 anos.
+<p> Em 26 de agosto de 1960, foi editada a Lei nº 3.807, a primeira Lei Orgânica da Previdência Social – a LOPS, que nasceu a partir de um projeto de 1947, o qual tramitou no
+Congresso Nacional por, aproximadamente, 14 anos. </p> <br>
 
-Com a aprovação da lei, todos os órgãos de execução previdenciária passaram a cumprir a mesma norma. Consolidava-se a unificação das leis de Previdência Social. Até
+<p> Com a aprovação da lei, todos os órgãos de execução previdenciária passaram a cumprir a mesma norma. Consolidava-se a unificação das leis de Previdência Social. Até
 então, cada Instituto e cada Caixa eram regidos por normas próprias. A unificação da gestão demoraria um pouco mais e seria implantada somente alguns anos depois,
-com a criação do Instituto Nacional de Previdência Social – INPS, em 1966, e a sua respectiva instalação em 1967.
+com a criação do Instituto Nacional de Previdência Social – INPS, em 1966, e a sua respectiva instalação em 1967. </p> <br>
 
-Segundo o art. 1º, a Previdência Social, organizada na forma da LOPS, tem por fim assegurar aos seus beneficiários os meios indispensáveis de manutenção, por motivo
+<p> Segundo o art. 1º, a Previdência Social, organizada na forma da LOPS, tem por fim assegurar aos seus beneficiários os meios indispensáveis de manutenção, por motivo
 de idade avançada, incapacidade, tempo de serviço, prisão ou morte daqueles de quem dependiam economicamente, bem como a prestação de serviços que visem à proteção de sua saúde e concorram para o
-seu bem-estar.
+seu bem-estar. </p> <br>
 
-Vale destacar que uma das medidas mais importantes constante da lei unificada foi o teto do valor das contribuições e dos benefícios, fixado em cinco salários mínimos. É comum que pessoas que não conhecem
-bem o assunto se refiram à Previdência Social como uma instituição que, ao longo da história, não se preocupou com a questão atuarial e os problemas demográficos.
+<p> Vale destacar que uma das medidas mais importantes constante da lei unificada foi o teto do valor das contribuições e dos benefícios, fixado em cinco salários mínimos. É comum que pessoas que não conhecem
+bem o assunto se refiram à Previdência Social como uma instituição que, ao longo da história, não se preocupou com a questão atuarial e os problemas demográficos.  </p> <br>
 
-No entanto, trata-se de um engano, já que a Previdência, desde o seu início, sempre contou com estudos técnicos de natureza doutrinária e atuarial, para que tivesse bases sólidas.
+<p> No entanto, trata-se de um engano, já que a Previdência, desde o seu início, sempre contou com estudos técnicos de natureza doutrinária e atuarial, para que tivesse bases sólidas.  </p> <br>
 
-                            A CRIAÇÃO DO INPS 
+                   <p> <strong>           A CRIAÇÃO DO INPS    </strong>    </p> <br>
 
-O Instituto Nacional de Previdência Social – INPS foi criado pelo Decreto-Lei nº 72, de 21 de novembro de 1966, que determinou, ainda, a unificação dos Institutos de Aposentadoria e Pensões. Criado como órgão da administração indireta da União, com personalidade jurídica
-de natureza autárquica, o INPS, nessa condição, possuía domínio pleno de seus bens, serviços e ações, além das regalias, privilégios e imunidades concedidos à União.
+<p> O Instituto Nacional de Previdência Social – INPS foi criado pelo Decreto-Lei nº 72, de 21 de novembro de 1966, que determinou, ainda, a unificação dos Institutos de Aposentadoria e Pensões. Criado como órgão da administração indireta da União, com personalidade jurídica
+de natureza autárquica, o INPS, nessa condição, possuía domínio pleno de seus bens, serviços e ações, além das regalias, privilégios e imunidades concedidos à União. </p> <br>
 
-Pela primeira vez, o Brasil contava com um único órgão que centralizava todas as ações de previdência no âmbito do Ministério do Trabalho e Previdência Social: o INPS. Dessa forma, integravam o sistema previdenciário: o Departamento Nacional de Previdência Social – DNPS,
-o Conselho de Recursos da Previdência Social – CRPS, as Juntas de Recurso da Previdência Social – JRPS e o Serviço Atuarial – SA.
+<p> Pela primeira vez, o Brasil contava com um único órgão que centralizava todas as ações de previdência no âmbito do Ministério do Trabalho e Previdência Social: o INPS. Dessa forma, integravam o sistema previdenciário: o Departamento Nacional de Previdência Social – DNPS,
+o Conselho de Recursos da Previdência Social – CRPS, as Juntas de Recurso da Previdência Social – JRPS e o Serviço Atuarial – SA.   </p> <br>
 
-<strong>    CRIAÇÃO DO MINISTÉRIO DA PREVIDÊNCIA E ASSISTÊNCIA SOCIAL E DA DATAPREV</strong> 
+<p> <strong>    CRIAÇÃO DO MINISTÉRIO DA PREVIDÊNCIA E ASSISTÊNCIA SOCIAL E DA DATAPREV</strong>   </p> <br>
 
-Em 1974, foi criado o Ministério da Previdência e Assistência Social, por meio da Lei n° 6.036, de 1° de maio, desmembrado do Ministério do Trabalho e Previdência Social. Por sua vez, a Lei
-nº 6.062, de 25 de junho de 1974, dispôs sobre esse desmembramento e deu outras providências.
+<p> Em 1974, foi criado o Ministério da Previdência e Assistência Social, por meio da Lei n° 6.036, de 1° de maio, desmembrado do Ministério do Trabalho e Previdência Social. Por sua vez, a Lei
+nº 6.062, de 25 de junho de 1974, dispôs sobre esse desmembramento e deu outras providências.  </p> <br>
 
-A Empresa de Processamento de Dados da Previdência Social – DATAPREV foi criada também em 1974, pela Lei nº 6.125, de 4 de novembro. Posteriormente, foi denominada Empresa de Tecnologia
+<p> A Empresa de Processamento de Dados da Previdência Social – DATAPREV foi criada também em 1974, pela Lei nº 6.125, de 4 de novembro. Posteriormente, foi denominada Empresa de Tecnologia
 e Informações da Previdência Social. A DATAPREV foi instituída como uma empresa pública vinculada ao Ministério da Previdência e Assistência Social, com personalidade jurídica de direito privado, patrimônio próprio e autonomia administrativa e financeira.
 Além disso, a Lei nº 6.125, de 4 de novembro de 1974, elencou as atribuições da DATAPREV: a análise de sistemas, a programação e execução de serviços de tratamento da informação e o processamento
-de dados por meio de computação eletrônica, bem como a prestação de outros serviços correlatos.
+de dados por meio de computação eletrônica, bem como a prestação de outros serviços correlatos.  </p> <br>
 
-                   CONSTITUIÇÃO FEDERAL DE 1988 
+                   <p> <strong>      CONSTITUIÇÃO FEDERAL DE 1988      </strong>    </p> <br>
 
-O processo de redemocratização passa a demandar uma nova ordem constitucional. As eleições para a Assembleia Nacional Constituinte aconteceram em novembro de 1986. Em fevereiro de 1987, a Constituinte é instalada e,
+ <p> O processo de redemocratização passa a demandar uma nova ordem constitucional. As eleições para a Assembleia Nacional Constituinte aconteceram em novembro de 1986. Em fevereiro de 1987, a Constituinte é instalada e,
 no dia 5 de outubro de 1988, é apresentada ao País a nova Constituição. Na Carta Magna, os direitos individuais foram largamente ampliados e as liberdades públicas ganharam vigor nunca antes experimentado. Os direitos dos
-trabalhadores urbanos e rurais foram contemplados com 34 itens.
+trabalhadores urbanos e rurais foram contemplados com 34 itens.  </p> <br>
 
-A nova Constituição apresenta um conceito inédito: o de seguridade social. No Título VIII, Da Ordem Social, ficou estabelecido que essa ordem tem como base o primado do trabalho e, como objetivo, o bem-estar e a justiça
-social. A seguridade é vista como um conjunto de ações de iniciativa dos poderes públicos, com a participação da sociedade, estruturada em três grandes segmentos: Previdência Social, Saúde e Assistência Social.
+ <p> A nova Constituição apresenta um conceito inédito: o de seguridade social. No Título VIII, Da Ordem Social, ficou estabelecido que essa ordem tem como base o primado do trabalho e, como objetivo, o bem-estar e a justiça
+social. A seguridade é vista como um conjunto de ações de iniciativa dos poderes públicos, com a participação da sociedade, estruturada em três grandes segmentos: Previdência Social, Saúde e Assistência Social.  </p> <br>
 
-                       A CRIAÇÃO DO INSS  
+                     <p> <strong>    A CRIAÇÃO DO INSS     </strong>    </p> <br>
 
-A história do INSS começou um pouco antes da comemorada data de 27 de junho de 1990, quando o Decreto nº 99.350 efetivou a fusão do Instituto de Administração Financeira da Previdência e Assistência Social (IAPAS) com o Instituto Nacional de Previdência Social (INPS), criando uma
-nova autarquia, o Instituto Nacional do Seguro Social (INSS).
+ <p> A história do INSS começou um pouco antes da comemorada data de 27 de junho de 1990, quando o Decreto nº 99.350 efetivou a fusão do Instituto de Administração Financeira da Previdência e Assistência Social (IAPAS) com o Instituto Nacional de Previdência Social (INPS), criando uma
+nova autarquia, o Instituto Nacional do Seguro Social (INSS).  </p> <br>
 
-O INSS, como Autarquia Federal vinculada ao recém-criado Ministério do Trabalho e da Previdência Social (MTPS), foi criado pelo Decreto nº 99.350/90, após a fusão do IAPAS com o INPS. Além disso, o Decreto
-definiu, ainda, a estrutura do Instituto, composta por uma Direção Central, formada por 1 Presidente e 4 Diretorias, além de 7 Superintendências Regionais.
+ <p> O INSS, como Autarquia Federal vinculada ao recém-criado Ministério do Trabalho e da Previdência Social (MTPS), foi criado pelo Decreto nº 99.350/90, após a fusão do IAPAS com o INPS. Além disso, o Decreto
+definiu, ainda, a estrutura do Instituto, composta por uma Direção Central, formada por 1 Presidente e 4 Diretorias, além de 7 Superintendências Regionais.  </p> <br>
 
-Entre as atribuições do INSS, na época, também figurava a competência para executar as atividades e programas relacionados ao emprego, apoio ao desempregado, identificação profissional, segurança e saúde
-do trabalhador.
+ <p> Entre as atribuições do INSS, na época, também figurava a competência para executar as atividades e programas relacionados ao emprego, apoio ao desempregado, identificação profissional, segurança e saúde
+do trabalhador.  </p> <br>
 
-                 REFORMA DA PREVIDÊNCIA – EC 20 
+                  <p> <strong>    REFORMA DA PREVIDÊNCIA – EC 20   </strong>    </p> <br>
 
-Em 16 de dezembro de 1998, entraram em vigor as mudanças da Emenda Constitucional nº 20. Para assegurar a aprovação do texto Reforma da Previdência, algumas medidas foram fixadas, de forma a garantir alguns direitos para quem já estava filiado a algum regime
-de Previdência Social, público ou privado.
+ <p> Em 16 de dezembro de 1998, entraram em vigor as mudanças da Emenda Constitucional nº 20. Para assegurar a aprovação do texto Reforma da Previdência, algumas medidas foram fixadas, de forma a garantir alguns direitos para quem já estava filiado a algum regime
+de Previdência Social, público ou privado.    </p> <br>
 
-Dessa forma, quem havia preenchido os requisitos para se aposentar, na data da promulgação da Emenda Constitucional, ainda que de forma proporcional, poderia, a qualquer tempo, se utilizar das regras anteriores à
-Emenda Constitucional ou optar pelas regras de transição, se considerasse mais vantajoso.
+<p> Dessa forma, quem havia preenchido os requisitos para se aposentar, na data da promulgação da Emenda Constitucional, ainda que de forma proporcional, poderia, a qualquer tempo, se utilizar das regras anteriores à
+Emenda Constitucional ou optar pelas regras de transição, se considerasse mais vantajoso.   </p> <br>
 
-A aposentadoria integral de quem ingressou no mercado de trabalho após a Reforma, ocorreria aos 35 anos de contribuição e 60 anos de idade, para os homens e aos 30 anos de contribuição para as mulheres, independentemente
-da idade, chamada de aposentadoria por tempo de contribuição. Também era possível aposentar-se por idade, uma vez cumprida a carência de 15 anos de contribuição, aos atingir 60 anos de idade no caso das mulheres e 65 anos de idade no caso dos homens.
+<p> A aposentadoria integral de quem ingressou no mercado de trabalho após a Reforma, ocorreria aos 35 anos de contribuição e 60 anos de idade, para os homens e aos 30 anos de contribuição para as mulheres, independentemente
+da idade, chamada de aposentadoria por tempo de contribuição. Também era possível aposentar-se por idade, uma vez cumprida a carência de 15 anos de contribuição, aos atingir 60 anos de idade no caso das mulheres e 65 anos de idade no caso dos homens.  </p> <br>
 
-Para mulheres seria aos 30 anos de contribuição e 55 anos de idade. No texto da EC 20 é possível perceber a mudança no conceito de tempo de serviço para tempo contribuição.
+<p> Para mulheres seria aos 30 anos de contribuição e 55 anos de idade. No texto da EC 20 é possível perceber a mudança no conceito de tempo de serviço para tempo contribuição.  </p> <br>
 
-O limite de idade da Emenda foi reduzido em cinco anos para os trabalhadores rurais, de ambos os sexos, que exerciam suas atividades em regime de economia familiar, direitos que foram estendidos também aos garimpeiros e pescadores artesanais.
+<p> O limite de idade da Emenda foi reduzido em cinco anos para os trabalhadores rurais, de ambos os sexos, que exerciam suas atividades em regime de economia familiar, direitos que foram estendidos também aos garimpeiros e pescadores artesanais.  </p> <br>
 
-Também seria possível a aposentadoria proporcional aos 30 anos de serviço para homens e 25 para mulheres para os segurados filiados até a data de publicação da EC nº 20, de 1998.
+<p> Também seria possível a aposentadoria proporcional aos 30 anos de serviço para homens e 25 para mulheres para os segurados filiados até a data de publicação da EC nº 20, de 1998.
 Os que estavam no regime, na data em que a Reforma entrou em vigor, mas ainda não haviam completado todo o tempo de contribuição para se aposentar, passariam pela regra de transição. Assim, no caso das aposentadorias
-integrais, o requerente teria que cumprir um adicional de 20% do tempo que faltava para se aposentar pela regra anterior à reforma. Nas aposentadorias proporcionais esse pedágio seria de 40%.
+integrais, o requerente teria que cumprir um adicional de 20% do tempo que faltava para se aposentar pela regra anterior à reforma. Nas aposentadorias proporcionais esse pedágio seria de 40%.  </p> <br>
 
-			     EMENDA CONSTITUCIONAL Nº 41  
+			      <p> <strong>  EMENDA CONSTITUCIONAL Nº 41   </strong>    </p> <br>
 
-Em 19 de dezembro de 2003, é aprovada a Emenda Constitucional nº 41, de 19 de dezembro. A principal modificação dessa Reforma foi a alteração do art. 40 da Constituição Federal, instituindo a cobrança de contribuição previdenciária dos servidores públicos inativos.
+<p> Em 19 de dezembro de 2003, é aprovada a Emenda Constitucional nº 41, de 19 de dezembro. A principal modificação dessa Reforma foi a alteração do art. 40 da Constituição Federal, instituindo a cobrança de contribuição previdenciária dos servidores públicos inativos.
 A EC 41 também alterou o cálculo dos benefícios, que passou a ser feito pela média das remunerações do servidor e não pelo último salário, como era antes. A Emenda também modificou a pensão por morte, que deixava de ter o mesmo valor da remuneração ou do provento do
-servidor e passava a ser equivalente à remuneração ou ao provento do servidor falecido, até o limite estabelecido no Regime Geral de Previdência Social, sendo acrescido de 70% da parcela excedente a este limite, se for o caso.
+servidor e passava a ser equivalente à remuneração ou ao provento do servidor falecido, até o limite estabelecido no Regime Geral de Previdência Social, sendo acrescido de 70% da parcela excedente a este limite, se for o caso.  </p> <br>
 
-                 EMENDA CONSTITUCIONAL Nº 103  
+                  <p> <strong>  EMENDA CONSTITUCIONAL Nº 103     </strong>    </p> <br>
 
-Em 13 de novembro de 2019 foi publicada a Emenda Constitucional nº 103, com alterações no Regime Geral de Previdência Social (RGPS) e no Regime Próprio de Previdência Social (RPPS) da União, estabelecendo as regras atuais do Sistema de Previdência Social, como também,
-as regras de transição para os trabalhadores que já vinham contribuindo para o sistema antes da emenda, cujos temas estão sendo tratados à parte nesse site.
+<p> Em 13 de novembro de 2019 foi publicada a Emenda Constitucional nº 103, com alterações no Regime Geral de Previdência Social (RGPS) e no Regime Próprio de Previdência Social (RPPS) da União, estabelecendo as regras atuais do Sistema de Previdência Social, como também,
+as regras de transição para os trabalhadores que já vinham contribuindo para o sistema antes da emenda, cujos temas estão sendo tratados à parte nesse site.  </p> <br>
 
 
 ');
