@@ -9,7 +9,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
 	<!-- Ícones -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- Title -->
 	<link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -18,85 +20,126 @@
 
 <body>
 	<nav class="logo">
-	 <div class="menu">
-		<a href="/">
-			<img src="./img/logo.jpg" width="100px" alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque" title="Previdência Aqui">
-		</a>
+		<div class="menu">
+			<a href="/">
+				<img src="./img/logo.jpg" width="100px"
+					alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
+					title="Previdência Aqui">
+			</a>
 
-		<legend><button id="mostrar"><i class="fa-solid fa-bars" style="color: #fff;"></i></button></legend>
+			<legend><button id="mostrar"><i class="fa-solid fa-bars" style="color: #fff;"></i></button></legend>
 
-	 </div>
+		</div>
 
-		 <ul class="nav-list">
-            <li><a href="/">Início</a></li>
-            <li><a href="/sobre">Sobre</a></li>
-            <li><a href="/direitos">Regras</a></li>
-            <li><a href="/simule">Simule</a></li>
-            <li><a href="/fale">Contato</a></li>
-            <li><a href="/boletim">Informativo</a></li>
-            <li><a href="/entrar">Entrar</a></li>
-        </ul>
+		<ul class="nav-list">
+			<li><a href="/">Início</a></li>
+			<li><a href="/sobre">Sobre</a></li>
+			<li><a href="/direitos">Regras</a></li>
+			<li><a href="/simule">Simule</a></li>
+			<li><a href="/contato">Contato</a></li>
+			<% if (typeof user==="undefined" ){ %>
+				<li><a href="/entrar">Entrar</a></li>
+
+				<% } else { %>
+					<form action="/logout" method="post" class="sair">
+						<input type="submit" value="Sair">
+					</form>
+					<% } %>
+
+		</ul>
 
 	</nav>
 
 	<div class="busca">
-		<div class="search-bar">
-		  <input type="text" placeholder="O que você deseja saber sobre Previdência Social?" id="pesquisa"
-			onfocus="hidePlaceholder()" onblur="showPlaceholder()" oninput="checkInput()">
-		  <button><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
-		</div>
-	  </div>
+		<form action="/pesquisa" method="GET">
+			<div class="search-bar">
+				<input type="text" placeholder="O que você deseja saber sobre Previdência Social?" id="pesquisa"
+					name="query" onfocus="hidePlaceholder()" onblur="showPlaceholder()" oninput="checkInput()">
+				<button><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button>
+			</div>
+		</form>
+	</div>
 
 	<div class="banner">
-		<img src="./img/f1.jpg" alt="Figura contendo um homem regando uma planta cujos frutos são cédulas de dinheiro" title="Regando o futuro" style="width: 100%;">
+		<img src="./img/f1.jpg" alt="Figura contendo um homem regando uma planta cujos frutos são cédulas de dinheiro"
+			title="Regando o futuro" style="width: 100%;">
 	</div>
 
 	<main>
-		<h2>Assista ao vídeo e saiba mais...</h2>
+
+
 		<div class="container">
-			<div class="container">
-				<a href="https://www.youtube.com/watch?v=rr9dsrnLwa4" onclick="window.open(this.href,'_blank');return false;">
-					 <img class="imagem" src="./img/f2.png" alt="Figura representando um homem e uma mulher guardando dinheiro em potes de vidro enormes"
-          			 title="Economizando dinheiro"> </a>
-				<br>
+			<div class="mais">
+				<h2 class="consulta">Assista ao vídeo e saiba mais... (Clique na figura abaixo)</h2>
+			</div>
+			<a href="https://www.youtube.com/watch?v=rr9dsrnLwa4"
+				onclick="window.open(this.href,'_blank');return false;">
+				<img class="imagem" src="./img/f2.png"
+					alt="Figura representando um homem e uma mulher guardando dinheiro em potes de vidro enormes"
+					title="Economizando dinheiro"> </a>
 			<div class="conteudo">
-				<p> No Brasil, os beneficiários da Previdência Social são os segurados e seus dependentes.<br> Os segurados são pessoas que exercem atividade remunerada e contribuem para a Previdência Social, incluindo empregados, trabalhadores avulsos, empregados domésticos e contribuintes individuais.<br> Os beneficiários têm direitos e deveres, incluindo a atualização de tempo de contribuição, categorias de segurados, dependentes e pagamento de benefícios.<br> A Previdência Social tem como objetivo assegurar aos seus beneficiários meios indispensáveis de manutenção, por motivo de incapacidade, idade avançada, tempo de serviço, desemprego involuntário, encargos familiares e prisão ou morte daqueles de quem dependiam economicamente.<br> Os beneficiários da Previdência Social no Brasil possuem tanto direitos quanto deveres. </p>
+				<p> No Brasil, os beneficiários da Previdência Social são os segurados e seus dependentes.</p>
+				<p>Os
+					segurados são pessoas que exercem atividade remunerada e contribuem para a Previdência Social,
+					incluindo empregados, trabalhadores avulsos, empregados domésticos e contribuintes
+					individuais.</p>
+				<p>Os beneficiários têm direitos e deveres, incluindo a atualização de tempo de
+					contribuição, categorias de segurados, dependentes e pagamento de benefícios.</p>
+				<p>A Previdência
+					Social tem como objetivo assegurar aos seus beneficiários meios indispensáveis de manutenção,
+					por motivo de incapacidade, idade avançada, tempo de serviço, desemprego involuntário, encargos
+					familiares e prisão ou morte daqueles de quem dependiam economicamente.</p>
+				<p>Os beneficiários da
+					Previdência Social no Brasil possuem tanto direitos quanto deveres.</p>
 			</div>
-			</div>
+		</div>
 	</main>
 
 	<div class="noticia">
-		<h1>Notícias</h1>
 
-	<section class="galeria">
-		<% for(const noticia of noticias) {%>
-		<figure>
-			<img src="./img/f3.png" title="Prédio da previdência social" alt="Foto do prédio da previdência social">
-			<figcaption><a href='/noticias/<%= noticia.id %>' target='_blank'><%= noticia.titulo %></a></figcaption>
-			
-		</figure>
-		<% } %>
-	
-	</section>
+		<div class="mais">
+			<h1>Notícias</h1>
+			<h3><a href="/noticias" target="_blank" class="consulta">mostrar mais</a></h3>
+		</div>
 
-	<div class="mais">
-		<h3><a href="/noticias" target="_blank">Mais Notícias</a></h3> 
+		<section class="galeria">
+			<% for(const noticia of noticias) {%>
+				<figure>
+					<img src="<%= noticia.capa %>" title="Prédio da previdência social"
+						alt="Foto do prédio da previdência social">
+					<figcaption><a href='/noticias/<%= noticia.id %>' target='_blank'>
+							<%= noticia.titulo %>
+						</a></figcaption>
+
+				</figure>
+				<% } %>
+
+		</section>
+
 	</div>
 
 	<footer>
-		<h3>&copy; 2023 Previdência Aqui. Todos os direitos reservados.</h3>
 		<div class="social">
-			<i class="fab fa-facebook"></i>
-			<!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
-			<i class="fab fa-twitter"></i>
-			<!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
-			<i class="fab fa-instagram-square"></i>
-			<!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+			<p>Nossas redes sociais:</p>
+			<div class="redes">
+				<i class="fab fa-facebook"></i>
+				<!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+				<i class="fab fa-twitter"></i>
+				<!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+				<i class="fab fa-instagram-square"></i>
+				<!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+			</div>
 		</div>
+		<div class="visita">
+			<p>Comece agora a planejar sua aposentadoria</p><a href="/simule" class="consulta">simule</a>
+		</div>
+		<p class="copy">&copy; 2023 Previdência Aqui. Todos os direitos reservados.</p>
+
+
 	</footer>
 
 	<script src="js/index.js"></script>
-
+	
 </body>
 
 </html>

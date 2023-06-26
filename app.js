@@ -1,23 +1,24 @@
 var createError = require('http-errors');
-
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const express = require('express');
-const boletimInformativoRouter = require('./routes/boletimInformativo.routes');
-const noticiasRouter = require('./routes/noticias');
+const flash = require('express-flash');
+const session = require('express-session');
+const checkLoggedIn = require('./middlewares/checkLoggedIn');
 
-
-const app = express();
 
 // Importe as rotas
 const indexRouter = require('./routes/index');
 const simuleRouter = require('./routes/simule');
-const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/usersRouter');
+const noticiasRouter = require('./routes/noticias');
+const contatoRouter = require('./routes/contato.routes');
+const authRoutes = require('./routes/authRoutes');
+const searchRoutes = require('./routes/searchRoutes');
 
-// Resto da configuração do seu servidor Express
-// ...
 
+const app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -29,19 +30,29 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Use as rotas
-// app.use('/', indexRouter);
-app.use('/', simuleRouter);
-// app.use('/', usersRouter);
+require('dotenv').config();
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: true,
+}));
 
+app.use(flash());
+app.use(checkLoggedIn);
+
+// Use as rotas
+app.use('/', simuleRouter);
 app.use('/', indexRouter);
+app.use('/', authRoutes);
+app.use('/', searchRoutes);
 app.use('/usuarios', usersRouter);
-app.use('/boletim-informativo', boletimInformativoRouter);
+app.use('/contato', contatoRouter);
 app.use('/noticias', noticiasRouter);
 
 
+
 // catch 404 and forward to error handler
-/* app.use(function(req, res, next) {
+app.use(function(req, res, next) {
   next(createError(404));
 });
 
@@ -54,7 +65,7 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
-}); */
+});
 
 // error handler
 app.use(function(err, req, res, next) {

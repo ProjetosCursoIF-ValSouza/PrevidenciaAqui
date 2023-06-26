@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css">
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Atualizar Usuário | Previdência Aqui</title>
+</head>
+
+<body>
+    <div class="cabeca">
+        <h1>Atualizar Usuário</h1>
+        <div class="clique">
+            <div class="botao">
+                <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+            </div>
+
+            <div class="botao">
+                <button type="submit"><a href="/">Início</a></button>
+            </div>
+        </div>
+    </div>
+
+   <div class="container">
+        <form method="post" action="/usuarios/atualizar/<%= user?.id %>">
+            <div class="titulo">
+                <h2><strong>Atualizar Usuário</strong></h2>
+                <legend><i>Escreva nos campos abaixo:</i></legend>
+            </div>
+            <div class="barra">
+                <div class="form_left">
+                    <div class="form_child">
+                        <label for="name" class="form_name">nome</label>
+                        <input type="text" id="name" name="name" value="<%= user?.name %>" class="atualiza">
+                    </div>
+
+                    <div class="form_child">
+                        <label for="sex" class="form_name">sexo</label>
+                        <select id="sex" name="sex" class="atualiza">
+                            <option value="selecione" class="atualiza">selecione</option>
+                            <option value="masculino" class="atualiza">masculino</option>
+                            <option value="feminino" class="atualiza">feminino</option>
+                        </select>
+                    </div>
+
+                    <div class="form_child">
+                        <label for="email" class="form_name">e-mail</label>
+                        <input type="email" id="email" name="email" value="<%= user?.email %>" class="atualiza">
+                    </div>
+                </div>
+
+                <div class="form_rigth">
+
+                    <div class="form_child">
+                        <label for="username" class="form_name">apelido</label>
+                        <input type="text" id="username" name="username" value="<%= user?.username %>" class="atualiza">
+                    </div>
+                    <div class="form_child">
+                        <label for="birthDate" class="form_name">data de nascimento</label>
+                        <input type="date" id="birthDate" name="birthDate" value="<%= user?.birthDate %>" class="atualiza">
+                    </div>
+
+                    <div class="form_child">
+                        <label for="password" class="form_name">senha</label>
+                        <input type="password" id="password" name="password" class="atualiza">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div>
+                <input type="submit" value="atualizar" class="envio">
+            </div>
+        </form>
+        <div class="links">
+            <ul class="actions">
+                <li><a href="/usuarios">Lista de Usuários</a></li>
+                <li><a href="/usuarios/cadastro">Cadastrar Usuário</a></li>
+                <li><a href="/usuarios/exibir/<%= user.id %>">Exibir Usuário</a></li>
+                <li><a href="/usuarios/deletar/<%= user.id %>">Deletar Usuário</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

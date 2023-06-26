@@ -8,25 +8,16 @@
     <title>Resultados</title>
 
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/resultados.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/resultados.css">
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Resultados | Previdência Aqui</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <script>
-        window.addEventListener('DOMContentLoaded', (event) => {
-            // Converta o valor para o formato monetário desejado
-            const valorBeneficioFormatado = <%= simulacaoData.valorBeneficio %>.toLocaleString('pt-BR', {
-                style: 'currency',
-                currency: 'BRL',
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2,
-            });
-
-            // Atualize o conteúdo do elemento HTML com o valor formatado
-            document.getElementById("valorBeneficio").textContent = valorBeneficioFormatado;
-        });
-    </script>
 
 </head>
 
@@ -44,65 +35,84 @@
             </div>
         </div>
     </div>
+    <main>
+        <div class="bloco">
 
-    <div class="bloco">
-        <div class="dados">
-            <div class="titulo">
-                <img src="img/informacao-pessoal.png" alt="flaticon" width="60px">
-                <h2>Confira seus Dados Pessoais</h2>
-            </div>
+            <div class="container">
 
-            <div>
-                <p>Gênero: <%= simulacaoData.genero === "m" ? "Masculino" : "Feminino" %></p>
-            </div>
-
-            <div>
-                <p>Idade Atual: <%= simulacaoData.idade %></p>
-            </div>
-
-            <div>
-                <p>Tempo de Contribuição: <%= simulacaoData.tempoContribuicaoMes %></p>
-            </div>
-
-        </div>
-        <div class="resultados">
-            <div class="titulo">
-                <img src="img/fluxo-de-dinheiro.png" alt="flaticon" width="70px">
-                <h2>Confira seus Resultados</h2>
-
-                <div>
-                    <p>Idade da Aposentadoria: <%= simulacaoData.idadeAposentadoria %> %></p>
-
+                <div class="titulo">
+                    <h2><b>Dados Pessoais</b></h2>
                 </div>
+                <div class="barra">
+                    <div>
+                        <p><i>Gênero:</i> <span>
+                                <%= simulacaoData.genero==="m" ? "Masculino" : "Feminino" %>
+                            </span>
+                        </p>
+                    </div>
 
-                <div>
-                    <p>Mês e ano da Aposentadoria: <%= simulacaoData.mesAposentadoria %> / <%= simulacaoData.anoAposentadoria %></p>
+                    <div>
+                        <p><i>Idade Atual:</i> <span>
+                                <%= simulacaoData.idade %> anos
+                            </span>
+                        </p>
+                    </div>
 
-                </div>
-
-                <div>
-                    <p>Quanto tempo falta para contribuir: <%= simulacaoData.tempoContribuicaoPendente%></p>
-
-                </div>
-
-                <div>
-                    <p>O valor mínimo do meu beneficio será: <span id="valorBeneficio"></span></p>
+                    <div>
+                        <p><i>Tempo de Contribuição:</i> <span>
+                                <%= simulacaoData.tempoContribuicaoMes %> meses
+                            </span>
+                        </p>
+                    </div>
                 </div>
 
             </div>
+            <div class="container">
+                <div class="titulo">
 
-        </div>
-    </div>
+                    <h2><b>Resultados</b></h2>
+                </div>
+                <div class="barra">
+                    <div>
+                        <p><i>Idade da Aposentadoria:</i> <span>
+                                <%= simulacaoData.idadeAposentadoria %> %> anos
+                            </span></p>
 
-    <div class="clique">
-        <div class="botao">
-            <button type="submit"><a href="simule.html" target="_blank">Nova consulta</a></button>
-        </div>
-        <div class="botao">
-            <button type="submit"><a href="index.html" target="_blank">Página inicial</a></button>
-        </div>
-    </div>
+                    </div>
 
+                    <div>
+                        <p><i>Mês e ano da Aposentadoria:</i> <span>
+                                <%= simulacaoData.mesAposentadoria %> / <%= simulacaoData.anoAposentadoria %>
+                            </span>
+                        </p>
+
+                    </div>
+
+                    <div>
+                        <p><i>Quanto tempo falta para contribuir:</i> <br><span>
+                                <%= simulacaoData.tempoContribuicaoPendente%> meses
+                            </span>
+                        </p>
+
+                    </div>
+
+                    <div>
+                        <p><i>O valor mínimo do meu beneficio será:</i> <span id="valorBeneficio">R$ <%= (parseFloat(simulacaoData.valorBeneficio).toLocaleString('pt-BR', { maximumFractionDigits: 2 })) %></span></p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="botao">
+                <button type="submit" class="envio"><a href="/simule" target="_blank">Nova Consulta</a></button>
+            </div>
+            <div class="imagem">
+                <img src="img/senhor.png" alt="" width="200px">
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

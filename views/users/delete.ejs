@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css">
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Deletar Usuário | Previdência Aqui</title>
+</head>
+
+<body>
+    <div class="cabeca">
+        <h1>Deletar Usuário</h1>
+        <div class="clique">
+            <div class="botao">
+                <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+            </div>
+
+            <div class="botao">
+                <button type="submit"><a href="index.html">Início</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="titulo">
+                <h2><strong>Deletar Usuário</strong></h2>
+                <legend><i>Confira os dados do usuário:</i></legend>
+            </div>
+
+            <div class="deleta">
+                
+                <p><b>ID:</b>
+                    <%= user.id %>
+                </p>
+                <p><b>Nome:</b>
+                    <%= user.name %>
+                </p>
+                <p><b>Apelido:</b>
+                    <%= user.username %>
+                </p>
+                <p><b>Data de Nascimento:</b>
+                    <%= user.birthDate %>
+                </p>
+                <p><b>Email:</b>
+                    <%= user.email %>
+                </p>
+                <p><b>Sexo:</b>
+                    <%= user.sex %>
+                </p>
+                <p><b>Administrador:</b>
+                    <%= user.administrator ? "Sim" : "Não" %>
+                </p>
+                <p><b>Estado:</b>
+                    <%= user.status %>
+                </p>
+                <p><b>Data Cadastro:</b>
+                    <%= user.createdAt %>
+                </p>
+                <p><b>Data da Última Atualização:</b>
+                    <%= user.updatedAt || "Nenhuma atualização realizada." %>
+                </p>
+            </div>
+
+            <form method="post" action="/usuarios/deletar/<%= user.id %>" class="delecao">
+                <input type="submit" value="Confirmar Deleção" class="envio">
+            </form>
+
+        </div>
+        <div class="links">
+            <ul class="actions">
+                <li><a href="/usuarios/deletar/<%= user.id %>">Lista de Usuários</a></li>
+                <li><a href="/usuarios/cadastro/<%= user.id %>">Cadastrar Usuário</a></li>
+                <li><a href="/usuarios/atualizar/<%= user.id %>">Atualizar Usuário</a></li>
+                <li><a href="/usuarios/exibir/<%= user.id %>">Exibir Usuário</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

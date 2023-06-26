@@ -15,21 +15,9 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
-}
-
-.cabeca {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
-  background-color: #4382bd;
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 5px 20px;
+  padding: 50px 0 0;
 }
 
 h1 {
@@ -95,7 +83,6 @@ form {
   width: 400px;
   height: auto;
   padding: 22px 0;
-  margin-bottom: 200px;
 }
 
 .botao a {
@@ -192,12 +179,33 @@ input[type="submit"] {
 .barra {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 25px;
   margin: 3px 0;
 }
 
 legend {
   max-width: 300px;
+}
+
+.cadastro a {
+  text-decoration: none;
+  color: #4c4c4c9d;
+}
+
+.cadastro a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  background-color: #ffce54;
+  padding: 10px;
+  border-radius: 5px;
+  color: #000;
+  transition: all;
+  font-family: cursive;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 426px) {

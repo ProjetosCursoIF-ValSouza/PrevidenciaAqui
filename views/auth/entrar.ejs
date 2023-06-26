@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/entrar.css">
+
+  <!-- Title -->
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Entrar | Previdência Aqui</title>
+
+</head>
+
+<body>
+  
+      <div class="clique">
+        <div class="botao">
+          <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+        </div>
+
+        <div class="botao">
+          <button type="submit"><a href="/">Início</a></button>
+        </div>
+      </div>
+      <main>
+
+        <img src="./img/senhor.png" alt="" width="480px">
+        <div class="container">
+          <form action="/entrar" method="post">
+
+            <div class="titulo">
+              <h2><strong>Login</strong></h2>
+              <legend><i>Escreva nos campos abaixo:</i></legend>
+            </div>
+            <div class="barra">
+              <div class="usuario">
+                <input onblur="Campo(0)" onblur="mudarCor()" type="text" name="usernameOrEmail" id="usuario" autocomplete="off">
+                <label for="usuario">usuário</label>
+              </div>
+              <div class="senha">
+                <input onblur="Campo(1)" type="password" name="password" id="senha" autocomplete="off">
+                <label for="senha">senha</label>
+              </div>
+            </div>
+            <% if (locals.errorMessage) { %>
+              <div class="error-message">
+                <%= errorMessage %>
+              </div>
+              <% } %>
+            <div class="botao">
+              <input type="submit" value="acessar">
+            </div>
+            <div class="cadastro">
+              <p><a href="usuarios/cadastro">Não tem cadastro? Clique Aqui!</a></p>
+            </div>
+          </form>
+
+        </div>
+      </main>
+      <script src="js/fale.js"></script>
+</body>
+
+</html>

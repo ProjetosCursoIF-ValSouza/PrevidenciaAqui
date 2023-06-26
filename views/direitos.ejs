@@ -18,7 +18,7 @@
   <!-- Title -->
   <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-  <title>Direitos e Deveres | Previdência Aqui</title>
+  <title>Regras | Previdência Aqui</title>
 </head>
 
 <body>
@@ -39,9 +39,15 @@
       <li><a href="/sobre">Sobre</a></li>
       <li><a href="/direitos">Regras</a></li>
       <li><a href="/simule">Simule</a></li>
-      <li><a href="/fale">Contato</a></li>
-      <li><a href="/boletim">Informativo</a></li>
-      <li><a href="/entrar">Entrar</a></li>
+      <li><a href="/contato">Contato</a></li>
+      <% if (typeof user === "undefined"){ %>
+				<li><a href="/entrar">Entrar</a></li>
+
+			<% } else { %>
+				<form action="/logout" method="post" class="sair">
+					<input type="submit" value="Sair" >
+				</form>
+			<% } %>
      </ul>
   </nav>
 
@@ -81,18 +87,24 @@
     </div>
   </main>
   <footer>
-    <h3>&copy; 2023 Previdência Aqui.<br> Todos os direitos reservados.</h3>
-
-    <div class="social">
-
-      <i class="fab fa-facebook"></i>
-      <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
-      <i class="fab fa-twitter"></i>
-      <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
-      <i class="fab fa-instagram-square"></i>
-      <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
-    </div>
-  </footer>
+		<div class="social">
+		  <p>Nossas redes sociais:</p>
+		  <div class="redes">
+			<i class="fab fa-facebook"></i>
+			<!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+			<i class="fab fa-twitter"></i>
+			<!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+			<i class="fab fa-instagram-square"></i>
+			<!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+		  </div>
+		</div>
+		<div class="visita">
+		  <p>Comece agora a planejar sua aposentadoria</p><a href="/simule" class="consulta">simule</a>
+		</div>
+		<p class="copy">&copy; 2023 Previdência Aqui. Todos os direitos reservados.</p>
+	
+	
+	  </footer>
 
   <script src="js/index.js"></script>
   <script src="js/direitos.js"></script>

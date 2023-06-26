@@ -6,25 +6,21 @@ const router = express.Router();
 router.get('/', async function(req, res, next) {
   const sql = 'SELECT * FROM noticia;';
   const [rows] = await poolPrevAqui.query(sql);
-  res.render('index', {noticias: rows});
+  const user = req.session.user;
+  res.render('index', {noticias: rows, user });
 });
 
-/* GET Notícias. */
-router.get('/noticia', function(req, res, next) {
-  res.render('noticia');
-});
-
-/* GET Notícia(BD). */
-router.get('/noticia', function(req, res, next) {
-  res.render('noticia');
-});
+router.get('/logout', async function(req, res, next) {
+  const user = req.session.user;
+  res.render('auth/logout', { user });
+}); 
 
 /* GET Sobre. */
 router.get('/sobre', function(req, res, next) {
   res.render('Sobre');
 });
 
-/* GET Direitos e Deveres. */
+/* GET Regras. */
 router.get('/direitos', function(req, res, next) {
   res.render('direitos');
 });
@@ -34,19 +30,5 @@ router.get('/simule', function(req, res, next) {
   res.render('simule');
 });
 
-/* GET Fale Conosco. */
-router.get('/fale', function(req, res, next) {
-  res.render('fale');
-});
-
-/* GET Entrar. */
-router.get('/entrar', function(req, res, next) {
-  res.render('entrar');
-});
-
-/* GET Boletim Informativo. */
-router.get('/boletim', function(req, res, next) {
-  res.render('boletim');
-});
 
 module.exports = router;

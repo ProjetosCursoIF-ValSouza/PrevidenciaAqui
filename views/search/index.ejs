@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/pesquisa.css">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Resultados da Pesquisa | Previdência Aqui</title>
+</head>
+
+<body>
+    <div id="topo"></div>
+    <h1>Resultados da Pesquisa</h1>    
+    <main>
+        <div class="box">
+            <% if (resultados.length===0) { %>
+                <p>Nenhum resultado encontrado.</p>
+                <% } else { %>
+                    <ul>
+                        <% for (const resultado of resultados) { %>
+                            <li>
+                                <legend><strong>
+                                        <%= resultado.titulo %>:
+                                    </strong></legend> <p><%- resultado.conteudo %></p>
+                            </li>
+                            <hr>
+                            <% } %>
+                    </ul>
+                    <% } %>
+                    <a href="#topo" class="link-voltar-topo">Voltar ao Topo</a>
+        </div>
+    </main>
+</body>
+
+</html>

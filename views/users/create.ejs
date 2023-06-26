@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css">
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Cadastrar Usuário | Previdência Aqui</title>
+</head>
+
+<body>
+    <div class="clique">
+        <div class="botao">
+            <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+        </div>
+
+        <div class="botao">
+            <button type="submit"><a href="/">Início</a></button>
+        </div>
+    </div>
+
+    <main>
+        <img src="/img/senhor.png" alt="" width="480px">
+
+            <form method="post" action="/usuarios/cadastro">
+                <div class="titulo">
+                    <h2><strong>Cadastrar Usuário</strong></h2>
+                    <legend><i>Escreva nos campos abaixo:</i></legend>
+                </div>
+                <div class="barra">
+                    <div class="form_left">
+                        <div class="form_child">
+                            <label for="name">nome</label>
+                            <input onblur="Campo(0)" onblur="mudarCor()" type="text" id="name" name="name"
+                                placeholder="nome">
+                        </div>
+
+                        <div class="form_child">
+                            <label for="sex">sexo</label>
+                            <select onblur="Campo(4)" id="sex" name="sex">
+                                <option value="selecione">selecione</option>
+                                <option value="masculino">masculino</option>
+                                <option value="feminino">feminino</option>
+                                <label for="sex">sexo</label>
+                            </select>
+                        </div>
+
+                        <div class="form_child">
+                            <label for="email">e-mail</label>
+                            <input onblur="Campo(3)" type="email" id="email" name="email" placeholder="e-mail">
+
+                        </div>
+
+                    </div>
+
+                    <div class="form_rigth">
+
+                        <div class="form_child">
+                            <label for="username">apelido</label>
+                            <input onblur="Campo(1)" type="text" id="username" name="username" placeholder="apelido">
+                        </div>
+
+                        <div class="form_child">
+                            <label for="birthDate">data de nascimento</label>
+                            <input type="date" id="birthDate" name="birthDate" placeholder="data de nascimento">
+                        </div>
+
+                        <div class="form_child">
+                            <label for="password">senha</label>
+                            <input onblur="Campo(2)" type="password" id="password" name="password" placeholder="senha">
+                        </div>
+
+                    </div>
+                </div>
+
+                <% if (messages.error) { %>
+                    <div class="erro">
+                      <div class="error-message">
+                        <%= messages.error %>
+                      </div>
+                    </div>
+                    <% } %>
+
+                    <input type="submit" value="cadastrar" class="envio">
+                <div class="cadastro">
+                    <ul>
+                        <li><a href="/usuarios">Lista de Usuários</a></li>
+                    </ul>
+                </div>
+            </form>
+        
+
+    </main>
+</body>
+
+</html>

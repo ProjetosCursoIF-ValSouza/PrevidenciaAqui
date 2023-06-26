@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Title -->
+	<link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Lista de Assinantes | Previdência Aqui</title>
+
+
+</head>
+
+<body>
+    <div class="cabeca">
+        <h1>Assinantes do Boletim Informativo</h1>
+        <div class="clique">
+            <div class="botao">
+                <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+            </div>
+
+            <div class="botao">
+                <button type="submit"><a href="/">Início</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>E-mail</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                    
+                    <% for(const boletim of rows) {%>
+                    <tr>
+                        <td>
+                            <%= boletim.email%>
+                        </td>
+
+                    </tr>
+                    <% } %>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

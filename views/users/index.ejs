@@ -1,0 +1,104 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/usuario.css" />
+
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Lista de Usuários | Previdência Aqui</title>
+
+
+</head>
+
+<body>
+    <div class="cabeca">
+        <h1>Lista de Usuários</h1>
+        <div class="clique">
+            <div class="botao">
+                <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+            </div>
+
+            <div class="botao">
+                <button type="submit"><a href="/">Início</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Apelido</th>
+                    <th>Data de Nascimento</th>
+                    <th>Email</th>
+                    <th>Sexo</th>
+                    <th>Administrador</th>
+                    <th>Estado</th>
+                    <th>Data de Cadastro</th>
+                    <th>Última Atualização</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <% for (const user of users) { %>
+                <tr>
+                    <td>
+                        <%= user.id %>
+                    </td>
+                    <td>
+                        <%= user.name %>
+                    </td>
+                    <td>
+                        <%= user.username %>
+                    </td>
+                    <td>
+                        <%= user.birthDate %>
+                    </td>
+                    <td>
+                        <%= user.email %>
+                    </td>
+                    <td>
+                        <%= user.sex %>
+                    </td>
+                    <td>
+                        <%= user.administrator ? "Sim" : "Não" %>
+                    </td>
+                    <td>
+                        <%= user.status %>
+                    </td>
+                    <td>
+                        <%= user.createdAt %>
+                    </td>
+                    <td>
+                        <%= user.updatedAt %>
+                    </td>
+                    <td>
+                        <ul class="actions">
+                            <li><a href="/usuarios/atualizar/<%= user.id %>">Atualizar</a></li>
+                            <li><a href="/usuarios/deletar/<%= user.id %>">Deletar</a></li>
+                            <li><a href="/usuarios/exibir/<%= user.id %>">Exibir</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                 <% } %>
+            </tbody>
+        </table>
+
+        <p class="listacadastrar">
+            <a href="/usuarios/cadastro">Cadastrar Usuário</a>
+        </p>
+    </div>
+</body>
+
+</html>

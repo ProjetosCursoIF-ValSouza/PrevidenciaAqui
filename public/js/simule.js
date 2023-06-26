@@ -33,7 +33,7 @@ botao.addEventListener("click", function() {
 const ver = document.getElementById("ver");
 const bloco = document.querySelector(".bloco");
 const foto = document.querySelector(".foto");
-const corpo = document.querySelector(".corpo");
+const formulario = document.getElementById("formulario");
 const imagem = document.querySelector(".imagem");
 
 ver.onclick = function () {
@@ -41,7 +41,7 @@ ver.onclick = function () {
     bloco.style.display = "flex";
     ver.innerHTML = "Voltar";
     foto.classList.add("depois");
-    corpo.classList.add("lacuna");
+    bloco.classList.add("lacuna");
   } else {
     bloco.style.display = "none";
     ver.innerHTML = "Simule Aqui";

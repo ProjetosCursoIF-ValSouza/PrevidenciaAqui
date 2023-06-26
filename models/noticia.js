@@ -79,6 +79,7 @@ class Noticia {
       const connection = await db.poolPrevAqui.getConnection();
       const [rows, fields] = await connection.execute('SELECT * FROM noticia WHERE id = ?', [id]);
       connection.release();
+      console.log(rows);
       return rows[0];
     } catch (error) {
       console.error(error);

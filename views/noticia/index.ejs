@@ -1,6 +1,93 @@
-Página das NOTÍCIAS
+<!DOCTYPE html>
+<html lang="pt-br">
 
-<% for(const noticia of noticias) { %>
-   <H2><%=noticia.titulo%></H2> 
-   <P><%=noticia.conteudo%></P>
- <% } %>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/noticias.css">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Title -->
+  <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Mais Notícias | Previdência Aqui</title>
+</head>
+
+<body>
+  <nav class="logo">
+    <a href="../index">
+      <img src="./img/logo.jpg" style="width: 100px;"
+        alt="Logotipo do site, contendo o nome da página, que se chama Previdência Aqui, e as letras P e A em destaque"
+        title="Previdência Aqui">
+    </a>
+    <ul>
+      <li><a href="/">Início</a></li>
+      <li><a href="/sobre">Sobre</a></li>
+      <li><a href="./direitos">Regras</a></li>
+      <li><a href="./simule">Simule</a></li>
+      <li><a href="./contato">Contato</a></li>
+      <% if (typeof user==="undefined" ){ %>
+        <li><a href="/entrar">Entrar</a></li>
+
+        <% } else { %>
+          <form action="/logout" method="post" class="sair">
+            <input type="submit" value="Sair">
+          </form>
+          <% } %>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <h1>Notícias</h1>
+
+    <% for(const noticia of noticias) {%>
+
+      <div class="box">
+
+        <div class="imagem">
+          <img src="<%=noticia.capa%>" title="REGRAS PREVIDENCIÁRIAS PERMANENTES"
+            alt="Imagem contendo várias pessoas segurando carteiras de trabalho">
+        </div> 
+        
+        <legend><strong><a href="/noticias/<%= noticia.id %>">
+              <%=noticia.titulo%>
+            </a></strong></legend>      
+          <p>
+            <%=noticia.resumo%>
+          </p>
+          <p><a href="/noticias/<%= noticia.id %>" class="consulta">mostrar mais</a></p>
+
+      </div>
+      <% } %>
+
+  </main>
+  <footer>
+    <div class="social">
+      <p>Nossas redes sociais:</p>
+      <div class="redes">
+        <i class="fab fa-facebook"></i>
+        <!--código para o js: <font-awesome-icon :icon="['fab', 'facebook']" />-->
+        <i class="fab fa-twitter"></i>
+        <!--código para o js:<font-awesome-icon :icon="['fab', 'twitter']" />-->
+        <i class="fab fa-instagram-square"></i>
+        <!--código para o js: <font-awesome-icon :icon="['fab', 'square-instagram']" />-->
+      </div>
+    </div>
+    <div class="visita">
+      <p>Comece agora a planejar sua aposentadoria</p><a href="/simule" class="consulta">simule</a>
+    </div>
+    <p class="copy">&copy; 2023 Previdência Aqui. Todos os direitos reservados.</p>
+
+
+  </footer>
+</body>
+
+</html>

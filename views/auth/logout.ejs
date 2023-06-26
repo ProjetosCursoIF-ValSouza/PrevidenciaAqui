@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css" />
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Logout | Previdência Aqui</title>
+
+</head>
+
+<body>
+    <h1>Desconectado com sucesso</h1>
+    <div class="container">
+        <div class="box">
+        <p><b><%= user.name %></b>, obrigado por visitar nosso site. Esperamos ver você novamente em breve.</p>
+        <div class="sair">
+            <button type="submit" class="actions"><a href="/">Voltar a página inicial</a></button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

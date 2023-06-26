@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css">
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="/img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Deletar Contato | Previdência Aqui</title>
+</head>
+
+<body>
+    <div class="cabeca">
+        <h1>Deletar Contato</h1>
+        <div class="clique">
+            <div class="botao">
+                <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+            </div>
+
+            <div class="botao">
+                <button type="submit"><a href="index.html">Início</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="titulo">
+                <h2><strong>Deletar Contato</strong></h2>
+                <legend><i>Confira as informações do contato:</i></legend>
+            </div>
+
+            <div class="deleta">
+                
+                <p><b>ID:</b>
+                    <%= contato.id %>
+                </p>
+                <p><b>Nome:</b>
+                    <%= contato.nome %>
+                </p>
+                <p><b>E-mail:</b>
+                    <%= contato.email %>
+                </p>
+                <p><b>Assunto:</b>
+                    <%= contato.assunto %>
+                </p>
+                <p><b>Mensagem:</b>
+                    <%= contato.mensagem %>
+                </p>
+            </div>
+
+            <form method="post" action="/contato/deletar/<%= contato.id %>" class="delecao">
+                <input type="submit" value="Confirmar Deleção" class="envio">
+            </form>
+
+        </div>
+        <div class="links">
+            <ul class="actions">
+                <li><a href="/contato/lista/<%= contato.id %>">Lista de Contatos</a></li>
+                <li><a href="/contato/exibir/<%= contato.id %>">Exibir Contato</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/usuario.css">
+
+    <!-- Title -->
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Perfil do Usuário | Previdência Aqui</title>
+</head>
+
+<body>
+    <div class="cabeca">
+        <h1>Perfil do Usuário</h1>
+        <div class="clique">
+            <div class="botao">
+                <button type="submit"><a href="javascript:history.back()">Voltar</a></button>
+            </div>
+
+            <div class="botao">
+                <button type="submit"><a href="/">Início</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h2>Bem-vindo, <span>
+                    <%= usuario.nome %>
+                </span></h2>
+            <div class="lista">
+                <p><b>Apelido:</b> <%= usuario.apelido %>
+                </p>
+                <p><b>Data de Nascimento:</b> <%= usuario.dataNascimento %>
+                </p>
+                <p><b>E-mail:</b> <%= usuario.email %>
+                </p>
+                <p><b>Sexo:</b> <%= usuario.sexo %>
+                </p>
+                <p><b>Administrador:</b> <%= usuario.administrador ? 'Sim' : 'Não' %>
+                </p>
+                <p><b>Estado:</b> <%= usuario.estado %>
+                </p>
+            </div>
+
+            <form method="POST" action="/usuarios/perfil/<%= usuario.id %>?_method=DELETE" class="delecao">
+                <input type="submit" value="Deletar Perfil" class="envio">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
