@@ -6,7 +6,8 @@ CREATE TABLE contato (
     nome VARCHAR(50) NOT NULL,
     email VARCHAR(255) NOT NULL,
     assunto VARCHAR(255) NOT NULL,
-    mensagem VARCHAR(255) NOT NULL
+    mensagem VARCHAR(255) NOT NULL,
+    boletim BOOLEAN NOT NULL DEFAULT 0
 );
 
 CREATE TABLE noticia (
@@ -55,7 +56,7 @@ INSERT INTO `user` (`name`, `username`, `birthDate`, `password`, `email`, `sex`,
 ('Lucas Costa', 'lucascosta', '1997-02-10', '$2a$10$GZKcUKsEMRjXJt9OMaEVrOXFst2TY2iXMMWDEyKTJ3ohxj71JXf8K', 'lucas@costa.com.br', 'Masculino', 'Ativado', '2022-07-18');
 
 
-INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('REGRAS PREVIDENCIÁRIAS PERMANENTES', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
+INSERT INTO noticia (titulo, resumo, conteudo, capa) VALUES ('Regras Previdenciárias Permanentes', 'As novas regras previdenciárias implementadas no Brasil em 2019 têm causado 
 dúvidas entre os segurados, devido às exigências mais rigorosas para solicitar os benefícios da Previdência Social. Mudanças significativas na idade mínima, tempo de 
 contribuição e cálculo do benefício tornaram mais difícil a obtenção de benefícios previdenciários.','
 
@@ -109,18 +110,19 @@ Sendo assim, há a possibilidade de solicitar o benefício equivalente à necess
 
 Para ter direito ao salário-maternidade é necessário cumprir 10 meses de carência, com exceção dos segurados empregados, empregados domésticos e trabalhadores avulsos.
 
-No caso das desempregadas, é preciso comprovar a situação de segurada.  </p> <br>
+No caso das desempregadas, é preciso comprovar a situação de segurada. Essa é uma regra que não sofreu alteração após a reforma da previdência.  </p> <br>
 
- <p>  Essa é uma regra que não sofreu alteração após a reforma da previdência. </p> <br>
+
 
 <p> Para a segurada empregada e para a avulsa, será mantida a totalidade de sua remuneração, que deve ser paga pela empresa e reembolsada pelo INSS através de créditos fiscais, pelo artigo 94 do decreto 3.048/99.
 
 Por essa razão, o INSS não se utiliza do salário de benefício para calcular o salário maternidade, pois haverá reposição integral e substitutiva da própria remuneração. </p> <br>
                
-');
+', '/img/f3.png');
 
 
-INSERT INTO noticia (titulo, resumo, conteudo) VALUES ("REGRAS PREVIDENCIÁRIAS DE TRANSIÇÃO", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.','<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
+
+INSERT INTO noticia (titulo, resumo, conteudo, capa) VALUES ("Regras Previdenciárias de Transição", 'A reforma da Previdência estabeleceu regras de transição para os trabalhadores que já estavam contribuindo para o sistema previdenciário antes da entrada em vigor das novas normas. Essas regras têm como objetivo suavizar a transição para as novas regras de aposentadoria.','<p> As regras previdenciárias de transição são um conjunto de normas que foram criadas para amenizar o impacto da Reforma da Previdência para aqueles que já contribuíam com a Previdência Social antes da mudança da lei.
 Essas regras são um meio termo para os segurados que estavam contribuindo, mas ainda não possuem os requisitos para se aposentar.
 As regras de transição servem para fazer uma transição entre a antiga e a nova lei, fazendo com que as pessoas que já trabalhavam antes da mudança da lei possam se aposentar com alguns termos da regra anterior e cumprindo algumas exigências da nova norma, vamos conhecer como são essas regras: </p> <br>
 
@@ -137,9 +139,9 @@ No caso dos servidores públicos federais é exigida uma idade mínima de 55 ano
              <p>       <strong>       2 Alíquotas de contribuição: </strong> </p> <br>
 
   <p>  As alíquotas de contribuição de trabalhadores da iniciativa privada e servidores públicos agora serão progressivas de acordo com faixas salariais, de maneira similar ao que acontece com o Imposto de Renda:  </p> 
-  <p>   <strong> Regime Geral (INSS)  </strong>• Até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9%  • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 até o limite do INSS (atualmente R$ 5.839,45): 14% • Não haverá cobrança adicional nas faixas salariais acima do teto do INSS. As alíquotas vão de 7,5% a 14% para quem trabalha no setor privado. Mas, como o cálculo divide os salários em faixas que recebem descontos proporcionais, a alíquota máxima efetiva deve ser de 11,68% para quem recolhe sobre o teto do valor de contribuição.   </p> 
+  <p>  Regime Geral (INSS) • Até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9%  • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 até o limite do INSS (atualmente R$ 5.839,45): 14% • Não haverá cobrança adicional nas faixas salariais acima do teto do INSS. As alíquotas vão de 7,5% a 14% para quem trabalha no setor privado. Mas, como o cálculo divide os salários em faixas que recebem descontos proporcionais, a alíquota máxima efetiva deve ser de 11,68% para quem recolhe sobre o teto do valor de contribuição.   </p> 
 
-  <p>  <strong> Regime Próprio (Servidores públicos)  </strong> </p> <br>
+  <p>  Regime Próprio (Servidores públicos)  </p> <br>
  
   <p> • Para quem recebe até um salário mínimo: 7,5% • De um salário mínimo a R$ 2.000: 9% • De R$ 2.000 a R$ 3.000: 12% • De R$ 3.000 ao teto do INSS (R$ 5.839,45): 14% • Do teto a R$ 10.000: 14,5% • De R$ 10.000 a R$ 20.000: 16,5% • De R$ 20.000 a R$ 39.000: 19% • Acima de R$ 39.000: 22% Assim como no caso da iniciativa privada, a taxação é feita sobre as faixas de valores do salário, portanto a alíquota máxima efetiva para os servidores públicos deve ser de 16%.  </p> <br>
   <p> Como é hoje? São três as alíquotas para trabalhadores do setor privado: 8% de contribuição para salários de até R$ 1.751,81; 9% de R$ 1.751,82 a R$ 2.919,72; e 11% de R$ 2.919,73 até R$ 5.839,45 (teto do INSS). No serviço público, a alíquota é de 11% da remuneração.  </p> <br>
@@ -150,11 +152,10 @@ No caso dos servidores públicos federais é exigida uma idade mínima de 55 ano
 
                 <p>       <strong>                 Homens e mulheres     </strong> </p> <br>
 
- <p>  • Ao atingir o tempo mínimo de contribuição de 15 anos para mulher e 20 anos, homem, e a idade mínima, 62 anos mulher e 65 anos, homem, o trabalhador pode se aposentar ganhando 60% da média dos salários de contribuição (remuneração que servia de base para o recolhimento ao INSS).  </p> <br>
- <p> • Essa parcela aumenta 2% a cada ano a mais de contribuição em relação ao mínimo obrigatório, 180 meses (15 anos) para mulheres, e 240 meses (20 anos), para homens. </p> <br>
- <p>  • O benefício será calculado considerando a média de todas as contribuições feitas ao Regime Previdenciário. </p> <br>
+ <p>  • Ao atingir o tempo mínimo de contribuição de 15 anos para mulher e 20 anos, homem, o trabalhador pode se aposentar ganhando 60% da média dos salários de contribuição (remuneração que servia de base para o recolhimento ao INSS). • Essa parcela aumenta 2% a cada ano a mais de contribuição ao INSS até atingir 100% da média com 35 anos de contribuição, para mulheres, e 40 anos, para homens. </p> <br>
+ <p>  • O benefício será calculado considerando a média de todas as contribuições feitas ao INSS. </p> <br>
  
-<p> Como é hoje? Nas regras atuais, o valor do benefício na aposentadoria por idade começa em 70% da média dos salários de contribuição e soma 1% a cada ano a mais trabalhado.
+<p> Como é hoje? Nas regras atuais, o valor do benefício na aposentadoria por idade começa em 70% da média dos salários de contribuição e soma 1% a cada ano a mais trabalhado, até o limite de 100%.
 Já quem se aposenta por tempo de contribuição tem o valor do benefício reduzido pelo fator previdenciário. Há também a opção de aposentadoria com o valor integral a partir da regra 86/96: somando idade e tempo de contribuição, mulheres devem acumular 86 anos e homens, 96.
 Hoje o INSS calcula o benefício a partir da média dos 80% maiores salários do trabalhador, descartando os 20% menores. Com a reforma, o cálculo será feito pela média de todas as contribuições.  </p> <br>
 
@@ -168,7 +169,7 @@ Hoje o INSS calcula o benefício a partir da média dos 80% maiores salários do
 
 <p>  Quem entrou antes de 2003: poderá receber a aposentadoria integral (o valor do benefício será igual ao do último salário recebido) e ter paridade (a aposentadoria será reajustada junto com os reajustes nos salários dos servidores na ativa) se cumprir o pedágio de trabalhar o dobro do tempo que faltaria para o servidor se aposentar segundo as regras atuais. </p> <br>
 
-<p>   Quem entrou entre 2003 e 2013: o valor do benefício será de, no mínimo, 60% da média das contribuições feitas a partir de julho de 1994. Serão acrescidos 2% ao valor da aposentadoria para cada ano de contribuição que superar 20 anos de recolhimento, limitado ao teto do salário do funcionalismo público. </p> <br>
+<p>   Quem entrou entre 2003 e 2013: o valor do benefício será de, no mínimo, 60% da média das contribuições feitas a partir de julho de 1994. Serão acrescidos 2% ao valor da aposentadoria até o máximo de 100% para cada ano de contribuição que superar 20 anos de recolhimento, limitado ao teto do salário do funcionalismo público. </p> <br>
 
  <p>          Quem ingressou após 2013: também vale a regra acima. Mas a média das contribuições não vai poder superar o teto do INSS.   </p> <br>
 
@@ -194,14 +195,12 @@ Como é hoje? Trabalhadores nessas condições podem se aposentar por tempo de c
 
 <p>  A reforma da Previdência mudou as regras de aposentadoria para quem ainda vai ingressar na carreira de professor da rede particular. </p> <br>
 
-<p> <strong>  Homens: •  </strong> Idade mínima de 60 anos • 25 anos de contribuição; </p> <br>
+<p> <strong>  Homens: •  </strong> Idade mínima de 60 anos • 30 anos de contribuição; </p> <br>
 
-<p> <strong>  Mulheres: •  </strong> Idade mínima de 57 anos • 25 anos de contribuição. </p> <br>
+<p> <strong>  Mulheres: •  </strong> Idade mínima de 57 anos • 30 anos de contribuição. </p> <br>
 
-<p> Os professores servidores, além da idade acima, terão que ter 10 anos de efetivo exercício de serviço público e 5 anos no cargo efetivo em que for concedida a aposentadoria, para ambos os sexos. </p)
-
-<p> Para os professores que já estão na ativa, as idades e tempos de contribuições mínimos são diferentes: 55 anos para homens e trinta de contribuição e de 52 anos para as mulheres e 25 de contribuição (art. 20 $ 1º da EC 103/2019).
-Como é hoje? Antes da reforma, os professores de escolas particulares não tinham idade mínima para se aposentar, precisando apenas comprovar o tempo mínimo de contribuição (25 anos para as mulheres, 30 para os homens). </p> <br>
+<p> Para os professores que já estão na ativa, as idades mínimas são diferentes: 55 anos para homens e de 52 para as mulheres. Além disso, esses profissionais deverão pagar o pedágio de 100%, explicado abaixo, no tópico sobre regras de transição. </p> <br>
+<p>Como é hoje? Antes da reforma, os professores de escolas particulares não tinham idade mínima para se aposentar, precisando apenas comprovar o tempo mínimo de contribuição (25 anos para as mulheres, 30 para os homens). </p> <br>
 
 			<p>       <strong>  	    8 Policiais federais e agentes de segurança     </strong> </p> <br>
 
@@ -274,10 +273,10 @@ Por exemplo: se no dia em que a reforma entrar em vigor faltar dois anos consegu
 
 <p> Esse cálculo também vale para quem optou por fundo de previdência complementar.  </p> <br>
 
-<p> Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições. </p> <br>');
+<p> Na regra do pedágio de 100%, o valor da aposentadoria é de 100% da média das contribuições. </p> <br>', '/img/f4.png');
 
 
-INSERT INTO noticia (titulo, resumo, conteudo) VALUES ('A HISTÓRIA DA PREVIDÊNCIA NO BRASIL', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
+INSERT INTO noticia (titulo, resumo, conteudo, capa) VALUES ('A História da Previdência no Brasil', 'A história da Previdência Social no Brasil remonta ao século XIX, com a criação de benefícios
  para grupos específicos, como oficiais da Marinha e professores. Em 24 de janeiro de 1923, foi promulgada a Lei Eloy Chaves, considerada marco inicial da Previdência no país. Ao longo do tempo,
  outras leis e regulamentações foram implementadas para ampliar a proteção social. A Previdência Social passou por transformações e expansões ao longo dos anos, sendo atualmente regida pela 
  Constituição Federal de 1988.','
@@ -531,6 +530,20 @@ servidor e passava a ser equivalente à remuneração ou ao provento do servidor
 as regras de transição para os trabalhadores que já vinham contribuindo para o sistema antes da emenda, cujos temas estão sendo tratados à parte nesse site.  </p> <br>
 
 
-');
+', '/img/f5.png');
+
+INSERT INTO contato (nome, email, assunto, mensagem, boletim)
+VALUES
+    ('João da Silva', 'joao.silva@example.com', 'Dúvida sobre produto', 'Olá, gostaria de mais informações sobre o produto XYZ.', 1),
+    ('Maria Santos', 'maria.santos@example.com', 'Sugestão de melhoria', 'Olá, tenho uma sugestão de melhoria para o serviço ABC.', 1),
+    ('Pedro Oliveira', 'pedro.oliveira@example.com', 'Problema no pedido', 'Olá, meu pedido não chegou conforme o esperado. Podem verificar?', 1),
+    ('Ana Souza', 'ana.souza@example.com', 'Cancelamento de assinatura', 'Olá, gostaria de cancelar minha assinatura no boletim informativo.', 0),
+    ('Luiz Pereira', 'luiz.pereira@example.com', 'Elogio ao atendimento', 'Gostaria de elogiar o atendimento excepcional que recebi da equipe.', 1),
+    ('Camila Costa', 'camila.costa@example.com', 'Problema de login', 'Não consigo acessar minha conta. Podem me ajudar?', 1),
+    ('Ricardo Ferreira', 'ricardo.ferreira@example.com', 'Troca de produto', 'Gostaria de trocar o produto que recebi. Como proceder?', 1),
+    ('Fernanda Carvalho', 'fernanda.carvalho@example.com', 'Reembolso de pagamento', 'Efetuei um pagamento duplicado e gostaria de solicitar reembolso.', 1),
+    ('Gabriel Almeida', 'gabriel.almeida@example.com', 'Informações sobre entrega', 'Podem me informar quando meu pedido será entregue?', 1),
+    ('Isabela Rodrigues', 'isabela.rodrigues@example.com', 'Dúvida sobre pagamento', 'Tenho dúvidas sobre as opções de pagamento disponíveis. Podem esclarecer?', 1);
 
 
+SELECT * FROM contato;	

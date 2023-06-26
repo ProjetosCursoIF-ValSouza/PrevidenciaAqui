@@ -2,9 +2,10 @@ var createError = require('http-errors');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const express = require('express');
+//const express = require('express');
 const flash = require('express-flash');
 const session = require('express-session');
+const express = require('express');
 const checkLoggedIn = require('./middlewares/checkLoggedIn');
 
 
@@ -34,7 +35,7 @@ require('dotenv').config();
 app.use(session({
   secret: process.env.SESSION_SECRET,
   resave: false,
-  saveUninitialized: true,
+  saveUninitialized: false,
 }));
 
 app.use(flash());

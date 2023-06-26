@@ -95,7 +95,7 @@ class UserController {
 
       const insertedUserId = await user.create();
 
-      res.redirect(`/usuarios/exibir/${insertedUserId}`);
+      res.redirect(`/entrar`);
     } catch (error) {
       console.log(error);
       const message = "erro ao cadastrar";

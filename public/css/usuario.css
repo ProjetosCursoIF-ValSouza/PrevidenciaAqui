@@ -190,7 +190,8 @@ input[type="date"] {
 }
 
 ::-webkit-calendar-picker-indicator {
-    background-color: #fff;
+    background-color: #bc7d42;
+    filter: invert(1);
     margin-right: 80px;
     cursor: pointer;
     padding: 3px;
