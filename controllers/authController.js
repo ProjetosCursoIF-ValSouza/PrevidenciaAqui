@@ -37,7 +37,7 @@ class AuthController {
 
     static logout(req, res) {
         try {
-            req.session.destroy();
+            req.session.use=undefined;
             return res.render('auth/logout');
             
         } catch (error) {
