@@ -195,12 +195,14 @@ Como é hoje? Trabalhadores nessas condições podem se aposentar por tempo de c
 
 <p>  A reforma da Previdência mudou as regras de aposentadoria para quem ainda vai ingressar na carreira de professor da rede particular. </p> <br>
 
-<p> <strong>  Homens: •  </strong> Idade mínima de 60 anos • 30 anos de contribuição; </p> <br>
+<p> <strong>  Homens: •  </strong> Idade mínima de 60 anos • 25 anos de contribuição; </p> <br>
 
-<p> <strong>  Mulheres: •  </strong> Idade mínima de 57 anos • 30 anos de contribuição. </p> <br>
+<p> <strong>  Mulheres: •  </strong> Idade mínima de 57 anos • 25 anos de contribuição. </p> <br>
 
-<p> Para os professores que já estão na ativa, as idades mínimas são diferentes: 55 anos para homens e de 52 para as mulheres. Além disso, esses profissionais deverão pagar o pedágio de 100%, explicado abaixo, no tópico sobre regras de transição. </p> <br>
-<p>Como é hoje? Antes da reforma, os professores de escolas particulares não tinham idade mínima para se aposentar, precisando apenas comprovar o tempo mínimo de contribuição (25 anos para as mulheres, 30 para os homens). </p> <br>
+<p> Os professores servidores, além da idade acima, terão que ter 10 anos de efetivo exercício de serviço público e 5 anos no cargo efetivo em que for concedida a aposentadoria, para ambos os sexos. </p)
+
+<p> Para os professores que já estão na ativa, as idades e tempos de contribuições mínimos são diferentes: 55 anos para homens e trinta de contribuição e de 52 anos para as mulheres e 25 de contribuição (art. 20 $ 1º da EC 103/2019).
+Como é hoje? Antes da reforma, os professores de escolas particulares não tinham idade mínima para se aposentar, precisando apenas comprovar o tempo mínimo de contribuição (25 anos para as mulheres, 30 para os homens). </p>  <br>
 
 			<p>       <strong>  	    8 Policiais federais e agentes de segurança     </strong> </p> <br>
 
